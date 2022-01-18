@@ -5,6 +5,7 @@
 # Ignore all work folders with capital W or lower case w
 ###################
 [Ww]ork*/
+**/[Ww]ork*/**
 
 # Compiled source #
 ###################
