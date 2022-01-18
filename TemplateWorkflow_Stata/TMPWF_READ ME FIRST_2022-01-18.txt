@@ -1,0 +1,74 @@
+Template Work Flow = TMPWF
+
+Project Title: Template Work Flow for Reproducible Research
+Project Funding: Texas A&M University, College of Architecture, 
+	Department of Landscape Architecture and Urban Planning
+
+Research Question: How do reproducible workflow skills affect 
+                   the quality and efficiency of science?
+
+Problem: 
+Research is a fundamental part of science. Research involves a significant investment of time, application of methods, and decisions. Most research is not reproducible because many of the research methods are not clearly documented, tools (software) is not always available, the contextual natural laboratory external factors not controllable…. (something like this comeback to this point)... Researchers lack the skills for building a strong workflow to support urban and regional analytic research that is systematic, generalizable, and replicable. Researchers that invest time to develop skills for reproducible research will be able to accomplish better science in less time. 
+
+Active Project Members <preferred email - easy to copy-and-paste and send email>
+Nathanael Rosenheim <nrosenheim@arch.tamu.edu>
+
+Former Project Members:
+
+Folder Structure:
+Admin 		- Budgets, Original Proposal, Annual Reports, Contract letters
+SourceData 	- Folder structure mirrors web address (folder structure)
+Posted 		- Archived files needed for replicating work that has been shared - 
+		--- journal article
+		--- conference paper
+		--- poster
+		--- data archive
+	 	- Files in Posted folder should not be altered, deleted, or modified.
+Projects	- Active projects within larger project
+Readings 	- Articles related to project
+WorkNPR 	- Nathanael Rosenheim's Work Folder - individual work directory
+
+File Nameing:
+All files must start with the project or subproject mnemonic
+All files should end with the date in the format YYYY-MM-DD
+
+File Name Structure
+                   s     #
+                    \   /     description         extension
+                     - -     /                    /
+                PRJ_tsv#_xxxxxxxxxxxx_yyyy-mm-dd.ext
+                   -  -                -   -  -
+                  /  /                 |   |  |
+                 t  v                  y   m  d
+
+
+            name    length          contents
+            -----------------------------------------------------------
+            PRJ         3-5         Project Mnemonic (fixed string)
+            _            1          padding underscore
+            t            1          datascience workflow task number (0-6)
+            s            1          letter step within task (a,b,c..)
+            v            1          v = version
+            #            1          version number (1,2,3,4...)
+            _            1          padding underscore
+            x           5-10*       description of step
+            _            1          padding underscore
+            y            4          year (2017,2018,2019,2020...)
+            -            1          padding dash
+            m            2          month (01,02...12)
+            -            1          padding dash
+            d            2          date (01,02,...31)
+            .            1          decimal
+            ext          3          file type extension
+            -----------------------------------------------------------
+            t: datascience workflow task numbers
+		0 = Research Log or Project Admin
+		1 = Obtain Data
+		2 = Clean Data
+		3 = Explore Data
+		4 = Model Data
+		5 = Interpret Data
+		6 = Publish Data
+            * Length of description - to keep file number under 32 characters 
+              description should be no more than 10 characters long.
+              SAS requires data file names to be less than or equal to 32 characters long.
