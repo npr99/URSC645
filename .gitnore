@@ -1,6 +1,11 @@
 # Good gitnore examples
 # https://github.com/gboeing/osmnx/blob/main/.gitignore
 
+# Git can ignore folders with a specific format
+# Ignore all work folders with capital W or lower case w
+###################
+[Ww]ork*/
+
 # Compiled source #
 ###################
 *.com
