@@ -4,6 +4,9 @@
 # Git can ignore folders with a specific format
 # Ignore all work folders with capital W or lower case w
 ###################
+Test/
+
+
 [Ww]ork*/
 **/[Ww]ork*/**
 /TemplateWorkflow_Stata/WorkNPR/**
