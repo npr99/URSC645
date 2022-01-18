@@ -1,0 +1,90 @@
+Newspaper	Sunday	Weekday	Tabloid with a Serious Competitor 
+Akron (OH) Beacon Journal 	185915	134401	0
+Albuquerque (NM) Journal	154413	109693	0
+Allentown (PA) Morning Call 	165607	111594	0
+Atlanta (GA) Journal-Constitution 	622065	371853	0
+Austin (TX) American-Statesman 	233767	183312	0
+Baltimore (MD) Sun 	465807	301186	0
+Bergen County (NJ) Record 	227806	179270	0
+Birmingham (AL) News 	186747	148938	0
+Boston (MA) Herald 	151589	241457	1
+Boston (MA) Globe 	706153	450538	0
+Buffalo (NY) News	298383	207989	0
+Charlotte (NC) Observer 	283339	226849	0
+Chicago (IL) Daily Herald 	152788	150364	0
+Chicago (IL) Sun-Times 	372527	481798	1
+Chicago (IL) Tribune 	1002166	680879	0
+Cincinnati (OH) Enquirer 	306093	182176	0
+Cleveland (OH) Plain Dealer 	485543	365288	0
+Columbia (SC) State 	148820	114442	0
+Columbus (OH) Dispatch 	368334	252564	0
+Dallas (TX) Morning News 	785876	510133	0
+Dayton (OH) Daily News 	196136	126642	0
+Denver (CO)  Post/Rocky Mountain News 	785671	577826	0
+Des Moines (IA) Register 	244330	152885	0
+Detroit (MI) News/Free Press 	720572	580106	0
+Fort Worth (TX) Star-Telegram 	325777	215452	0
+Fresno (CA) Bee 	190956	158651	0
+Ft. Lauderdale (FL) Sun-Sentinel 	357133	233634	0
+Grand Rapids (MI) Press 	192343	138620	0
+Greensburg (PA) Tribune-Review 	183734	119646	0
+Hartford (CT) Courant 	285236	185570	0
+Honolulu (HI) Advertiser 	164377	142025	0
+Houston (TX) Chronicle 	747404	553018	0
+Indianapolis (IN) Star	370680	249891	0
+Jacksonville (FL) Florida Times-Union 	229937	167851	0
+Kansas City (MO) Star 	377094	267273	0
+Knoxville (TN) News-Sentinel 	155382	114593	0
+Las Vegas (NV) Review-Journal	220177	160391	0
+Lexington (KY) Herald-Leader 	144528	106941	0
+Little Rock (AR) Democrat-Gazette 	283538	183343	0
+Long Island (NY) Newsday 	678019	580069	1
+Los Angeles (CA) Daily News 	201020	178360	0
+Los Angeles (CA) Times 	1379258	914584	0
+Louisville (KY) Courier-Journal 	279731	213176	0
+Memphis (TN) Commercial Appeal 	234971	157820	0
+Miami (FL) Herald 	431181	315850	0
+Milwaukee (WI) Journal Sentinel 	437578	244288	0
+Minneapolis (MN) Star Tribune 	677929	380354	0
+Nashville (TN) Tennessean	245972	172149	0
+Neptune (NJ) Asbury Park Press	223151	167284	0
+New Orleans (LA) Times-Picayune 	281766	253610	0
+New York (NY) Daily News 	805350	729124	1
+New York (NY) Post 	437117	652426	1
+New York (NY) Times	1676885	1118565	0
+Newark (NJ) Star-Ledger	611027	408672	0
+Norfolk (VA) Virginian-Pilot 	235277	201141	0
+Oklahoma City (OK) Oklahoman	291720	207538	0
+Omaha (NE) World-Herald 	241810	192075	0
+Orange County (CA) Register 	370911	302864	0
+Orlando (FL) Sentinel 	378587	257222	0
+Philadelphia (PA) Inquirer	749793	376493	0
+Phoenix (AZ) Arizona Republic 	547860	432284	0
+Pittsburgh (PA) Post-Gazette 	405692	242546	0
+Portland (OR) Oregonian 	409554	334783	0
+Providence (RI) Journal 	236096	167609	0
+Raleigh (NC) News & Observer 	208769	163769	0
+Richmond (VA) Times-Dispatch	228663	188540	0
+Riverside (CA) Press-Enterprise 	187817	183974	0
+Rochester (NY) Democrat and Chronicle 	232688	173900	0
+Sacramento (CA) Bee 	350078	289905	0
+Saint Paul (MN) Pioneer Press 	253058	190392	0
+Salt Lake City (UT) Tribune 	152444	134985	0
+San Antonio (TX) Express-News 	356403	222536	0
+San Diego (CA) Union-Tribune 	447128	328531	0
+San Francisco (CA) Chronicle	561118	512640	0
+San Jose (CA) Mercury News 	302713	271997	0
+Sarasota (FL) Herald-Tribune 	132103	105636	0
+Seattle (WA) Times/Post-Intelligencer 	473715	382356	0
+St. Louis (MO) Post-Dispatch	459220	285869	0
+St. Petersburg (FL) Times 	420022	334742	0
+Syracuse (NY) Post-Standard 	177033	120701	0
+Tacoma (WA) News Tribune	144707	128511	0
+Tampa (FL) Tribune 	299590	224220	0
+Toledo (OH) Blade 	186219	139520	0
+Tulsa (OK) World 	201130	139383	0
+Walnut Creek (CA) Contra Costa Times 	193352	182541	0
+Washington (DC) Post 	1029966	732872	0
+West Palm Beach (FL) Post 	208286	168147	0
+Westchester Co. (NY) Journal News 	168668	142873	0
+Wilmington (DE) News Journal 	140993	116398	0

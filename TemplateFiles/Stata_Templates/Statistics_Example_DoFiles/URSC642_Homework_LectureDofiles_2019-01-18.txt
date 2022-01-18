@@ -1,0 +1,21 @@
+This folder contains two subfolders
+SourceData and Work
+The do files require the that folder structure be consistent and unaltered.
+
+SourceData folder contains the files required to run the do files in the work folder.
+
+The Source Data comes from  Wooldridge and Acock
+Acock, Alan C. (2010). A Gentle Introduction to Stata (3rd Edition). 
+	College Station, Texas: Stata Press.
+
+Wooldridge, Jeffrey M. (2009). Introductory Econometrics: A Modern Approach, 
+	4th Ed. Mason Ohio: Thomson: South- Western.
+
+
+The Work folder contains the Stata Do files to replicate homework asssignments and 
+URSC 642 lecture slides.
+
+The material in this folder was created and adapted for classroom use by
+Nathanael Rosenheim in coordination with Walt Peacock at Texas A&M University for the
+Department of Landscape Architecture and Urban Planning's PhD program in
+Urban and Regional Science.
