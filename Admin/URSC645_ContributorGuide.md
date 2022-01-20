@@ -8,6 +8,10 @@ GitHub for Desktop
 
 Google Drive for Desktop
 
+Notepad++
+
+7-zip
+
 ## Understand GitHub
 
 Key words to understand and define:
