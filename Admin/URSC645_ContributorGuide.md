@@ -1,5 +1,10 @@
 # Helpful Software to Install
 ---
+## Git
+At the heart of GitHub is an open source version control system (VCS) called Git. Git is responsible for everything GitHub-related that happens locally on your computer.
+
+https://docs.github.com/en/get-started/quickstart/set-up-git
+
 ## VisualStudio Code:
 "Learning to code is intimidating, so set yourself up for success with a tool built for you. 
 Visual Studio Code is a free coding editor that helps you start coding quickly. 
@@ -7,11 +12,24 @@ Use it to code in any programming language, without switching editors."
 
 https://code.visualstudio.com/?wt.mc_id=DX_841432
 
+To run python in Visual Studio code requires installing Python 
+
+https://code.visualstudio.com/docs/python/python-tutorial
+
 ## GitHub for Desktop:
 Focus on what matters instead of fighting with Git. 
 Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow.
 
 https://desktop.github.com/
+
+## Anaconda - Helps manage versions of Python and Packages
+Python is an open source software which requires users to manage the various versions and add-on packages. Anaconda provides the tools for managing your Python environment.
+
+Download the latest Miniconda3 installer for Windows from the Miniconda web page or Anaconda3 installer from Anaconda page
+
+https://docs.conda.io/en/latest/miniconda.html
+
+https://www.anaconda.com/products/individual
 
 ## Google Drive for Desktop
 
