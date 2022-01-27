@@ -42,3 +42,11 @@
     5. In `Source Control` click the + button next to `Changes` to stage changes.
     6. Once changes are staged, add a short message that describes your change. You can only enter 50 characters per line. But you can type multiple lines.
     7. Click the check mark to `Commit` changes to your repository
+    8. Click `Sync Changes` - this uploads the changes from your local machine to your GitHub repository
+
+* In your GitHub Account
+    1. On GitHub.com, navigate to your fork of the course repository.
+    2. Click `Contribute` and `Open pull request`
+    3. Submit a new pull request 
+    
+The owner of the course repository will then need to merge the new pull request into the course repository.
