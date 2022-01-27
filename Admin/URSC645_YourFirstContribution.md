@@ -12,7 +12,7 @@
 * Log in to your GitHub Account
     1. On GitHub.com, navigate to the course repository
         * https://github.com/npr99/URSC645
-    2. In the top-right corner of the page, click Fork.
+    2. In the top-right corner of the page, click `Fork`.
         * Forking the course repository creates a snapshot of all of the course files on your GitHub account.
     3. On GitHub.com, navigate to your fork of the course repository.
 
