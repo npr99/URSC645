@@ -1,24 +1,48 @@
-## Helpful Software to Install
+# Helpful Software to Install
 ---
-### VisualStudio Code:
+## VisualStudio Code:
 "Learning to code is intimidating, so set yourself up for success with a tool built for you. 
 Visual Studio Code is a free coding editor that helps you start coding quickly. 
 Use it to code in any programming language, without switching editors."
 
 https://code.visualstudio.com/?wt.mc_id=DX_841432
 
-### GitHub for Desktop:
+## GitHub for Desktop:
 Focus on what matters instead of fighting with Git. 
 Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow.
 
 https://desktop.github.com/
 
-### Google Drive for Desktop
+## Google Drive for Desktop
 
-### Notepad++
+## Notepad++
 
-### 7-zip
+## 7-zip
 
+# Set up a good workstation
+---
+A good workstation can help make the data workflow process easier - the more monitor workspace the better. Here is an example of a healthy workspace:
+![image](https://user-images.githubusercontent.com/5131566/151397786-08070788-2816-444f-a41d-5ba7806bd698.png)
+
+The vertical monitor is nice for viewing PDF Files and Word Documents, the middle wide monitor is useful for having multiple program files open side-by-side and the small laptop monitor is good for viewing the file explorer. 
+
+The window behind my monitor helps remind me to look up and outside - which helps reduce eye strain.
+
+The monitors provide a total of over 4.7 sq feet of workspace.
+- 12x21 vertical monitor = 252 sq inches
+- 12x27 wide monitor = 324 sq inches
+- 13.5x7.5 laptop monitor = 101.25 sq inches
+
+Alos good to have an:
+- Ergonomic keyboard 
+- Ergonomic mouse (https://www.amazon.com/Posturite-Ambidextrous-Alleviates-Easy-Glide-Compatible/dp/B007GFYM1K)
+- Lamp
+- Bright window
+- Comfortable work chair
+
+
+---
+# Software Tips and Tricks
 ## Understand GitHub
 ---
 Key words to understand and define:
