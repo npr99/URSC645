@@ -33,7 +33,7 @@ The monitors provide a total of over 4.7 sq feet of workspace.
 - 12x27 wide monitor = 324 sq inches
 - 13.5x7.5 laptop monitor = 101.25 sq inches
 
-Alos good to have an:
+Also good to have an:
 - Ergonomic keyboard 
 - Ergonomic mouse (https://www.amazon.com/Posturite-Ambidextrous-Alleviates-Easy-Glide-Compatible/dp/B007GFYM1K)
 - Lamp
