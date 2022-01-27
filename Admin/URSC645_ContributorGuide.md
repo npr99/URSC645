@@ -49,3 +49,12 @@ https://www.markdownguide.org/getting-started/
 
 ![image](https://user-images.githubusercontent.com/5131566/150422462-fc33e914-9720-41fe-9fa2-c39eaaa30a7c.png)
 
+## Visual Studio Code Help
+### Issue - Indention Settings
+Python depends on correct indentions for the code to work. An issue might arise where VS Code attempts to set the indents automatically. If this issue creates a problem it is possible to change the settings in VS Code.
+
+https://stackoverflow.com/questions/42118651/how-to-set-python-language-specific-tab-spacing-in-visual-studio-code
+
+![image](https://user-images.githubusercontent.com/5131566/151396820-197fc2ec-acad-4b2c-84e6-ea897e63cfed.png)
+
+
