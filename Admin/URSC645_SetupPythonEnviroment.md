@@ -30,4 +30,14 @@ C:\Users\<username>\..\miniconda3 (anaconda3)
 ```
 conda create -n URSC645 python=3.7
 ```
-5. In Visual Studio Code this new enviroment will be provided as an option for running your Jupyter Notebooks or Python Code.
+
+5. In Anaconda Prompt - Activate the new enviroment and install required packages. Use the following command line prompts in sequence to activate and install the required packages.
+
+```
+conda activate URSC645
+conda install pandas
+conda install geopandas
+conda install jupyter
+```
+
+7. In Visual Studio Code this new enviroment will be provided as an option for running your Jupyter Notebooks or Python Code.
