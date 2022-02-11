@@ -3,9 +3,7 @@
 
 ### Windows 64-bit
 
-1. Download the latest Miniconda3 installer for Windows from the Miniconda web page or Anaconda3 installer from Anaconda page.
-
-- https://docs.conda.io/en/latest/miniconda.html
+1. Download the latest Anaconda3 installer from Anaconda page.
 
 - https://www.anaconda.com/distribution/
 
@@ -17,7 +15,7 @@
 - Leave the default folder path. For your information, the default path is
 
 ```
-C:\Users\<username>\..\miniconda3 (anaconda3)
+C:\Users\<username>\..\anaconda3
 ```
 
 - Do not add Anaconda to the PATH. 
@@ -39,5 +37,6 @@ conda install pandas
 conda install geopandas
 conda install jupyter
 ```
+Note: This process can take a long time and depends on a solid internet connection.
 
-7. In Visual Studio Code this new enviroment will be provided as an option for running your Jupyter Notebooks or Python Code.
+6. In Visual Studio Code this new enviroment will be provided as an option for running your Jupyter Notebooks or Python Code.
