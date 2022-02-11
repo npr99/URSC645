@@ -36,6 +36,8 @@ conda activate URSC645
 conda install pandas
 conda install geopandas
 conda install jupyter
+conda install contextily
+conda install descartes
 ```
 Note: This process can take a long time and depends on a solid internet connection.
 
