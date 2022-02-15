@@ -59,6 +59,6 @@ pandas                    1.3.5            py37h6214cd6_0
 python                    3.7.12          h7840368_100_cpython    conda-forge
 ```
 - If your enviroment does not have these versions of the primary packages the code may or may not replicate. 
-- If provided by this course does not replicate the issue might be with the enviroment.
+- Try to replicate the code provided by this course, if it does not replicate the issue might be with the enviroment.
 
 8. In Visual Studio Code this new enviroment will be provided as an option for running your Jupyter Notebooks and Python Code.
