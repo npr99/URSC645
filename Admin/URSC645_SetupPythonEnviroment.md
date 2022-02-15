@@ -46,6 +46,6 @@ conda install descartes
 ```
 Note: This process can take a long time and depends on a solid internet connection.
 
-6.1 How to check your enviroment? Use the commmand `conda list` in Anaconda Prompt to see what packages and the versions are installed in an enviroment.
+7. How to check your enviroment? Use the commmand `conda list` in Anaconda Prompt to see what packages and the versions are installed in an enviroment.
 
-7. In Visual Studio Code this new enviroment will be provided as an option for running your Jupyter Notebooks or Python Code.
+8. In Visual Studio Code this new enviroment will be provided as an option for running your Jupyter Notebooks and Python Code.
