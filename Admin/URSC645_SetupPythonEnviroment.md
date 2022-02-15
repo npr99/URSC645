@@ -47,5 +47,18 @@ conda install descartes
 Note: This process can take a long time and depends on a solid internet connection.
 
 7. How to check your enviroment? Use the commmand `conda list` in Anaconda Prompt to see what packages and the versions are installed in an enviroment.
+- The steps above created an enviroment with 225 python packages (the 5 required and the packages that they require)
+- The primary packages that were installed on 2022-02-13 included the following versions, builds, and channels
+```
+# Name                    Version                   Build  Channel
+contextily                1.2.0              pyhd8ed1ab_0    conda-forge
+descartes                 1.1.0                      py_4    conda-forge
+geopandas                 0.10.2             pyhd8ed1ab_1    conda-forge
+jupyter                   1.0.0            py37h03978a9_7    conda-forge
+pandas                    1.3.5            py37h6214cd6_0
+python                    3.7.12          h7840368_100_cpython    conda-forge
+```
+- If your enviroment does not have these versions of the primary packages the code may or may not replicate. 
+- If provided by this course does not replicate the issue might be with the enviroment.
 
 8. In Visual Studio Code this new enviroment will be provided as an option for running your Jupyter Notebooks and Python Code.
