@@ -1,7 +1,7 @@
 ## Setup your First Python Enviroment
 ---
 
-### Windows 64-bit
+### Windows 64-bit (should be similar for MacOS)
 
 1. Download the latest Anaconda3 installer from Anaconda page.
 
