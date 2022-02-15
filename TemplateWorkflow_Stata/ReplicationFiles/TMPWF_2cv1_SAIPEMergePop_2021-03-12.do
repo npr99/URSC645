@@ -80,6 +80,8 @@ capture log close
 /* Generate Codebook                                                 */
 /*-------------------------------------------------------------------*/
 
+capture log close Codebook
+
 log using "${dofilename}/${dofilename}_codebook.txt", replace text ///
 	name(Codebook)
 
