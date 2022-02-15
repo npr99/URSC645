@@ -23,13 +23,18 @@ C:\Users\<username>\..\anaconda3
 
 3. Open up an Anaconda prompt from the Windows Start menu. The `base` environment is being activated and the prompt changes to: `(base) C:\Users\<user>`
 
-4. Create the python environment (for this example we choose URSC645) and activate it
+4. Add conda-forge channel - [conda-forge is a good source for python packages, which works better than the default conda channel](https://conda-forge.org/docs/user/introduction.html#:~:text=Conda%2Dforge%20is%20a%20community,by%20our%20conda%2Dforge%20organization.){:target="_blank"}
+```
+conda config --add channels conda-forge
+```
+
+5. Create the python environment (for this example we choose URSC645) and activate it
 
 ```
 conda create -n URSC645 python=3.7
 ```
 
-5. In Anaconda Prompt - Activate the new enviroment and install required packages. Use the following command line prompts in sequence to activate and install the required packages.
+6. In Anaconda Prompt - Activate the new enviroment and install required packages. Use the following command line prompts in sequence to activate and install the required packages.
 
 ```
 conda activate URSC645
@@ -41,4 +46,6 @@ conda install descartes
 ```
 Note: This process can take a long time and depends on a solid internet connection.
 
-6. In Visual Studio Code this new enviroment will be provided as an option for running your Jupyter Notebooks or Python Code.
+6.1 How to check your enviroment? Use the commmand `conda list` in Anaconda Prompt to see what packages and the versions are installed in an enviroment.
+
+7. In Visual Studio Code this new enviroment will be provided as an option for running your Jupyter Notebooks or Python Code.
