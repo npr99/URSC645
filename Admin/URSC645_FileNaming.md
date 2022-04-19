@@ -23,7 +23,30 @@ TAMU, HRRC, and LAUP are all recognizable mnemonics.
 
 Notice that all filenames in the URSC645 project have a recognizable mnemonic that uniquely identifies the provenance of the files.
 
-## Filename Part 2 – Describe the Contents or Function
+## Filename Part 2 - Function or Data Science Step
+
+![DataScienceWorkflow_2022](https://user-images.githubusercontent.com/5131566/164036900-ff105fa1-2437-4e41-b421-ef9a0402f568.JPG)
+
+The function of the file provides helpful insight into how the file relates to other files in the project. The data science process (picutred above) provides one way to organize the functions of files. Ideally files can be sorted by name and reveal the order by which the files should be open or run. 
+For example, a program that obtains data should be run before a program that cleans data.
+
+![URSC645_ExampleFileNamesSorted_2022](https://user-images.githubusercontent.com/5131566/164038073-3cdbe34d-0768-441b-aa8c-7106ef6808b4.JPG)
+
+In the example above, the second part of the filenames provides a clue to future users which files should be run and in what order. The second part of the file incldues four alpha numeric values that represent:
+- datascience workflow task number (0-6)
+- letter step within task (a,b,c..)
+- v = version
+- version number (1,2,3,4...)
+ The data science steps include:
+- 0 = Research Log or Project Admin
+- 1 = Obtain Data
+- 2 = Clean Data
+- 3 = Explore Data
+- 4 = Model Data
+- 5 = Interpret Data
+- 6 = Publish Data
+
+## Filename Part 3 – Describe the Contents
 
 In this example the project mnemonic is followed by the descriptive text that highlights the file contents or function. 
 For example, a file that archives the form used in a field study for a food retail survey, could include the text &quot;Food Retail Form&quot;.
@@ -31,9 +54,10 @@ To avoid issues sometimes caused by included spaces in filenames each word is se
 
 HRRC\_FoodRetailForm\_2018-01-26
 
-The goal of descriptive name is to reduce a future user&#39;s need to click on the file and open it. Hopefully the contents are described enough to help identify what is inside the file.
+The goal of descriptive name is to reduce a future user's need to click on the file and open it. Hopefully the contents are described enough to help identify what is inside the file.
 
-## Filename Part 3 - Version Control
+
+## Filename Part 4 - Version Control
 
 The example above includes the third part of the filename, the date. 
 The date in the format year, month, date (YYYY-MM-DD) follows an international standard (ISO 8601). 
@@ -42,7 +66,7 @@ Also, by including the date of the file, a future user of the file will be able 
 If the date does not provide enough information to identify the version a zero padded version number might be appropriate. 
 For example, adding v03 would allow for up-to 99 different versions of a file to be tracked.
 
-## Filename Part 4 – File Type Extension
+## Filename Part 5 – File Type Extension
 
 After the filename, each file includes a file type extension (.xlsx, .csv, .pdf etc.). 
 The file type extension provides a way to differentiate files that may have the same name. 
