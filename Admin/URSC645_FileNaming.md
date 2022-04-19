@@ -37,6 +37,7 @@ In the example above, the second part of the filenames provides a clue to future
 - letter step within task (a,b,c..)
 - v = version
 - version number (1,2,3,4...)
+
  The data science steps include:
 - 0 = Research Log or Project Admin
 - 1 = Obtain Data
