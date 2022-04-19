@@ -27,7 +27,7 @@ Notice that all filenames in the URSC645 project have a recognizable mnemonic th
 
 ![DataScienceWorkflow_2022](https://user-images.githubusercontent.com/5131566/164036900-ff105fa1-2437-4e41-b421-ef9a0402f568.JPG)
 
-The function of the file provides helpful insight into how the file relates to other files in the project. The data science process (picutred above) provides one way to organize the functions of files. Ideally files can be sorted by name and reveal the order by which the files should be open or run. 
+The function of the file provides helpful insight into how the file relates to other files in the project. The data science process (picutred above (Cadwell 2016)) provides one way to organize the functions of files. Ideally files can be sorted by name and reveal the order by which the files should be open or run. 
 For example, a program that obtains data should be run before a program that cleans data.
 
 ![URSC645_ExampleFileNamesSorted_2022](https://user-images.githubusercontent.com/5131566/164038073-3cdbe34d-0768-441b-aa8c-7106ef6808b4.JPG)
@@ -97,6 +97,8 @@ The filename plan presented is designed to reinforce the project goals,
 project management, and to help future users easily navigate files shared publicly.
 
 # References
+
+Cadwell, Joel. (2016). A Data Science Solution to the Question "What is Data Science?". Retrieved from [https://www.r-bloggers.com/2016/01/a-data-science-solution-to-the-question-what-is-data-science/](https://www.r-bloggers.com/2016/01/a-data-science-solution-to-the-question-what-is-data-science/)
 
 Cornell University Research Data Management Service Group. (n.d.). _File Management._ Retrieved from [https://data.research.cornell.edu/content/file-management](https://data.research.cornell.edu/content/file-management)
 
