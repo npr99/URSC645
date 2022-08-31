@@ -31,6 +31,13 @@ https://docs.conda.io/en/latest/miniconda.html
 
 https://www.anaconda.com/products/individual
 
+## Slack
+Slack is a messaging app for business that connects people to the information they need. By bringing people together to work as one unified team, Slack transforms the way organizations communicate.
+
+https://slack.com/help/articles/115004071768-What-is-Slack-
+
+https://slack.com/downloads/windows
+
 ## Google Drive for Desktop
 
 ## Notepad++
