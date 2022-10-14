@@ -4,3 +4,7 @@
 Covers lots of options for making maps and visualizations.
 
 https://courses.spatialthoughts.com/python-dataviz.html
+
+# Interesting resource for using Bokeh
+The Jupyter Book style in mybinder is a great idea
+https://github.com/bokeh/bokeh-notebooks/tree/main
