@@ -362,3 +362,11 @@ Donate
 Terms
 Privacy
 @benbalter
+
+
+# The Turing Way: A Handbook for Reproducible Data Science 
+
+The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2021, Nov 10). The Turing Way: A Handbook for Reproducible Data Science (Version v1.0.1). Zenodo. http://doi.org/10.5281/zenodo.5671094 Ebook link: https://the-turing-way.netlify.app/welcome
+
+# Center for Open Science
+Transparency and Openness Promotion (TOP) Guidelines retrieved from https://www.cos.io/initiatives/top-guidelines
