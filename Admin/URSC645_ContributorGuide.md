@@ -1,9 +1,7 @@
 # Helpful Software to Install
 ---
-## Git
-At the heart of GitHub is an open source version control system (VCS) called Git. Git is responsible for everything GitHub-related that happens locally on your computer.
-
-https://docs.github.com/en/get-started/quickstart/set-up-git
+## GitHub Account
+First setup - Sign up for a free GitHub account: https://github.com/signup 
 
 ## VisualStudio Code:
 "Learning to code is intimidating, so set yourself up for success with a tool built for you. 
@@ -25,7 +23,7 @@ https://desktop.github.com/
 ## Anaconda - Helps manage versions of Python and Packages
 Python is an open source software which requires users to manage the various versions and add-on packages. Anaconda provides the tools for managing your Python environment.
 
-Download the latest Miniconda3 installer for Windows from the Miniconda web page or Anaconda3 installer from Anaconda page
+Download the latest Miniconda3 installer from the Miniconda web page or Anaconda3 installer from Anaconda page
 
 https://docs.conda.io/en/latest/miniconda.html
 
@@ -71,9 +69,12 @@ Also good to have an:
 ## Understand GitHub
 ---
 Key words to understand and define:
+Fork
 Push
 Pull
 Commit
+Pull request
+Branch
 
 Helpful video for understanding the Github process
 
