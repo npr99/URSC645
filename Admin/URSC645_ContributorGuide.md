@@ -1,7 +1,7 @@
 # Helpful Software to Install
 ---
 ## GitHub Account
-First setup - Sign up for a free GitHub account: https://github.com/signup 
+First set - Sign up for a free GitHub account: https://github.com/signup 
 
 ## VisualStudio Code:
 "Learning to code is intimidating, so set yourself up for success with a tool built for you. 
