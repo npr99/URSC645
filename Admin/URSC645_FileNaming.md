@@ -1,4 +1,4 @@
-# General Filename Plan for Reproducible Worklow
+# General Filename Plan for Reproducible Workflow
 
 This filename plan provides basic guidelines to help with reproducible research. 
 An ideal filename provides information about the author, the contents, and when the file was made. 
@@ -9,7 +9,7 @@ These include the provenance or origin of the file,
 the contents of the file, 
 the file version, and 
 the file type. 
-This naming plan can be applied to survey instruments, data files, and programs such as Jupyter Notebooks.
+This naming plan can be applied to all files including: survey instruments, data files, and programs such as Jupyter Notebooks.
 The following sections provide more details about the filename parts.
 
 ## Filename Part 1 – Highlight Provenance
@@ -27,13 +27,13 @@ Notice that all filenames in the URSC645 project have a recognizable mnemonic th
 
 ![DataScienceWorkflow_2022](https://user-images.githubusercontent.com/5131566/164036900-ff105fa1-2437-4e41-b421-ef9a0402f568.JPG)
 
-The function of the file provides helpful insight into how the file relates to other files in the project. The data science process (picutred above (Cadwell 2016)) provides one way to organize the functions of files. Ideally files can be sorted by name and reveal the order by which the files should be open or run. 
+The function of the file provides helpful insight into how the file relates to other files in the project. The data science process (pictured above (Cadwell 2016)) provides one way to organize the functions of files. Ideally files can be sorted by name and reveal the order by which the files should be open or run. 
 For example, a program that obtains data should be run before a program that cleans data.
 
 ![URSC645_ExampleFileNamesSorted_2022](https://user-images.githubusercontent.com/5131566/164038073-3cdbe34d-0768-441b-aa8c-7106ef6808b4.JPG)
 
-In the example above, the second part of the filenames provides a clue to future users which files should be run and in what order. The second part of the file incldues four alpha numeric values that represent:
-- datascience workflow task number (0-6)
+In the example above, the second part of the filenames provides a clue to future users which files should be run and in what order. The second part of the file includes four alpha numeric values that represent:
+- data science workflow task number (0-6)
 - letter step within task (a,b,c..)
 - v = version
 - version number (1,2,3,4...)
@@ -80,13 +80,16 @@ The two files have the same name but one file is a Word Document and the second 
 The two files have the same contents but provide future users with a file format that can be edited (the Word Document) and 
 a file format that preserves the original formatting (the PDF).
 
+**How to turn on file extensions on a Windows computer**
+![image](https://user-images.githubusercontent.com/5131566/150422462-fc33e914-9720-41fe-9fa2-c39eaaa30a7c.png)
+
 # Use of Special Characters and Filename Length
 
 Names best tolerated by the widest variety of systems use a combination of letters (A-Z, a-z), numbers (0-9), underscores (\_), and hyphens (-). 
 The filename plan presented above uses an underscore &quot;\_&quot; to separate the parts of the naming plan and dashes within the date format YYYY-MM-DD.
 
-Filenames longer than 255 characters may not be readable by some operating systems, such as LINUX.
-Therefore, filenames must be less than 255 characters. Additionally, since the filenames are designed to be viewed on a screen with limited width, 
+Filenames and paths longer than 255 characters may not be readable by some operating systems, such as LINUX (260 for Windows).
+Therefore, filenames (including the path) must be less than 255 characters. Additionally, since the filenames are designed to be viewed on a screen with limited width, 
 filenames longer than 80 characters will be cutoff, requiring the user to scroll to see the full name. 
 Therefore, it is recommended that file names not exceed 80 characters.
 
