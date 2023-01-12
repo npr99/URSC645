@@ -25,10 +25,10 @@ This course will familiarize Urban and Regional Science and Sociology PhD studen
 
 ## Learning Outcomes
 By the end of this class, students will be able to:
-•	Demonstrate that they understand basic applications for code and scripts.
-•	Adopt a scalable workflow for individual and team-based projects. 
-•	Identify replicable research in sociology or urban and regional science journals.
-•	Use appropriate software to obtain, scrub, explore, visualize, interpret and publish data.
+-	Demonstrate that they understand basic applications for code and scripts.
+-	Adopt a scalable workflow for individual and team-based projects. 
+-	Identify replicable research in sociology or urban and regional science journals.
+-	Use appropriate software to obtain, scrub, explore, visualize, interpret and publish data.
 
 ## Course Motivations
 
@@ -60,7 +60,7 @@ The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia He
 
 ---
 ### Additional Reading Resources:
-Sheather, S. (2008). A Modern Approach to Regression with R. https://doi-org.lib-ezproxy.tamu.edu:9443/10.1007/978-0-387-09608-7
+Sheather, S. (2008). A Modern Approach to Regression with R. http://proxy.library.tamu.edu/login?url=https://dx.doi.org/10.1007/978-0-387-09608-7
 
 Source code in SAS, Stata, and R: http://gattonweb.uky.edu/sheather/book/
 
@@ -70,10 +70,9 @@ Rosenheim, N. Peacock, W. Williams, A. Lane, G. Watson, M. Sullivan, E. Katare, 
 
 Rosenheim, Nathanael; Day, Wayne; Seong, Kijin (2021) “Automated Neighborhood Characteristics for Community Resilience Planning.” DesignSafe-CI. https://doi.org/10.17603/ds2-hj0p-bp40.
 
-Rosenheim, Nathanael (2021) “Detailed Household and Housing Unit Characteristics: Alpha Release of Housing Unit Inventories.” DesignSafe-CI. https://doi.org/10.17603/ds2-jwf6-s535.
-
 Roy, Malini; Rosenheim, Nathanael (2021) “Longitudinal Social Vulnerability Data Exploration for Harris County Census Tracts.” DesignSafe-CI. https://doi.org/10.17603/ds2-hn6r-dh03.
 
+Rosenheim, Nathanael (2021) “Detailed Household and Housing Unit Characteristics: Data and Replication Code.” DesignSafe-CI. https://doi.org/10.17603/ds2-jwf6-s535.
 
 Additional readings will be made available through Google Drive.  
 
