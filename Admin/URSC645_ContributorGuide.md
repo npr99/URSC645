@@ -1,7 +1,7 @@
 # Helpful Software to Install
 ---
 ## GitHub Account
-First set - Sign up for a free GitHub account: https://github.com/signup 
+Sign up for a free GitHub account: https://github.com/signup 
 
 ## VisualStudio Code:
 "Learning to code is intimidating, so set yourself up for success with a tool built for you. 
@@ -15,8 +15,8 @@ To run python in Visual Studio code requires installing Python
 https://code.visualstudio.com/docs/python/python-tutorial
 
 ## GitHub for Desktop:
-Focus on what matters instead of fighting with Git. 
-Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow.
+"Focus on what matters instead of fighting with Git. 
+Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow."
 
 https://desktop.github.com/
 
