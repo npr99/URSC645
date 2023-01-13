@@ -4,13 +4,18 @@ A mix and postivie spin by Nathanael Rosenheim (Jan 24, 2020, Jan 13, 2023) from
 - [Jonathan Bluks](https://medium.com/@jonathanbluks) (Jan 27, 2019) [_10 Signs You Will Suck at Programming_.](https://blog.usejournal.com/10-signs-you-will-suck-at-programming-5497a6a52c5c)
 - [John L. Miller](https://www.quora.com/profile/John-L-Miller) (Nov 10, 2017) [_Struggling With New Programming Languages? Here's How To Become A Better Learner_.](https://www.quora.com/Why-cant-I-understand-the-basics-of-Python-language-How-can-I-get-better-at-studying-Python)
 
-Bluks (2019) often sees questions along the lines of "How do I know if I'll succeed as a programmer?" In fact, I think this is a major barrier to entry in people's minds when they don't have any formal training in computing. The good news is that I have rarely found a student that couldn't learn to program. Programming is a basic human skill, just like reading, writing and arithmetic. Anyone can learn to program with time and effort. Students that develop the following attitudes will succeed as a programmer.
+## Good News!
+- You do not need to have formal training in computing
+- Programming is a basic human skill, just like reading, writing and arithmetic. (Bluks 2019)
+- Learning to program is like learning to write, or to be an artist. (Miller 2017)
+- Anyone can learn to program with time and effort. (Bluks 2019)
 
 ## Be curious about computers and how technology works
 
 The world of technology is like a huge ocean of interesting domains, inter-connected ideas, and possibilities that can excite the imagination. Be curious, push yourself find something new that you haven't noticed before, recognize the vast ocean and dive a little deeper. Bluks (2019)
 
 ## Understand the why. 
+
 What is the language for? What is it good for? Why should I learn it, what will it let me to do that I can't do today? Miller (2017)
 
 ## Develop the ability to solve problems
