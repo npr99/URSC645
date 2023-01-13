@@ -374,6 +374,11 @@ The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia He
 ---
 # Additional Resources
 
+## Healy 2019 Plain Text Social Science
+Healy 2019 Plain Text Social Science https://kieranhealy.org/files/papers/plain-person-text.pdf
+
+Looks like an excellent resource - need to read and include here
+
 ## Center for Open Science
 Transparency and Openness Promotion (TOP) Guidelines retrieved from https://www.cos.io/initiatives/top-guidelines
 
