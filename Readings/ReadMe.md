@@ -19,7 +19,7 @@ Readings\Subfolder - As the collection of readings grows it might be appropriate
 			3. Readings that apply an important methodology
 			4. Readings that describe or use an important dataset
 
-Readings\AnnotatedBilbliography - A collection of summaries of the readings to help keep track of key topics.
+AnnotatedBilbliography - A collection of summaries of the readings to help keep track of key topics.
 		   - Unlike the individual readings files the Annotated Bibliography can be shared publicly
 
 
