@@ -377,10 +377,23 @@ The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia He
 ## Center for Open Science
 Transparency and Openness Promotion (TOP) Guidelines retrieved from https://www.cos.io/initiatives/top-guidelines
 
-## Reproducible Research: Coursera Course
+## Peng et al 2023: Reproducible Research: Coursera Course
 Peng, R., Leek, J., & Caffo, B. (2023). Reproducible Research: Coursera Course Offered by Johns Hopkins University.
 available at https://www.coursera.org/learn/reproducible-research
 
 - Reproducible research is the idea that data analyses, and more generally, scientific claims, are published with their data and software code so that others may verify the findings and build upon them.
 - Reproducibility allows for people to focus on the actual content of a data analysis, rather than on superficial details reported in a written summary.
 - Reproducibility makes an analysis more useful to others because the data and code that actually conducted the analysis are available.
+
+## Netflix 2019: Explained: Coding
+Netflix (Oct 24, 2019) Explained: Coding https://www.imdb.com/title/tt11167964/
+
+Covers history, abstraction and introduces machine learning and bias
+
+## Gandrud 2018: Journal articles are advertising not research
+Gandrud, C. (2018). Reproducible research with R and RStudio. Chapman and Hall/CRC. [Ebook at TAMU Library](http://proxy.library.tamu.edu/login?url=https://ebookcentral.proquest.com/lib/tamucs/detail.action?docID=4710300)
+
+"Slideshows, journal articles, books... are the "advertising"" (p. 3)
+The research is the "full software environment, code, and data that produces the results." (Buckheit and Donoho, 1995; Donoho, 2010, 385)
+
+
