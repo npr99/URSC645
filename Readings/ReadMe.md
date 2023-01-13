@@ -22,7 +22,7 @@ Readings\Subfolder
 3. Readings that apply an important methodology
 4. Readings that describe or use an important dataset
 
-AnnotatedBilbliography 
+[Annotated Bilbliography](https://github.com/npr99/URSC645/blob/main/Readings/00_URSC645_AnnotatedBibliography.md)
 - A collection of summaries of the readings to help keep track of key topics
 - Unlike the individual readings files the Annotated Bibliography can be shared publicly
 
