@@ -9,7 +9,7 @@ This annotated bibliography highlights the following ideas and concepts as discu
 
 1. Definitions of terms such as reproducible, replicable, workflow, science
 2. Challenges associated with reproducible research
-2.1. Social norms vs individual goals - tradeoffs
+    - Social norms vs individual goals - tradeoffs
 3. Computer coding, scripting, and programming concepts
 4. Appropriate software for replicable research
 5. Discussions of bias (what is better science?)
