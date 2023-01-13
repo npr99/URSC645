@@ -2,6 +2,7 @@
 - [Video on how to contribute](https://youtu.be/wC2G-XKSjmg)
 - [How to format with Markdown help](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Use Microsoft Word and then copy using: Word to Markdown Converter](https://word2md.com/)
+- [Use Table of Contents Button to navigate page](https://github.blog/changelog/2021-04-13-table-of-contents-support-in-markdown-files/)
 
 # Annotated Bibliography [[TAMU Writing Center Guidance](https://writingcenter.tamu.edu/Students/Writing-Speaking-Guides/Alphabetical-List-of-Guides/Academic-Writing/Annotated-Bibliographies)]
 
