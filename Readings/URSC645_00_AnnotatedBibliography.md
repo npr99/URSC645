@@ -1,6 +1,8 @@
-Word to Markdown Converter
-Results of converting "00_URSC689_Annotated Bibliography "
-Markdown
+### Where to start?
+- [Video on how to contribute](https://youtu.be/wC2G-XKSjmg)
+- [How to format with Markdown help](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Use Microsoft Word and then copy using: Word to Markdown Converter](https://word2md.com/)
+
 # Annotated Bibliography [[TAMU Writing Center Guidance](https://writingcenter.tamu.edu/Students/Writing-Speaking-Guides/Alphabetical-List-of-Guides/Academic-Writing/Annotated-Bibliographies)]
 
 ## Introduction
