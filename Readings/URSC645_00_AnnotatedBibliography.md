@@ -20,19 +20,19 @@ This annotated bibliography highlights the following ideas and concepts as discu
 
 _Principal Proposition [a statement that is known to be true]_:
 
-Research is a &quot;systematic investigation or inquiry aimed at contributing to knowledge of a theory, topic, etc., by careful consideration, observation, or study of a subject.&quot; (OED Online, 2020)
+Research is a "systematic investigation or inquiry aimed at contributing to knowledge of a theory, topic, etc., by careful consideration, observation, or study of a subject." (OED Online, 2020)
 
-&quot;research, n.1&quot;. OED Online. December 2020. Oxford University Press. https://www-oed-com.srv-proxy2.library.tamu.edu/view/Entry/163432?rskey=sD70JD&amp;result=1 (accessed January 29, 2021).
+"research, n.1". OED Online. December 2020. Oxford University Press. https://www-oed-com.srv-proxy2.library.tamu.edu/view/Entry/163432?rskey=sD70JD&amp;result=1 (accessed January 29, 2021).
 
 Research is a fundamental part of science. Research involves a significant investment of time, application of methods, and decisions.
 
-&quot;Science demands reproducibility&quot; (Long 2009, p. 2)
+"Science demands reproducibility" (Long 2009, p. 2)
 
 _Interacting proposition [Cast doubt on principal proposition - insert contradictory information]_:
 
 Most research is not reproducible because many of the research methods are not clearly documented, tools (software) is not always available, the contextual natural laboratory external factors not controllable…. (something like this comeback to this point)...
 
-Individualistic nature of research - Judanne Lennox &quot;I struggled to get these results, you need to struggle too…&quot; - Research needs to be new and novel - so why would you want to replicate something already done...
+Individualistic nature of research - Judanne Lennox "I struggled to get these results, you need to struggle too…" - Research needs to be new and novel - so why would you want to replicate something already done...
 
 _Speculative proposition [put principal and interacting propositions side by side and name the gap of knowledge that exists]:_
 
@@ -48,9 +48,9 @@ This annotated bibliography for academic researchers interested in reproducible 
 
 ## Munafo et al 2017
 
-Schulyer Carter - &quot;Promoting transparency helps people be more open, oral history example&quot;
+Schulyer Carter - "Promoting transparency helps people be more open, oral history example"
 
-&quot;In a high-dimensional dataset, there may be hundreds or thousands of reasonable approaches to analysing the same data...If several thousand potential analytical pipelines can be applied to high-dimensional data, the generation of false-positive findings is highly likely.&quot; (demonstrates the importance and possible difficulty of being able to reproduce a finding using the exact original method) - MCS
+"In a high-dimensional dataset, there may be hundreds or thousands of reasonable approaches to analysing the same data...If several thousand potential analytical pipelines can be applied to high-dimensional data, the generation of false-positive findings is highly likely." (demonstrates the importance and possible difficulty of being able to reproduce a finding using the exact original method) - MCS
 
 Pre-registration may involve conflict of interest as well, especially when the researcher needs money to do their research. For example, big pharmaceutical companies pay for the clinical trials and keep the researchers from publishing non-favorable results even if pre-registration is in place.
 
@@ -58,13 +58,13 @@ Outcome bias is quite common. Researchers tend to rewrite their hypotheses after
 
 Current academic incentive system works opposite way from encouraging people to share research data.
 
-A panelist during a disaster conference in 2018: &quot;If you don&#39;t want to share your data, you are an evil person.&quot; However, the question is, the system is evil and we have to play that evil game.
+A panelist during a disaster conference in 2018: "If you don't want to share your data, you are an evil person." However, the question is, the system is evil and we have to play that evil game.
 
 ## Freese 2007
 
 Freese, J. (2007). Replication standards for quantitative social science: Why not sociology?. _Sociological Methods &amp; Research_, _36_(2), 153-172.
 
-Freese defines replicate as &quot; the simple verification or duplication of results using the same data and analytic procedures as the original researcher.&quot; (p. 154) Freese points out within Sociology there is an implicit individualistic policy that all published research should be replicable. Freese argues that the responsibility to do replicate research should be based on a social contract.
+Freese defines replicate as " the simple verification or duplication of results using the same data and analytic procedures as the original researcher." (p. 154) Freese points out within Sociology there is an implicit individualistic policy that all published research should be replicable. Freese argues that the responsibility to do replicate research should be based on a social contract.
 
 | Individual policy | Social policy |
 | --- | --- |
@@ -75,7 +75,7 @@ More recent examples:
 
 _American Sociological Review_ ([https://us.sagepub.com/en-us/nam/journal/american-sociological-review#submission-guidelines](https://us.sagepub.com/en-us/nam/journal/american-sociological-review#submission-guidelines))
 
-- ASA&#39;s stated policy on data-sharing: &quot;Sociologists make their data available after completion of the project or its major publications, except where proprietary agreements with employers, contractors, or clients preclude such accessibility or when it is impossible to share data and protect the confidentiality of the data or the anonymity of research participants (e.g., raw field notes or detailed information from ethnographic interviews)&quot; (ASA Code of Ethics, 1997)
+- ASA's stated policy on data-sharing: "Sociologists make their data available after completion of the project or its major publications, except where proprietary agreements with employers, contractors, or clients preclude such accessibility or when it is impossible to share data and protect the confidentiality of the data or the anonymity of research participants (e.g., raw field notes or detailed information from ethnographic interviews)" (ASA Code of Ethics, 1997)
 
 _Social Psychology Quarterly_ (In Association with American Sociological Association)
 
@@ -85,7 +85,7 @@ _Social Psychology Quarterly_ (In Association with American Sociological Associa
 
 Elsevier Journals: research data sharing webpage (https://www.elsevier.com/authors/author-services/research-data)
 
-&quot;A number of Elsevier journals encourage authors to submit a data statement alongside their manuscript.&quot; &quot;Several journals support co-submission of a data article alongside your manuscript. In each case, the data article is transferred to the open access journal _Data in Brief_ for publication.&quot;
+"A number of Elsevier journals encourage authors to submit a data statement alongside their manuscript." "Several journals support co-submission of a data article alongside your manuscript. In each case, the data article is transferred to the open access journal _Data in Brief_ for publication."
 
 Taylor &amp; Francis offers the following standardized data sharing policies across our journals ([Journal of the American Planning Association included):](https://www.tandfonline.com/toc/rjpa20/current)
 
@@ -94,16 +94,16 @@ Taylor &amp; Francis offers the following standardized data sharing policies acr
 From 2018, Taylor &amp; Francis will be introducing new policies on data sharing….
 
 - Basic – Journal encourages authors to share and make data open where this does not violate protection of human subjects or other valid subject privacy concerns. Authors are further encouraged to cite data and provide a data availability statement.
-- Share upon reasonable request – Authors agree to make their data available upon reasonable request. It&#39;s up to the author to determine whether a request is reasonable.
+- Share upon reasonable request – Authors agree to make their data available upon reasonable request. It's up to the author to determine whether a request is reasonable.
 - Publicly available – Authors make their data freely available to the public, under a license of their choice.
 - Open data – Authors must make their data freely available to the public, under a license allowing re-use by any third party for any lawful purpose. Data shall be findable and fully accessible.
 - Open and fully FAIR (Findable, accessible, interoperable and re-usable) – Authors must make their data freely available to the public, under a license allowing re-use by any third party for any lawful purpose. Additionally, data shall meet with FAIR standards as established in the relevant subject area.
 
 ## Lowndes et al 2017
 
-&quot;Integrating open data science practices and tools into science can save time, while also improving reproducibility for our most important collaborators: our future selves.&quot; - Lowndes et al
+"Integrating open data science practices and tools into science can save time, while also improving reproducibility for our most important collaborators: our future selves." - Lowndes et al
 
-Lowndes, Julia S. Stewart, Benjamin D. Best, Courtney Scarborough, Jamie C. Afflerbach, Melanie R. Frazier, Casey C. O&#39;Hara, Ning Jiang and Benjamin S. Halpern (2017). Our path to better science in less time using open data science tools. _Nature Ecology &amp; Evolution_, 1, 1-7.
+Lowndes, Julia S. Stewart, Benjamin D. Best, Courtney Scarborough, Jamie C. Afflerbach, Melanie R. Frazier, Casey C. O'Hara, Ning Jiang and Benjamin S. Halpern (2017). Our path to better science in less time using open data science tools. _Nature Ecology &amp; Evolution_, 1, 1-7.
 
 ### Introduction
 
@@ -165,11 +165,11 @@ Gentzkow and Shapiro 2014
 
 (B) Abstract to improve clarity.
 
-(C) Otherwise, don&#39;t abstract.
+(C) Otherwise, don't abstract.
 
 - Documentation Rules
 
-(A) Don&#39;t write documentation you will not maintain.
+(A) Don't write documentation you will not maintain.
 
 (B) Code should be self-documenting.
 
