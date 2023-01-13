@@ -3,6 +3,7 @@
 Similar courses from around the web that I am inspired by.
 
 ## Geoff Boeing
+Geoff Beoing - Creator of Open Street Map Network Tool ([OSMnx](https://osmnx.readthedocs.io/en/stable/)) has a full set of data science related courses available in GitHub
 
 Boening (2022) USC PPD430: _Urban Informatics_ https://github.com/gboeing/ppd430
 
@@ -10,6 +11,8 @@ Boening (2022) USC PPD534: _Data, Evidence, and Communication for the Public Goo
 
 Boening (2022) USC PPD599: _Advanced Urban Analytics_ https://github.com/gboeing/ppd599
 
+Boening reccomends the book: 
+Allen B. Downey (v2.0.17) Think Python: How to Think Like a Computer Scientist https://greenteapress.com/thinkpython/html/index.html 
 
 ## Peng et al 2023: Reproducible Research: Coursera Course
 
