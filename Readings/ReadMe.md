@@ -1,26 +1,30 @@
-Welcome to the Readings Folder
-Readings	   - Collection for readings (mainly PDF files) that support the project
-		   - readings may be journal articles, reports, newpaper articles, or other documents
+# Welcome to the Readings Folder
+Readings	   
+- Collection for readings (mainly PDF files) that support the project
+- readings may be journal articles, reports, newpaper articles, or other documents
 			
-Readings\Archive   - The archive folder contains files that can be archived
-		   - These files might include 
-			- prior versions of the ReadMeFirst files
-			- prior versions of the Annotated Bibliography
-		 	- prior versions Readings (versions without comments or older editions of a publication)
-			- Readings that after review were decided to not support the project
-Readings\Subfolder - As the collection of readings grows it might be appropriate to create subfolders
-		   - The subfolders in the Readings folder help to group readings
-		   - Readings could be group by:
-			1. Important or seminal articles
-				- Important = a reading that everyone on the task should be familiar with
-				- Seminal = a reading that strongly influences the project 
-			2. Key theoretical concepts
-				- 
-			3. Readings that apply an important methodology
-			4. Readings that describe or use an important dataset
+Readings\Archive   
+- The archive folder contains files that can be archived
+- These files might include 
+	- prior versions of the ReadMeFirst files
+	- prior versions of the Annotated Bibliography
+	- prior versions Readings (versions without comments or older editions of a publication)
+	- Readings that after review were decided to not support the project
 
-AnnotatedBilbliography - A collection of summaries of the readings to help keep track of key topics.
-		   - Unlike the individual readings files the Annotated Bibliography can be shared publicly
+Readings\Subfolder 
+- As the collection of readings grows it might be appropriate to create subfolders
+- The subfolders in the Readings folder help to group readings
+- Readings could be group by:
+1. Important or seminal articles
+	- Important = a reading that everyone on the task should be familiar with
+	- Seminal = a reading that strongly influences the project 
+2. Key theoretical concepts
+3. Readings that apply an important methodology
+4. Readings that describe or use an important dataset
+
+AnnotatedBilbliography 
+- A collection of summaries of the readings to help keep track of key topics
+- Unlike the individual readings files the Annotated Bibliography can be shared publicly
 
 
 File Name Structure
