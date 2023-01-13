@@ -396,6 +396,13 @@ Covers history, abstraction and introduces machine learning and bias
 Gandrud, C. (2018). Reproducible research with R and RStudio. Chapman and Hall/CRC. [Ebook at TAMU Library](http://proxy.library.tamu.edu/login?url=https://ebookcentral.proquest.com/lib/tamucs/detail.action?docID=4710300)
 
 "Slideshows, journal articles, books... are the "advertising"" (p. 3)
-The research is the "full software environment, code, and data that produces the results." (Buckheit and Donoho, 1995; Donoho, 2010, 385)
+The research is the "full software environment, code, and data that produces the results." (Buckheit and Donoho, 1995; Donoho, 2010, 385) - In Donoho quote is attributed to Claerbout 1992
+
+Look up:
+Donoho, D. L. (2010). An invitation to reproducible computational research. Biostatistics, 11(3), 385-388.  https://doi-org.srv-proxy1.library.tamu.edu/10.1093/biostatistics/kxq028
+
+Claerbout J,  Karrenbach M. Electronic documents give reproducible research a new meaning. In: Proceedings of the 62nd Annual International Meeting of the Society of Exploration Geophysics, 1992(pg. 601-604)
+
+Donoho, D. (2017). 50 years of data science. [Journal of Computational and Graphical Statistics](http://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf), 26(4), 745-766.
 
 
