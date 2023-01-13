@@ -20,19 +20,15 @@ This annotated bibliography highlights the following ideas and concepts as discu
 
 _Principal Proposition [a statement that is known to be true]_:
 
-Research is a "systematic investigation or inquiry aimed at contributing to knowledge of a theory, topic, etc., by careful consideration, observation, or study of a subject." (OED Online, 2020)
-
-"research, n.1". OED Online. December 2020. Oxford University Press. https://www-oed-com.srv-proxy2.library.tamu.edu/view/Entry/163432?rskey=sD70JD&amp;result=1 (accessed January 29, 2021).
-
-Research is a fundamental part of science. Research involves a significant investment of time, application of methods, and decisions.
-
-"Science demands reproducibility" (Long 2009, p. 2)
+- Research is a "systematic investigation or inquiry aimed at contributing to knowledge of a theory, topic, etc., by careful consideration, observation, or study of a subject." ([OED Online](https://www-oed-com.srv-proxy2.library.tamu.edu/view/Entry/163432?rskey=sD70JD&amp;result=1), 2020)
+- Research is a fundamental part of science. Research involves a significant investment of time, application of methods, and decisions.
+- "Science demands reproducibility" (Long 2009, p. 2)
 
 _Interacting proposition [Cast doubt on principal proposition - insert contradictory information]_:
 
-Most research is not reproducible because many of the research methods are not clearly documented, tools (software) is not always available, the contextual natural laboratory external factors not controllable…. (something like this comeback to this point)...
-
-Individualistic nature of research - Judanne Lennox "I struggled to get these results, you need to struggle too…" - Research needs to be new and novel - so why would you want to replicate something already done...
+- Most research is not reproducible because many of the research methods are not clearly documented, tools (software) is not always available, the contextual natural laboratory external factors not controllable…. (something like this comeback to this point)...
+- Individualistic nature of research - Judanne Lennox "I struggled to get these results, you need to struggle too…" 
+- Research needs to be new and novel - so why would you want to replicate something already done...
 
 _Speculative proposition [put principal and interacting propositions side by side and name the gap of knowledge that exists]:_
 
@@ -46,7 +42,11 @@ Researchers lack the skills for building a strong workflow to support urban and 
 
 This annotated bibliography for academic researchers interested in reproducible research.
 
+---
+# Required Reading
+
 ## Munafo et al 2017
+Munafò, M. R., Nosek, B. A., Bishop, D. V., Button, K. S., Chambers, C. D., du Sert, N. P., Simonsohn, U., Wagenmakers, E., Ware, J.J., & Ioannidis, J. P. (2017). A manifesto for reproducible science. Nature Human Behaviour, 1, 0021. https://doi.org/10.1038/s41562-016-0021 
 
 Schulyer Carter - "Promoting transparency helps people be more open, oral history example"
 
