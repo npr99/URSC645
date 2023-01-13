@@ -379,6 +379,11 @@ Healy 2019 Plain Text Social Science https://kieranhealy.org/files/papers/plain-
 
 Looks like an excellent resource - need to read and include here
 
+## ICPSR Data Prep Guide
+ICPSR (v6) Guide to Social Science Data Preparation and Archiving https://www.icpsr.umich.edu/files/deposit/dataprep.pdf
+
+Inter-university Consortium for Political and Social Research (ICPSR)
+
 ## Center for Open Science
 Transparency and Openness Promotion (TOP) Guidelines retrieved from https://www.cos.io/initiatives/top-guidelines
 
