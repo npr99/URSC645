@@ -1,12 +1,40 @@
-# Attitudes of a Successful Programmer
+# Attitudes of a Successful Scripter/Coder/Programmer
 
-A mix and postivie spin by Nathanael Rosenheim (Jan 24, 2020, Jan 13, 2023) from:
+A mix and positive spin by Nathanael Rosenheim (Jan 24, 2020, Jan 13, 2023) from:
 - [Jonathan Bluks](https://medium.com/@jonathanbluks) (Jan 27, 2019) [_10 Signs You Will Suck at Programming_.](https://blog.usejournal.com/10-signs-you-will-suck-at-programming-5497a6a52c5c)
 - [John L. Miller](https://www.quora.com/profile/John-L-Miller) (Nov 10, 2017) [_Struggling With New Programming Languages? Here's How To Become A Better Learner_.](https://www.quora.com/Why-cant-I-understand-the-basics-of-Python-language-How-can-I-get-better-at-studying-Python)
 
+## Clarity: Are you a programmer, a coder, or a scripter? 
+(source: [Novi Sad Institute of Technology (NIT)](https://academy.nit-institute.com/coding-vs-scripting/))
+
+While all three terms are connected there are some differences. Code is the foundation, scripts depend on code, and programs depend on scripts written in code. In general, URSC 645 trains students to be scripters, with the tools to become coders, that may go on to become programmers. 
+
+### Coding
+- "Coding lets you create a program, while scripting lets you control a program that was created with coding."
+- "Coding is the building block of every computer, phone, tablet, TV, app, and other devices we use daily." 
+- "For coding, you don’t need any prior preparation."
+- A coder is one who codes to create a program
+
+### Scripting
+- "Scripting is the process of adding functionality to a certain program, or making a program 'do something'."
+- Scripting is used for automation
+     - For example, Python and Stata are programs that can be controlled using a script. 
+     - For Python the script is a plain text file with the extension _*.py*_.
+     - For Stata the script is a plain text file with the extension _*.do*_.
+- Python is a scripting language, Stata is a program that has its own scripting style
+- "Scripting takes the minimum time for development and it’s not complex at all, which makes it easily usable."
+- For scripting you need to be able to read, edit and run code.
+- A scripter is one who is able to able to read, edit and run code to "do something" with an existing program
+
+### Programing
+- "Programming is the process of creating the structure for the program’s code that follows some standards."
+- "A programmer needs to know how to debug and test your code, create and work with algorithms, manage projects and work with programming languages... For programming, you need a methodical approach."
+- "Programming takes a lot of time and it’s quite complex."
+- A programmer is a scripter and a coder that creates new code (set of simple instructions) for a program or software. 
+
 ## Good News!
 - You do not need to have formal training in computing
-- Programming is a basic human skill, just like reading, writing and arithmetic. (Bluks 2019)
+- Scripting/Coding/Programming is a basic human skill, just like reading, writing and arithmetic. (Bluks 2019)
 - Learning to program is like learning to write, or to be an artist. (Miller 2017)
 - Anyone can learn to program with time and effort. (Bluks 2019)
 
