@@ -12,4 +12,10 @@ Also to preserve the original data and metadata.
 
 **Projects/Work[]** = Work folders inside a project or task folder. Work folder names includes the initials of the person. For example, Nathanael's work folders are named WorkNPR (work folder for Nathanael P. Rosenheim). Work folders contain any files, documents, generated data... related to the specific project or task.
 
+**Posted** = Archived files needed for replicating work that has been shared - 
+        --- journal article
+        --- conference paper
+        --- poster
+        --- data archive
+        
 ***Note on directory names*** Directory names should not contain spaces. Use Camel Case and/or underscores "_" 
