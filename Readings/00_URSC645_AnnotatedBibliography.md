@@ -39,6 +39,13 @@ Researchers lack the skills for building a strong workflow to support urban and 
 
 ## How do reproducible workflow skills affect the quality and efficiency of science?
 
+The research question defines the sections to focus on in the literature review. Within each article review look for definitions and ways to measure the following terms:
+1. reproducible
+2. workflow 
+3. workflow skills
+4. quality of science
+5. efficiency of science
+
 ## Audience
 
 This annotated bibliography for academic researchers interested in reproducible research.
@@ -48,6 +55,20 @@ This annotated bibliography for academic researchers interested in reproducible 
 
 ## Munafo et al 2017
 Munafò, M. R., Nosek, B. A., Bishop, D. V., Button, K. S., Chambers, C. D., du Sert, N. P., Simonsohn, U., Wagenmakers, E., Ware, J.J., & Ioannidis, J. P. (2017). A manifesto for reproducible science. Nature Human Behaviour, 1, 0021. https://doi.org/10.1038/s41562-016-0021 
+
+### Definitions
+1. reproducible
+2. workflow 
+3. workflow skills
+4. quality of science
+5. efficiency of science
+
+### Ways to measure
+1. reproducible
+2. workflow 
+3. workflow skills
+4. quality of science
+5. efficiency of science
 
 Schulyer Carter - "Promoting transparency helps people be more open, oral history example"
 
