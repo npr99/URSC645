@@ -63,6 +63,12 @@ Also good to have an:
 - Bright window
 - Comfortable work chair
 
+Before and after workstation pictures:
+![image](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/URSC645_Workstation_2023-01-25.JPG)
+
+27" Dell Monitor, a desk, and an ergonomic chair, docking station, keyboard, webcam, and ergonomic mouse. Total investment around $1,100.
+
+"I have a lot of space to work comfortably now, and the chair helps me reduce my back pain." - Student Testimonial
 
 ---
 # Software Tips and Tricks
