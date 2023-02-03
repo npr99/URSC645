@@ -64,7 +64,7 @@ Also good to have an:
 - Comfortable work chair
 
 Before and after workstation pictures:
-![image](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/URSC645_Workstation_2023-01-25.JPG)
+![Before and After Comparison of Workstation](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/URSC645_Workstation_2023-01-25.JPG)
 
 27" Dell Monitor, a desk, and an ergonomic chair, docking station, keyboard, webcam, and ergonomic mouse. Total investment around $1,100.
 

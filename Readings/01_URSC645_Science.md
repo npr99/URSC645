@@ -15,6 +15,13 @@ Motivating quote from NYTimes Science section (Overbye, 2023):
 
 > ### If it is not testable, at least not yet, it is not science.
 
+Motivating example of engineering design process (science/engineering) from Mark Rober:
+
+https://www.youtube.com/watch?v=M0_U1FHwACk
+
+![Engineering Design Process 1. Research, 2. Build Prototype, 3. Sensitivity Analysis, 4. Final Build](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/Rober2019_RockSkipRobotYouTubeT2M26S.jpg)
+
+
 Reference:
 Overbye, Dennis (2023-01-25). *Where is Physics Headed (and How Soon Do We Get There)?*. The New York Times. Retrieved 2023-01-25: https://www.nytimes.com/2023/01/24/science/physics-cosmology-astronomy.html 
 
