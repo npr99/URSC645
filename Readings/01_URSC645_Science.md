@@ -15,11 +15,12 @@ Motivating quote from NYTimes Science section (Overbye, 2023):
 
 > ### If it is not testable, at least not yet, it is not science.
 
+## Engineering Design Process
 Motivating example of engineering design process (science/engineering) from Mark Rober:
 
 https://www.youtube.com/watch?v=M0_U1FHwACk
 
-![Engineering Design Process 1. Research, 2. Build Prototype, 3. Sensitivity Analysis, 4. Final Build](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/Rober2019_RockSkipRobotYouTubeT2M26S.jpg)
+![Engineering Design Process 1. Research, 2. Build Prototype, 3. Sensitivity Analysis, 4. Final Build](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/Rober2019_RockSkipRobotYouTubeT2M26S.png)
 
 
 Reference:
