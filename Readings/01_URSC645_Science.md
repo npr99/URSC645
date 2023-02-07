@@ -26,3 +26,17 @@ https://www.youtube.com/watch?v=M0_U1FHwACk
 Reference:
 Overbye, Dennis (2023-01-25). *Where is Physics Headed (and How Soon Do We Get There)?*. The New York Times. Retrieved 2023-01-25: https://www.nytimes.com/2023/01/24/science/physics-cosmology-astronomy.html 
 
+
+## Stop and Think - Think Hard
+
+Does the tool help you engage with the world, think about different future outcomes, and communicate your story?
+
+Before asking a scientific model (an oracle (Eidinow 2018)) - prepare diligently and phrase your research question carefully. Consider what answer will the model create and how will those answers lead to different possibilities? Often the answers provided by models (GPS, a medical diagnostic tool... (Harford 2019)) are taken without question, thought or engagement. Harford (2019) gives examples of how using GPS to navigate a route limits engagement and when asked to walk the same route without help those who used a paper map were more confident. Sometimes a model can be "too good", and therefore we don't stop and think about questions we ask or the answers we receive.
+
+Eidinow, Esther (2018)  “[Oracles and models: ancient and modern ways of telling the future](https://theconversation.com/oracles-and-models-ancient-and-modern-ways-of-telling-the-future-90124)” _The Conversation_.
+
+Harford, Tim (2019) [Cautionary Tales Ep 8 – You Have Reached Your Destination](https://timharford.com/2019/12/cautionary-tales-ep-8-you-have-reached-your-desination/)
+
+Wyatt J., Spiegelhalter D. (1991) Evaluating Medical Expert Systems: What To Test, And How ?. In: Talmon J.L., Fox J. (eds) Knowledge Based Systems in Medicine: Methods, Applications and Evaluation. Lecture Notes in Medical Informatics, vol 47. Springer, Berlin, Heidelberg
+
+Toru Ishikawa, Hiromichi Fujiwara, Osamu Imai, Atsuyuki Okabe, “Wayfinding with a GPS-based mobile navigation system: A comparison with maps and direct experience” Journal of Environmental Psychology, Volume 28, Issue 1, 2008, https://doi.org/10.1016/j.jenvp.2007.09.002.
