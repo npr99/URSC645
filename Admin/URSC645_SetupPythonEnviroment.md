@@ -33,8 +33,10 @@ conda config --add channels conda-forge
 5. Create the python environment (for this example we choose URSC645) and activate it
 
 ```
-conda create -n URSC645 python=3.7
+conda create -n URSC645 python=3.10
 ```
+
+> note: the python version should match the miniconda python version. The most recent version is 3.10. Using different versions of python can cause issues.
 
 6. In Anaconda Prompt - Activate the new environment and install required packages. Use the following command line prompts in sequence to activate and install the required packages.
 
@@ -68,3 +70,18 @@ python                    3.7.12          h7840368_100_cpython    conda-forge
 ---
 ### Known installation issues
 - OpenSSL error
+
+### How to uninstall Anaconda and Miniconda
+If you have issues with your Anaconda or Miniconda installation, you can uninstall it and reinstall it.
+
+Look for the uninstaller located in the folder:
+
+```
+C:\Users\<username>\AppData\Local\Anaconda3
+C:\Users\<username>\AppData\Local\miniconda3
+C:\Users\<username>\Anaconda3
+C:\Users\<username>\miniconda3
+```
+> note: the folder name will be different depending on the version of Anaconda or Miniconda you installed.
+ 
+> note: The AppData folder may be hidden. Type the path in the address bar of Windows Explorer to access the folder.
