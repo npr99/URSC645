@@ -47,6 +47,7 @@ conda install geopandas
 conda install jupyter
 conda install contextily
 conda install descartes
+conda install openpyxl
 ```
 Note: This process can take a long time and depends on a solid internet connection.
 
@@ -83,5 +84,5 @@ C:\Users\<username>\Anaconda3
 C:\Users\<username>\miniconda3
 ```
 > note: the folder name will be different depending on the version of Anaconda or Miniconda you installed.
- 
+
 > note: The AppData folder may be hidden. Type the path in the address bar of Windows Explorer to access the folder.
