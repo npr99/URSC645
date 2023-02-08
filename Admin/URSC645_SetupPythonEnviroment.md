@@ -86,3 +86,15 @@ C:\Users\<username>\miniconda3
 > note: the folder name will be different depending on the version of Anaconda or Miniconda you installed.
 
 > note: The AppData folder may be hidden. Type the path in the address bar of Windows Explorer to access the folder.
+
+### How to remove a conda environment
+Sometimes you might need to remove a conda environment. This can be done using the following command line prompt:
+
+```
+conda env remove -n <env_name>
+```
+For URSC 645, the command would be:
+
+```
+conda env remove -n URSC645
+```
