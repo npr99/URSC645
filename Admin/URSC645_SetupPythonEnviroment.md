@@ -3,23 +3,25 @@
 
 ### Windows 64-bit (should be similar for MacOS)
 
-1. Download the latest Anaconda3 installer from Anaconda page.
+1. Download the latest Miniconda3 installer conda page. Miniconda is a lighter version of Anaconda.
 
-- https://www.anaconda.com/distribution/
+- https://docs.conda.io/en/latest/miniconda.html
+- Most likely select the most recent [64-bit version](https://docs.conda.io/en/latest/miniconda.html) for your Operating System 
 
 2. Run the installer setup
 - Depending on the installation you might be asked to choose from different setups.
 
-- Run the installer setup locally; select Just Me choice to avoid the need for administrator privileges.
+- Run the installer setup locally; select **Just Me** choice to avoid the need for administrator privileges.
 
 - Leave the default folder path. For your information, the default path is
 
 ```
-C:\Users\<username>\..\anaconda3
+C:\Users\<username>\AppData\Local\miniconda3
 ```
 
-- Do not add Anaconda to the PATH. 
-- Do, however, register Anaconda as the default Python environment.
+- Do not add Miniconda3 to the PATH. 
+- Do, however, register Miniconda3 as the default Python environment.
+- Select `Clear the package cache upong completion`
 
 3. Open up an Anaconda prompt from the Windows Start menu. The `base` environment is being activated and the prompt changes to: `(base) C:\Users\<user>`
 
@@ -62,3 +64,7 @@ python                    3.7.12          h7840368_100_cpython    conda-forge
 - Try to replicate the code provided by this course, if it does not replicate the issue might be with the environment.
 
 8. In Visual Studio Code this new environment will be provided as an option for running your Jupyter Notebooks and Python Code.
+
+---
+### Known installation issues
+- OpenSSL error
