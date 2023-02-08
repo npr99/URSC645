@@ -1,7 +1,10 @@
-## Setup your First Python Enviroment
+# Setup your First Python Environment
 ---
 
-### Windows 64-bit (should be similar for MacOS)
+## Windows 64-bit (should be similar for MacOS)
+
+### Install Miniconda
+Since python is open source, you have to manage the environments yourself. **Miniconda** is a tool to help you do that. It is a free minimal installer for conda. It includes conda, Python, the packages they depend on.
 
 1. Download the latest Miniconda3 installer conda page. Miniconda is a lighter version of Anaconda.
 
@@ -23,14 +26,15 @@ C:\Users\<username>\AppData\Local\miniconda3
 - Do, however, register Miniconda3 as the default Python environment.
 - Select `Clear the package cache upong completion`
 
-3. Open up an Anaconda prompt from the Windows Start menu. The `base` environment is being activated and the prompt changes to: `(base) C:\Users\<user>`
+### Create the URSC 645 Python environment
+1. Open up an Anaconda prompt from the Windows Start menu. The `base` environment is being activated and the prompt changes to: `(base) C:\Users\<user>`
 
-4. Add conda-forge channel - [conda-forge is a good source for python packages, which works better than the default conda channel](https://conda-forge.org/docs/user/introduction.html#:~:text=Conda%2Dforge%20is%20a%20community,by%20our%20conda%2Dforge%20organization.)
+2. Add conda-forge channel - [conda-forge is a good source for python packages, which works better than the default conda channel](https://conda-forge.org/docs/user/introduction.html#:~:text=Conda%2Dforge%20is%20a%20community,by%20our%20conda%2Dforge%20organization.)
 ```
 conda config --add channels conda-forge
 ```
 
-5. Create the python environment (for this example we choose URSC645) and activate it
+3. Create the python environment (for this example we choose URSC645) and activate it
 
 ```
 conda create -n URSC645 python=3.10
@@ -38,7 +42,7 @@ conda create -n URSC645 python=3.10
 
 > note: the python version should match the miniconda python version. The most recent version is 3.10. Using different versions of python can cause issues.
 
-6. In Anaconda Prompt - Activate the new environment and install required packages. Use the following command line prompts in sequence to activate and install the required packages.
+4. In Anaconda Prompt - Activate the new environment and install required packages. Use the following command line prompts in sequence to activate and install the required packages. Copy and paste each command line and paste it into the Anaconda Prompt. Press enter to execute the command.
 
 ```
 conda activate URSC645
@@ -48,25 +52,32 @@ conda install jupyter
 conda install contextily
 conda install descartes
 conda install openpyxl
+conda install dask
 ```
 Note: This process can take a long time and depends on a solid internet connection.
 
-7. How to check your environment? Use the command `conda list` in Anaconda Prompt to see what packages and the versions are installed in an environment.
-- The steps above created an environment with 225 python packages (the 5 required and the packages that they require)
-- The primary packages that were installed on 2022-02-13 included the following versions, builds, and channels
+5. How to check your environment? Use the command `conda list` in Anaconda Prompt to see what packages and the versions are installed in an environment.
+- The steps above created an environment with 279 python packages (the 7 required and the packages that they require)
+- The primary packages that were installed on 2023-02-08 included the following versions, builds, and channels
 ```
-# Name                    Version                   Build  Channel
-contextily                1.2.0              pyhd8ed1ab_0    conda-forge
-descartes                 1.1.0                      py_4    conda-forge
-geopandas                 0.10.2             pyhd8ed1ab_1    conda-forge
-jupyter                   1.0.0            py37h03978a9_7    conda-forge
-pandas                    1.3.5            py37h6214cd6_0
-python                    3.7.12          h7840368_100_cpython    conda-forge
+# Name                    Version
+contextily                1.3.0
+descartes                 1.1.0
+geopandas                 0.12.2
+jupyter                   1.0.0
+openpyxl                  3.1.0
+pandas                    1.3.5
+python                    3.10.9
 ```
 - If your environment does not have these versions of the primary packages the code may or may not replicate. 
 - Try to replicate the code provided by this course, if it does not replicate the issue might be with the environment.
 
-8. In Visual Studio Code this new environment will be provided as an option for running your Jupyter Notebooks and Python Code.
+### Check that new environment is available in VS Code
+1. In Visual Studio Code this new environment will be provided as an option for running your Jupyter Notebooks and Python Code.
+2. Open a Jupyter Notebook in VS Code
+3. Try to run a cell in the notebook.
+4. VS Code should prompt you to select a Python environment. Select the URSC645 environment.
+5. Run the cell again. It should run without errors.
 
 ---
 ### Known installation issues
