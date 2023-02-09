@@ -102,8 +102,22 @@ https://www.markdownguide.org/getting-started/
 
 ## Turn on File Extensions
 ---
-
 ![image](https://user-images.githubusercontent.com/5131566/150422462-fc33e914-9720-41fe-9fa2-c39eaaa30a7c.png)
+
+Note: A filename can include several periods or decimal characters “.”. 
+However, it is good practice to not use periods or decimals in filenames. 
+A full filename includes the filename with a decimal followed by the file extension. Common file extensions include:
+```
+.txt = Plain text file
+.docx = Microsoft Word file
+.pptx = Microsoft Powerpoint file
+.csv = Comma separated value file
+.rtf = Rich Text File
+.do = Stata do file (batch file) [Plain text file]
+.py = Python code file [Plain text file]
+.ipynb = Jupyter Notebook file
+.dta = Stata Data file
+```
 
 ## Visual Studio Code Help
 ### Issue - Indention Settings
