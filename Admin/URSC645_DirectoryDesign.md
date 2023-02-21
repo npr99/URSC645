@@ -1,6 +1,6 @@
 ## Directory and Folder Name Structure
 
-**Admin**      = Administration Folder = Folder has files and guides to introduce project. 
+**Admin**      = Administration Folder = Folder has files and guides to introduce project. Folder may contain proposals, budgets, hiring documents, etc.
 
 **SourceData** = Folder contains data that many project members may want to use. 
 The goal is to not have multiple copies of the same files. 
@@ -19,4 +19,6 @@ Also to preserve the original data and metadata.
 - data archive
 - work shared internally for the team
         
+**Readings** = [_Optional_] Folder contains readings related to the project.
+
 ***Note on directory names*** Directory names should not contain spaces. Use Camel Case and/or underscores "_" to separate words.
