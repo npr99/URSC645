@@ -1,9 +1,9 @@
 # Welcome to the Readings Folder
-Readings	   
+## Readings	   
 - Collection for readings (mainly PDF files) that support the project
-- readings may be journal articles, reports, newpaper articles, or other documents
+- readings may be journal articles, reports, newspaper articles, or other documents
 			
-Readings\Archive   
+## Readings\Archive   
 - The archive folder contains files that can be archived
 - These files might include 
 	- prior versions of the ReadMeFirst files
@@ -11,7 +11,7 @@ Readings\Archive
 	- prior versions Readings (versions without comments or older editions of a publication)
 	- Readings that after review were decided to not support the project
 
-Readings\Subfolder 
+## Readings\Subfolder 
 - As the collection of readings grows it might be appropriate to create subfolders
 - The subfolders in the Readings folder help to group readings
 - Readings could be group by:
@@ -22,12 +22,15 @@ Readings\Subfolder
 3. Readings that apply an important methodology
 4. Readings that describe or use an important dataset
 
-[Annotated Bilbliography](https://github.com/npr99/URSC645/blob/main/Readings/00_URSC645_AnnotatedBibliography.md)
+## [Annotated Bilbliography](https://github.com/npr99/URSC645/blob/main/Readings/00_URSC645_AnnotatedBibliography.md)
 - A collection of summaries of the readings to help keep track of key topics
 - Unlike the individual readings files the Annotated Bibliography can be shared publicly
 
 
-File Name Structure
+## File Name Structure
+File names for readings should reflect the in text citation for the reading and why the reading is included in the project. The file name should be structured as follows:
+
+```
                            description
                             /
                 Author Year xxxxxxx
@@ -45,3 +48,8 @@ File Name Structure
                          1          padding space
             x           varies      description of paper, key point
             -----------------------------------------------------------
+```
+
+Examples:
+- Long 2009 Workflow for Reproducible Research.pdf
+- Freese 2007 Replication standards for quantitative social science.pdf
