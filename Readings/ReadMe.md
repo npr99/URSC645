@@ -50,6 +50,10 @@ File names for readings should reflect the in text citation for the reading and 
             -----------------------------------------------------------
 ```
 
-Examples:
-- Long 2009 Workflow for Reproducible Research.pdf
+### Examples:
 - Freese 2007 Replication standards for quantitative social science.pdf
+- Long 2009 Workflow for Reproducible Research.pdf
+- Lowndes et al 2017 Our path to better science in less time using open data science.pdf
+
+### Goal: 
+Have a readings folder that reflects story of the project. Reduces time in remembering the readings. Helps make citations easier.
