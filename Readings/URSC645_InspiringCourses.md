@@ -22,3 +22,10 @@ available at https://www.coursera.org/learn/reproducible-research
 - Reproducible research is the idea that data analyses, and more generally, scientific claims, are published with their data and software code so that others may verify the findings and build upon them.
 - Reproducibility allows for people to focus on the actual content of a data analysis, rather than on superficial details reported in a written summary.
 - Reproducibility makes an analysis more useful to others because the data and code that actually conducted the analysis are available.
+
+## Ernesto F. L. Amaral - Social Statistics Using Stata
+Provides lectures and code for introduction to using STATA do files
+
+http://www.ernestoamaral.com/stata2020a.html
+
+http://www.ernestoamaral.com/soci600-22fall.html
