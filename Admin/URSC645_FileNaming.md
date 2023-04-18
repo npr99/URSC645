@@ -12,6 +12,8 @@ the file type.
 This naming plan can be applied to all files including: survey instruments, data files, and programs such as Jupyter Notebooks.
 The following sections provide more details about the filename parts.
 
+![Comic: Never Look in Someone Else's Documents Folder](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/filename_xkcd.com_1459.png)
+
 ## Filename Part 1 – Highlight Provenance
 
 To highlight the project a filename that starts with a mnemonic, a short string of letters, will help future users of the file recognize its provenance or origin. 
@@ -67,6 +69,9 @@ Also, by including the date of the file, a future user of the file will be able 
 If the date does not provide enough information to identify the version a zero padded version number might be appropriate. 
 For example, adding v03 would allow for up-to 99 different versions of a file to be tracked.
 
+
+![Final.doc PhD Comics](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/phdcomics_version_control_motivation_comics.png)
+
 ## Filename Part 5 – File Type Extension
 
 After the filename, each file includes a file type extension (.xlsx, .csv, .pdf etc.). 
@@ -103,6 +108,8 @@ project management, and to help future users easily navigate files shared public
 
 Cadwell, Joel. (2016). A Data Science Solution to the Question "What is Data Science?". Retrieved from [https://www.r-bloggers.com/2016/01/a-data-science-solution-to-the-question-what-is-data-science/](https://www.r-bloggers.com/2016/01/a-data-science-solution-to-the-question-what-is-data-science/)
 
+Cham, Jorge. (2012). Final.doc https://phdcomics.com/comics/archive.php?comicid=1531
+
 Cornell University Research Data Management Service Group. (n.d.). _File Management._ Retrieved from [https://data.research.cornell.edu/content/file-management](https://data.research.cornell.edu/content/file-management)
 
 Hodge, A. (2015). _File Naming Best Practices_. Stanford Data Management Services. Retrieved from [https://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-naming](https://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-naming)
@@ -116,3 +123,5 @@ NIST Weights and Measures. (2016). _Electronic File Organization Tips_. Retrieve
 University of Illinois Research Data Service. (2017). _Organize Your Data_. Retrieved from [https://www.library.illinois.edu/rds/organize/](https://www.library.illinois.edu/rds/organize/)
 
 Wikipedia. (2019). ISO 8601. [https://en.wikipedia.org/wiki/ISO\_8601](https://en.wikipedia.org/wiki/ISO_8601)
+
+XKCD (n.d.) Documents. https://xkcd.com/1459/
