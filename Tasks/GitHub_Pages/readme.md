@@ -10,3 +10,6 @@ Useful links:
 
 * [More details from DesignModo](https://help.designmodo.com/article/startup-github-pages/)
 
+
+* [git - the simple guide](http://rogerdudler.github.io/git-guide/)
+

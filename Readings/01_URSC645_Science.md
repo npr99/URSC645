@@ -40,3 +40,15 @@ Harford, Tim (2019) [Cautionary Tales Ep 8 – You Have Reached Your Destination
 Wyatt J., Spiegelhalter D. (1991) Evaluating Medical Expert Systems: What To Test, And How ?. In: Talmon J.L., Fox J. (eds) Knowledge Based Systems in Medicine: Methods, Applications and Evaluation. Lecture Notes in Medical Informatics, vol 47. Springer, Berlin, Heidelberg
 
 Toru Ishikawa, Hiromichi Fujiwara, Osamu Imai, Atsuyuki Okabe, “Wayfinding with a GPS-based mobile navigation system: A comparison with maps and direct experience” Journal of Environmental Psychology, Volume 28, Issue 1, 2008, https://doi.org/10.1016/j.jenvp.2007.09.002.
+
+## Example of bias: Arbitrary decisions have unintended consequences
+
+Wind turbines are designed to go in a clockwise direction, simply because that’s how people designed them without necessarily thinking of going in an anti-clockwise direction. But it turns out that if the turbines could go in both directions they would be more efficient at night.
+
+The Economist (2020). Which way a wind turbine turns might not seem to matter. https://www.economist.com/science-and-technology/2020/05/14/which-way-a-wind-turbine-turns-might-not-seem-to-matter
+
+## “Grandma’s Ham”, A Story of Cultural Training
+
+Family cuts the ends of their hams because that is how their grandparents did it, it seems like a tradition. But they did not realize that their grandparents cut the ends off because the oven/pan was too small. An example of cultural bias.
+
+https://sixsigmadsi.com/grandmas-ham-a-story-of-cultural-training/
