@@ -14,6 +14,8 @@ The following sections provide more details about the filename parts.
 
 ![Comic: Never Look in Someone Else's Documents Folder](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/filename_xkcd.com_1459.png)
 
+Your goal is to have a filename plan that tells the story of your project. If you read the filenames in order do they communicate the path you have taken and the story of your workflow?
+
 ## Filename Part 1 – Highlight Provenance
 
 To highlight the project a filename that starts with a mnemonic, a short string of letters, will help future users of the file recognize its provenance or origin. 
