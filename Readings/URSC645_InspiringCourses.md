@@ -29,3 +29,6 @@ Provides lectures and code for introduction to using STATA do files
 http://www.ernestoamaral.com/stata2020a.html
 
 http://www.ernestoamaral.com/soci600-22fall.html
+
+## CS109A - Havard IACS
+https://harvard-iacs.github.io/2019-CS109A/pages/materials.html
