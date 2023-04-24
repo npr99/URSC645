@@ -52,3 +52,16 @@ The Economist (2020). Which way a wind turbine turns might not seem to matter. h
 Family cuts the ends of their hams because that is how their grandparents did it, it seems like a tradition. But they did not realize that their grandparents cut the ends off because the oven/pan was too small. An example of cultural bias.
 
 https://sixsigmadsi.com/grandmas-ham-a-story-of-cultural-training/
+
+## How convenience sample sparks the scientific process 
+Story about how loose moon rocks collected during the Apollo 11 mission have provided 50 years of research that has led to new questions and motivated more systematic sampling of the moon.
+
+"There's still a lot of good science to be done on the Apollo samples. This is the culmination of development of new, more sensitive instruments. We can look at smaller scales, and we're able to do more with less -- we can do some studies with a fraction of a gram. and with new scientists and new ideas, we can open up whole new avenues of research." Ryan Zeigler curator of the lunar collection and head of the Astromaterials Acquisition and Curation Office at NASA's Johnson Space Center.
+
+"The Apollo samples were collected from just six locations on the Moon, and provide insights into a limited set of lunar formations." Benningfield p. 9
+
+"We absolutely need to collect more samples from other areas to answer key questions about the origin and evolution of the Moon. The Apollo samples, though invaluable in their own right, were collected as 'float' rocks loose in the lunar regolith, without important geologic context for where they orginated. As our understanding of the Moon has evolved -- mostly as a result of analyses of these loose rocks -- our need for samples from more selective areas has grown." Debra Needham of NASA's Marshall Space Flight Center.
+
+New samples could tamp down interest in the Apollo collection -- but not for long. "People would go and study the new rocks. That would raise more questions, so they would come back to the Apollo sampels to check and cross check. So I think they're going to be a valuable collections forever, essentially. I'm not worried about going out of business any time soon." Ryan Zeigler curator of the lunar collection and head of the Astromaterials Acquisition and Curation Office at NASA's Johnson Space Center.
+
+Benningfield, Damond (July/August 2019) "The Gift that Keeps on Giving" Star Date Magazine.
