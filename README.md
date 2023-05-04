@@ -1,5 +1,5 @@
 # URSC645
-URSC 645 - Urban and Regional Analytics Course
+## URSC 645 - Urban and Regional Analytics Course
 
 Github: Project files related to Texas A&M University, Landscape Architecture and Urban Planning Course, Urban and Regional Science PhD, URSC 645 Urban and Regional Analytics.
 
