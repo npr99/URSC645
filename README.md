@@ -5,7 +5,7 @@ Github: Project files related to Texas A&M University, Landscape Architecture an
 
 Professor Nathanael Rosenheim
 
-Files include Google Colab notebooks and Stata Do files for sharing and reference.
+Files include Google Colab notebooks and Stata Do files for sharing and reference. Test Editing.
 
 ---
 # Course Syllabus
