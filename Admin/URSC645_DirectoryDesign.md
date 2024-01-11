@@ -18,7 +18,16 @@ Also to preserve the original data and metadata.
 - poster
 - data archive
 - work shared internally for the team
+In replication scripts DO NOT SAVE to or READ from the Posted folder. The Posted folder is for archiving only. You should only copy from your Work folder to paste into the Posted folder or copy files from the Posted folder to be pasted in your Work folder.
         
 **Readings** = [_Optional_] Folder contains readings related to the project.
 
 ***Note on directory names*** Directory names should not contain spaces. Use Camel Case and/or underscores "_" to separate words.
+
+**Archive** = [_Optional_] As a folder gets cluttered it is good to clean up with an archive folder. The folder can contain old versions of scripts or out-of-date files that are not needed for replication. Archive folders are a great way to clean up a Work Folder or the Posted Folder. It is good to keep old versions of files in case you need to go back to them.
+
+## USE RELATIVE PATHS 
+The directory design is intended to be used with relative paths.
+For more information on how to use relative paths see: https://www.kaggle.com/code/rtatman/reproducibility-tips-absolute-vs-relative-paths
+
+If you apply this directory design a file that is Posted from one Work Folder will run in another Work Folder. 
