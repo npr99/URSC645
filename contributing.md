@@ -25,12 +25,11 @@ Been here before? Already know what you're looking for in this guide? Jump to th
 - [Contributing through GitHub](#contributing-through-github)
 - [Writing in Markdown](#writing-in-markdown)
 - [Where to start: issues](#where-to-start-issues)
-  - [Issue labels](#issue-labels)
 - [Making a change with a pull request](#making-a-change-with-a-pull-request)
-  - [1. Comment on an existing issue or open a new issue referencing your addition](#1-comment-on-an-existing-issue-or-open-a-new-issue-referencing-your-addition)
-  - [2. Fork repository to your profile](#2-forkgithub-fork-repositoryURSC645-repo-to-your-profile)
+  - [1. Comment on an existing issue or open a new issue referencing your addition](#1-make-a-comment)
+  - [2. Fork repository to your profile](#2-fork-the-repo)
   - [3. Make the changes you've discussed](#3-make-the-changes-youve-discussed)
-  - [4. Submit a pull request](#4-submit-a-pull-requestgithub-pullrequest)
+  - [4. Submit a pull request](#4-submit-a-pull-request)
 
 ## Joining the community
 
@@ -51,7 +50,7 @@ Students enrolled in the course have access to the course's shared Google Drive 
 
 There are many ways to get in touch with _URSC 645_ team!
 
-- GitHub [issues](https://github.com/npr99/URSC645/issues) and [pull requests](https://github.com/npr99/URSC645/pulls)
+- GitHub [issues][URSC645-issues] and [pull requests](https://github.com/npr99/URSC645/pulls)
   - Join a discussion, collaborate on an ongoing task and exchange your thoughts with others.
   - Can't find your idea being discussed anywhere?
     [Open a new issue](https://github.com/npr99/URSC645/issues/new/choose)! (See our [Where to start: issues](#where-to-start-issues) section below.)
@@ -90,7 +89,7 @@ The current __URSC 645__ repository does not have a book version - but this is s
 
 ## Where to start: issues
 
-Before you open a new issue, please check if any of our [open issues](https://github.com/npr99/URSC645/issues) cover your idea already.
+Before you open a new issue, please check if any of our [open issues][URSC645-issues] cover your idea already.
 If you open a new issue, please follow our basic guidelines laid out in our [issue templates](https://github.com/npr99/URSC645/issues/new/choose).
 There are 2 [issues template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) to choose from.:
 1. General ([preview here](https://github.com/npr99/URSC645/issues/new?assignees=&template=General.md)):  Use this template for a general issue related to the book, community, process or ideas.
@@ -107,7 +106,9 @@ All project management, conversations and questions related to _URSC 645_ projec
 
 The following steps are a guide to help you contribute in a way that will be easy for everyone to review and accept with ease :sunglasses:.
 
-### 1. Comment on an [existing issue](https://github.com/alan-turing-institute/the-turing-way/issues) or open a new issue referencing your addition
+### 1. Make a Comment
+
+Add a comment on an [existing issue](https://github.com/npr99/URSC645/issues) or open a new issue referencing your addition
 
 This allows other members of _URSC 645_ team to confirm that you aren't overlapping with work that's currently underway and that everyone is on the same page with the goal of the work you're going to carry out.
 
@@ -116,7 +117,9 @@ This allows other members of _URSC 645_ team to confirm that you aren't overlapp
 Remember, if you open a new issue, please follow our basic guidelines laid out in our [issue template](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/ISSUE_TEMPLATE/ISSUE_TEMPLATE.md).
 The issue template will automatically be rendered in the comment section of the new issue page so all you need to do is edit the "_Lorem ipsum_" sections.
 
-### 2. [Fork][github-fork] [_URSC 645_ repository][ursc645-repo]
+### 2. Fork the Repo
+
+[Fork][github-fork] [_URSC 645_ repository][ursc645-repo]
 
 This is now your own unique copy of _URSC 645_.
 Changes here won't affect anyone else's work, so it's a safe space to explore edits to the code!
@@ -142,7 +145,9 @@ That is, please do not use the [rebase](https://help.github.com/en/articles/abou
 
 Are you new to Git and GitHub or just want a detailed guide on getting started with version control? Check out our [Version Control chapter](https://the-turing-way.netlify.com/version_control/version_control.html) in _The Turing Way_ Book!
 
-### 4. Submit a [pull request][github-pullrequest]
+### 4. Submit a pull request
+
+Submit a [pull request][github-pullrequest]
 
 We encourage you to open a pull request as early in your contributing process as possible.
 This allows everyone to see what is currently being worked on.
@@ -172,3 +177,22 @@ Do you see an [open pull request](https://github.com/npr99/URSC645/pulls) that y
 Simply make your edits on their files and open a pull request to their branch!
 
 GitHub has a [nice introduction][github-flow] to the pull request workflow, but please [get in touch](#get-in-touch) if you have any questions :balloon:.
+
+
+---
+
+_These Contributing Guidelines have been adapted from the [Contributing Guidelines](https://github.com/the-turing-way/the-turing-way/blob/main/CONTRIBUTING.md) of the [Turing Way](https://github.com/the-turing-way/the-turing-way/)! (License: CC-BY)_
+
+[URSC645-issues]: https://github.com/npr99/URSC645/issues
+[URSC645-repo]: https://github.com/npr99/URSC645
+[git]: https://git-scm.com
+[github]: https://github.com
+[github-branches]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository
+[github-fork]: https://help.github.com/articles/fork-a-repo
+[github-flow]: https://guides.github.com/introduction/flow
+[github-mergeconflicts]: https://help.github.com/articles/about-merge-conflicts
+[github-pullrequest]: https://help.github.com/articles/creating-a-pull-request
+[github-review]: https://help.github.com/articles/about-pull-request-reviews
+[github-syncfork]: https://help.github.com/articles/syncing-a-fork
+[markdown]: https://daringfireball.net/projects/markdown
+[jerry-maguire]: https://media.giphy.com/media/uRb2p09vY8lEs/giphy.gif
