@@ -182,6 +182,7 @@ GitHub has a [nice introduction][github-flow] to the pull request workflow, but 
 ---
 
 _These Contributing Guidelines have been adapted from the [Contributing Guidelines](https://github.com/the-turing-way/the-turing-way/blob/main/CONTRIBUTING.md) of the [Turing Way](https://github.com/the-turing-way/the-turing-way/)! (License: CC-BY)_
+
 [URSC645-issues]: https://github.com/npr99/URSC645/issues
 [URSC645-repo]: https://github.com/npr99/URSC645
 [git]: https://git-scm.com
