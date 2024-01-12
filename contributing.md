@@ -26,10 +26,10 @@ Been here before? Already know what you're looking for in this guide? Jump to th
 - [Writing in Markdown](#writing-in-markdown)
 - [Where to start: issues](#where-to-start-issues)
 - [Making a change with a pull request](#making-a-change-with-a-pull-request)
-  - [1. Comment on an existing issue or open a new issue referencing your addition](#1-comment)
-  - [2. Fork repository to your profile](#2-forkgithub-fork-repositoryURSC645-repo-to-your-profile)
+  - [1. Comment on an existing issue or open a new issue referencing your addition](#1-make-a-comment)
+  - [2. Fork repository to your profile](#2-fork-the-repo)
   - [3. Make the changes you've discussed](#3-make-the-changes-youve-discussed)
-  - [4. Submit a pull request](#4-submit-a-pull-requestgithub-pullrequest)
+  - [4. Submit a pull request](#4-submit-a-pull-request)
 
 ## Joining the community
 
@@ -106,7 +106,9 @@ All project management, conversations and questions related to _URSC 645_ projec
 
 The following steps are a guide to help you contribute in a way that will be easy for everyone to review and accept with ease :sunglasses:.
 
-### 1. Comment on an [existing issue](https://github.com/alan-turing-institute/the-turing-way/issues) or open a new issue referencing your addition
+### 1. Make a Comment
+
+Add a comment on an [existing issue](https://github.com/alan-turing-institute/the-turing-way/issues) or open a new issue referencing your addition
 
 This allows other members of _URSC 645_ team to confirm that you aren't overlapping with work that's currently underway and that everyone is on the same page with the goal of the work you're going to carry out.
 
@@ -115,7 +117,9 @@ This allows other members of _URSC 645_ team to confirm that you aren't overlapp
 Remember, if you open a new issue, please follow our basic guidelines laid out in our [issue template](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/ISSUE_TEMPLATE/ISSUE_TEMPLATE.md).
 The issue template will automatically be rendered in the comment section of the new issue page so all you need to do is edit the "_Lorem ipsum_" sections.
 
-### 2. [Fork][github-fork] [_URSC 645_ repository][ursc645-repo]
+### 2. Fork the Repo
+
+[Fork][github-fork] [_URSC 645_ repository][ursc645-repo]
 
 This is now your own unique copy of _URSC 645_.
 Changes here won't affect anyone else's work, so it's a safe space to explore edits to the code!
@@ -141,7 +145,9 @@ That is, please do not use the [rebase](https://help.github.com/en/articles/abou
 
 Are you new to Git and GitHub or just want a detailed guide on getting started with version control? Check out our [Version Control chapter](https://the-turing-way.netlify.com/version_control/version_control.html) in _The Turing Way_ Book!
 
-### 4. Submit a [pull request][github-pullrequest]
+### 4. Submit a pull request
+
+Submit a [pull request][github-pullrequest]
 
 We encourage you to open a pull request as early in your contributing process as possible.
 This allows everyone to see what is currently being worked on.
