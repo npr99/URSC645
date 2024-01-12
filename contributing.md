@@ -176,8 +176,9 @@ GitHub has a [nice introduction][github-flow] to the pull request workflow, but 
 
 ---
 
-_These Contributing Guidelines have been adapted from the [Contributing Guidelines](https://github.com/bids-standard/bids-starter-kit/blob/master/CONTRIBUTING.md) of the [BIDS Starter Kit](https://github.com/bids-standard/bids-starter-kit)! (License: CC-BY)_
+_These Contributing Guidelines have been adapted from the [Contributing Guidelines](https://github.com/the-turing-way/the-turing-way/blob/main/CONTRIBUTING.md) of the [Turing Way](https://github.com/the-turing-way/the-turing-way/)! (License: CC-BY)_
 
+[URSC645-repo]: https://github.com/npr99/URSC645
 [git]: https://git-scm.com
 [github]: https://github.com
 [github-branches]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository
