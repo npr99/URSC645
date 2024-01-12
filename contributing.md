@@ -172,3 +172,20 @@ Do you see an [open pull request](https://github.com/npr99/URSC645/pulls) that y
 Simply make your edits on their files and open a pull request to their branch!
 
 GitHub has a [nice introduction][github-flow] to the pull request workflow, but please [get in touch](#get-in-touch) if you have any questions :balloon:.
+
+
+---
+
+_These Contributing Guidelines have been adapted from the [Contributing Guidelines](https://github.com/bids-standard/bids-starter-kit/blob/master/CONTRIBUTING.md) of the [BIDS Starter Kit](https://github.com/bids-standard/bids-starter-kit)! (License: CC-BY)_
+
+[git]: https://git-scm.com
+[github]: https://github.com
+[github-branches]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository
+[github-fork]: https://help.github.com/articles/fork-a-repo
+[github-flow]: https://guides.github.com/introduction/flow
+[github-mergeconflicts]: https://help.github.com/articles/about-merge-conflicts
+[github-pullrequest]: https://help.github.com/articles/creating-a-pull-request
+[github-review]: https://help.github.com/articles/about-pull-request-reviews
+[github-syncfork]: https://help.github.com/articles/syncing-a-fork
+[markdown]: https://daringfireball.net/projects/markdown
+
