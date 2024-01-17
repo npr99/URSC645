@@ -22,10 +22,13 @@ Short video from Elsevier about data sharing. [Click here to watch the video](ht
 - [Code Ocean (with code)](https://codeocean.com/)
 - [ICPSR](https://www.icpsr.umich.edu/web/pages/)
 - [DesignSafe-CI](https://www.designsafe-ci.org/)
+- [CoreTrustSeal Certified Repositories](https://amt.coretrustseal.org/certificates)
 
 
 ## Survey Tool
 Click here to complete [this survey](https://docs.google.com/forms/d/e/1FAIpQLSfaVJm8qkIOho0Utli3NWjQmfaPIPumSMoRcG1GENonpKp69g/viewform?usp=sf_link) to document where you found reproducible research materials.
+
+[Survey Results](https://docs.google.com/spreadsheets/d/1DF7Pn5IOtXrqFiiuXfmEsmrNOLsFM3fDOITyWxdp9w4/edit?usp=sharing)
 
 ## Examples of Journal Policies for Data and Code Sharing
 [The Journal of Politics GUIDELINES FOR DATA REPLICATION](https://www.journals.uchicago.edu/journals/jop/data-replication)
