@@ -1,7 +1,5 @@
 # Relative Paths
 
-**Under Construction**
-
 ## Overview
 Relative paths are an essential part of a reproducible workflow.
 
