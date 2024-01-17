@@ -1,5 +1,5 @@
 # Introduction to Work Logs 
-Work on explaining why keeping a work log (lab notebook) is important
+A work log is an important tool for documenting your work. A work log is in the spirit of a laboratory notebook (Kenare, 1985), which is used by scientists and engineers to document their work in great detail. Writing in a work log helps the researcher to stop and think about what they are working on. Too often researchers can be caught up in the moment and forget to document their work. "Writing good notes requires discipline and practice. It is a skill that does not come easily to most people." (Kanare, 1985, p. 13)
 
 A work log provides a means for keeping track and documenting the work accomplished on a project. Think of the work log as a diary of your efforts. The work log is for the individual researcher and provides a way to communicate with colleagues. 
 
@@ -15,9 +15,7 @@ Google Docs is an excellent option for keeping a work log. Google Docs provide a
 
 ### Example Work Log:
 
-Keeping a laboratory notebook has a long tradition within engineering:
 
-http://web.mit.edu/me-ugoffice/communication/labnotebooks.pdf
 
 
 [Kanare, H. M. (1985). Writing the laboratory notebook. American Chemical Society, 1155 16th St., NW, Washington, DC](https://files.eric.ed.gov/fulltext/ED344734.pdf)

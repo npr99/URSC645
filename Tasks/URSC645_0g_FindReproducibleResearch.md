@@ -22,6 +22,7 @@ Short video from Elsevier about data sharing. [Click here to watch the video](ht
 - [Code Ocean (with code)](https://codeocean.com/)
 - [ICPSR](https://www.icpsr.umich.edu/web/pages/)
 - [DesignSafe-CI](https://www.designsafe-ci.org/)
+- [CoreTrustSeal Certified Repositories](https://amt.coretrustseal.org/certificates)
 
 
 ## Survey Tool
