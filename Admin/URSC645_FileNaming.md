@@ -1,5 +1,10 @@
 # General Filename Plan for Reproducible Workflow
 
+Filename plan goals: Avoid a data dumpster. Let the filenames tell the story of your project. If read in order, filenames will communicate the path. Good filenames:
+- Reinforce all steps in a reproducible workflow. 
+- Reinforce provenance for all input and output files. 
+- Prepare workflow for publication. 
+
 This filename plan provides basic guidelines to help with reproducible research. 
 An ideal filename provides information about the author, the contents, and when the file was made. 
 Consistent filenames make finding files easy. 
@@ -13,8 +18,6 @@ This naming plan can be applied to all files including: survey instruments, data
 The following sections provide more details about the filename parts.
 
 ![Comic: Never Look in Someone Else's Documents Folder](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/filename_xkcd.com_1459.png)
-
-Your goal is to have a filename plan that tells the story of your project. If you read the filenames in order do they communicate the path you have taken and the story of your workflow?
 
 ## Filename Part 1 – Highlight Provenance
 
