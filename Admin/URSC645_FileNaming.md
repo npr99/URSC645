@@ -109,7 +109,7 @@ A good naming plan needs to be easy to understand and should be consistent.
 The filename plan presented is designed to reinforce the project goals, 
 project management, and to help future users easily navigate files shared publicly.
 
-![The Mona_Lisa_finalrealupdateFINALL6](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/NathanPyle_MonaLisaFileName.png)
+![The Mona_Lisa_finalrealupdateFINALL6](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/NathanPyle_MonaLisaFileName.jpg)
 
 # References
 
