@@ -109,6 +109,8 @@ A good naming plan needs to be easy to understand and should be consistent.
 The filename plan presented is designed to reinforce the project goals, 
 project management, and to help future users easily navigate files shared publicly.
 
+![The Mona_Lisa_finalrealupdateFINALL6](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/NathanPyle_MonaLisaFileName.png)
+
 # References
 
 Cadwell, Joel. (2016). A Data Science Solution to the Question "What is Data Science?". Retrieved from [https://www.r-bloggers.com/2016/01/a-data-science-solution-to-the-question-what-is-data-science/](https://www.r-bloggers.com/2016/01/a-data-science-solution-to-the-question-what-is-data-science/)
