@@ -2,6 +2,7 @@
 
 Summary of readings that discuss and define science.
 
+Research is a "systematic investigation or inquiry aimed at contributing to knowledge of a theory, topic, etc., by careful consideration, observation, or study of a subject." ([OED Online](https://www-oed-com.srv-proxy2.library.tamu.edu/view/Entry/163432?rskey=sD70JD&amp;result=1), 2020). 
 
 ## Motivating quotes:
 
