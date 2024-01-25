@@ -15,9 +15,16 @@ Google Docs is an excellent option for keeping a work log. Google Docs provide a
 
 ### Example Work Log:
 
+## Work Log for Nathanael Rosenheim - URSC 645 Tasks
+
+### Jan 25, 2024 - creating example work log
+On the course GitHub page I have added an example of a work log entry. Work log entries provide a short summary of what has been completed. In general each entry is under a specific date. If a lot of work is done in one day it can be helpful to have multiple entries for that day. A work log can include snippets of code, screen shots, and links to other documents.
+
+### Jan 24, 2024 - How to organize by date
+Work logs can be kept in Google Docs (preferable), a Word Document, or a text file. The work log will grow over time with new entries starting at the top of the file. Work logs should be created for different projects. For example, I have a work log for each class I teach. I also have a work log for each research project I am working on.
 
 
-
+### Works Cited:
 [Kanare, H. M. (1985). Writing the laboratory notebook. American Chemical Society, 1155 16th St., NW, Washington, DC](https://files.eric.ed.gov/fulltext/ED344734.pdf)
 
 Mentioned by Scott Long 2009 in section about documentation.
