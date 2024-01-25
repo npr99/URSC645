@@ -2,7 +2,7 @@
 - [Contribute to the course Google Doc](https://docs.google.com/document/d/1elFspZUIEzc66LLatNqcZBW3WM7vJ7qKHhX6Z0YcEVo/edit?usp=sharing)
 - Use Google Doc to Markdown Extension to update this page
 
-# Annotated Bibliography [[TAMU Writing Center Guidance](https://writingcenter.tamu.edu/Students/Writing-Speaking-Guides/Alphabetical-List-of-Guides/Academic-Writing/Annotated-Bibliographies)]
+# Annotated Bibliography
 
 ## Introduction
 
@@ -15,27 +15,17 @@ This annotated bibliography highlights the following ideas and concepts as discu
 4. Appropriate software for replicable research
 5. Discussions of bias (what is better science?)
 
-## The Problem (see [Foss and Waters 2015 ch. 4 p. 36-38](https://drive.google.com/file/d/1SrfFZUZOqp3DL1yzezuqOmL--htJcLOH/view?usp=sharing))
+## The Problem
 
-_Principal Proposition [a statement that is known to be true]_:
-
-- Research is a "systematic investigation or inquiry aimed at contributing to knowledge of a theory, topic, etc., by careful consideration, observation, or study of a subject." ([OED Online](https://www-oed-com.srv-proxy2.library.tamu.edu/view/Entry/163432?rskey=sD70JD&amp;result=1), 2020)
-- Research is a fundamental part of science. Research involves a significant investment of time, application of methods, and decisions.
-- "Science demands reproducibility" (Long 2009, p. 2)
-
-_Interacting proposition [Cast doubt on principal proposition - insert contradictory information]_:
-
-- Most research is not reproducible because many of the research methods are not clearly documented, tools (software) is not always available, the contextual natural laboratory external factors not controllable…. (something like this comeback to this point)...
-- Individualistic nature of research - Judanne Lennox "I struggled to get these results, you need to struggle too…" 
-- Research needs to be new and novel - so why would you want to replicate something already done...
-
-_Speculative proposition [put principal and interacting propositions side by side and name the gap of knowledge that exists]:_
-
-Researchers lack the skills for building a strong workflow to support urban and regional analytic research that is systematic, generalizable, and replicable. Researchers that invest time to develop skills for reproducible research will be able to accomplish better science in less time.
+Research is a fundamental part of science that involves a significant investment of time, systematic application of methods, and careful consideration. 
+"Science demands reproducibility" (Long 2009, p. 2) therefore reproducible research is a fundamental part of science. 
+However, most research is not reproducible because many of the research methods are not clearly documented and tools or software are not always available.
+Additionally, within the social sciences there is a general sense while research should be reproducible, the requirements are left to individual researchers.
+To overcome the gap between the demand for reproducible research and the lack the skills to build reproducibility into projects, researchers need to invest time to develop data science skills. Data science skill can help build a strong workflow to support urban and regional analytic research that is systematic, generalizable, and replicable. Researchers that invest time to develop skills for reproducible research will be able to accomplish better science in less time.
 
 ## Research Question:
 
-## How do reproducible workflow skills affect the quality and efficiency of science?
+_How do reproducible workflow skills affect the quality and efficiency of science?_
 
 The research question defines the sections to focus on in the literature review. Within each article review look for definitions and ways to measure the following terms:
 1. reproducible
@@ -54,31 +44,7 @@ This annotated bibliography for academic researchers interested in reproducible 
 ## Munafo et al 2017
 Munafò, M. R., Nosek, B. A., Bishop, D. V., Button, K. S., Chambers, C. D., du Sert, N. P., Simonsohn, U., Wagenmakers, E., Ware, J.J., & Ioannidis, J. P. (2017). A manifesto for reproducible science. Nature Human Behaviour, 1, 0021. https://doi.org/10.1038/s41562-016-0021 
 
-### Definitions
-1. reproducible
-2. workflow 
-3. workflow skills
-4. quality of science
-5. efficiency of science
 
-### Ways to measure
-1. reproducible
-2. workflow 
-3. workflow skills
-4. quality of science
-5. efficiency of science
-
-Schulyer Carter - "Promoting transparency helps people be more open, oral history example"
-
-"In a high-dimensional dataset, there may be hundreds or thousands of reasonable approaches to analysing the same data...If several thousand potential analytical pipelines can be applied to high-dimensional data, the generation of false-positive findings is highly likely." (demonstrates the importance and possible difficulty of being able to reproduce a finding using the exact original method) - MCS
-
-Pre-registration may involve conflict of interest as well, especially when the researcher needs money to do their research. For example, big pharmaceutical companies pay for the clinical trials and keep the researchers from publishing non-favorable results even if pre-registration is in place.
-
-Outcome bias is quite common. Researchers tend to rewrite their hypotheses after analysis. (Is changing measures/variables of a concept an example of outcome bias too?)
-
-Current academic incentive system works opposite way from encouraging people to share research data.
-
-A panelist during a disaster conference in 2018: "If you don't want to share your data, you are an evil person." However, the question is, the system is evil and we have to play that evil game.
 
 ## Freese 2007
 
