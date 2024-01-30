@@ -44,6 +44,20 @@ This annotated bibliography for academic researchers interested in reproducible 
 ## Munafo et al 2017
 Munafò, M. R., Nosek, B. A., Bishop, D. V., Button, K. S., Chambers, C. D., du Sert, N. P., Simonsohn, U., Wagenmakers, E., Ware, J.J., & Ioannidis, J. P. (2017). A manifesto for reproducible science. Nature Human Behaviour, 1, 0021. https://doi.org/10.1038/s41562-016-0021 
 
+In their article, Munafò et al. (2017) provide a strong argument for why reproducible science is important. The authors describe the potential for various forms of bias to lead to self-deception. Broadly, the areas to address are with individual scientists, the availability of large datasets and potential for rapid data analysis, and systems that do not incentivize transparent research. The authors argue that currently reproducibility and transparency are not the norms in social science, but that the benefits will lead to an eventual shift in the culture.
+
+Practices such as blinding, pre-regristration, and continuing education in modular form are provided as ways to reduce bias, improve transparency and reproducibility. There are numerous resources that could help encourage transparency and reproducibility. 
+
+*   Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) [http://www.prisma-statement.org/](http://www.prisma-statement.org/) 
+*   Transparency and Openness Promotion Guidelines (TOPS) [https://www.cos.io/initiatives/top-guidelines](https://www.cos.io/initiatives/top-guidelines)
+
+**Definitions:**
+
+“A hallmark of _**scientific**_ creativity is the ability to see novel and unexpected patterns in data.” (Munafò et al., 2017, p. 1)
+
+“Open _**science**_ refers to the process of making the content and process of producing evidence and claims transparent and accessible to others.” page 5
+
+“_**Reproducibility**_… verification of research (including, for example, sharing data and methods).” p. 5
 
 
 ## Freese 2007
