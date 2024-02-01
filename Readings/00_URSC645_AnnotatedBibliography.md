@@ -344,6 +344,7 @@ Management Rules
 (B) E-mail is not a task management system.
 
 Long 2009
+Jason Campos is working on this section
 
 Goodman et al 2016
 Goodman, S. N., Fanelli, D., & Ioannidis, J. P. (2016). What does research reproducibility mean?. Science translational medicine, 8(341), 341ps12-341ps12.
