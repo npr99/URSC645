@@ -133,51 +133,121 @@ Free software tools and platforms, like Github, can help collaborative research,
 
 Gentzkow and Shapiro 2014
 
-- Automation Rules
+**Chapter 4 - Directories**
 
-(A) Automate everything that can be automated.
+**Key Words:**
 
-(B) Write a single script that executes all code from beginning to end.
+*   Rundirectory.bat: single script that executes a directory from start to finish
+*   /temp
+*   /output
 
-- Version Control Rules
+**Rules:**
 
-(A) Store code and data under version control.
+1.  Separate directories by function.
+2.  Separate files into inputs and outputs.
+3.  Make directories portable.
 
-(B) Run the whole directory before checking it back in.
+**Summary:**  
+Separating directories by purpose makes it easier to intentionally modify the encapsulated analysis without having to rerun all the unrelated scripts, and it makes it possible to use local references. To get around this set-up breaking on a different machine where the local links are not valid, one can link to fixed revisions of the dataset on shared network storage, which the user can then decide to update once the user is satisfied with the new revision.
 
-- Directories Rules
+---
 
-(A) Separate directories by function.
+**Chapter 5 - Keys**
 
-(B) Separate files into inputs and outputs.
+**Key Words:**
 
-(C) Make directories portable.
+*   Relational database: a database format whose physical structure communicates the logic behind it to be self-documenting
+*   Table: rectangular arrays in which data are stored
+*   Element: The row of a table
+*   Variable: the column of a table, which is an attribute of the table’s elements
+*   Key: a variable or set of variables that uniquely identifies the elements of a table. The variables that form the key never take on missing values, and a key’s value is never duplicated across rows of the table
+*   Foreign key: the key for another table in the database
+*   Normalized: a form of data that is easier to understand because the data are organized to be similar across all records
 
-- Keys Rules
+**Rules:**
 
-(A) Store cleaned data in tables with unique, non-missing keys.
+1.  Store cleaned data in tables with unique, non-missing keys.
+2.  Keep data normalized as far into your code pipeline as you can.
 
-(B) Keep data normalized as far into your code pipeline as you can.
+**Summary:**  
+Managing complex datasets is possible, and it begins with ensuring that “the physical structure of a database \[communicates\] its logical structure” (19). The authors illustrate this by creating a toy relational database of the effect of television on potato chip consumption in New York and Virginia, in which the authors normalize the data. To perform an analysis on a relational database, the tables of the database must be merged (joined) into a single array, at which point the data will likely no longer be normalized. The authors describe this process using their toy relational database.
 
-- Abstraction Rules
+---
 
-(A) Abstract to eliminate redundancy.
+**Chapter 6 - Abstraction**
 
-(B) Abstract to improve clarity.
+**Key Words:**
 
-(C) Otherwise, don't abstract.
+*   Abstraction: turning the specific instances of something into a general-purpose tool
 
-- Documentation Rules
+**Rules:**
 
-(A) Don't write documentation you will not maintain.
+1.  Abstract to eliminate redundancy.
+2.  Abstract to improve clarity.
+3.  Otherwise, don’t abstract.
 
-(B) Code should be self-documenting.
+**Summary:**  
+Copying and pasting code can propagate errors. A less error-prone alternative is abstraction, developing general-purpose code (e.g., functions, classes, scripts, etc.) that can cleanly be applied to the specific situation of interest as well as to future projects. Abstraction eliminates redundancy and makes code more readable. However, be sure to double-check that the abstraction works as intended and to not abstract without a purpose.
 
-- Management Rules
+---
 
-(A) Manage tasks with a task management system.
+**Chapter 7 - Documentation**
 
-(B) E-mail is not a task management system.
+**Key Words:**
+
+*   Commenting code
+*   Documentation
+
+**Rules:**
+
+1.  Don’t write documentation you will not maintain.
+2.  Code should be self-documenting.
+
+**Summary:**  
+Over-commenting code is an issue if the code is later changed but the comment is not updated; in this scenario, the comment no longer accurately reflects the code. The authors state, “If it’s not worth maintaining a piece of documentation up to \[standard\], it probably isn’t worth writing it in the first place (rule \[1\])” (27). Thus to make code clear without extensive comments that ultimately may have a limited shelf-life, the authors suggest making code self-documenting (rule 2) by guiding the reader through the code’s operations using the variable names and code’s structure. This self-documentation is applicable to more than just code (e.g., purpose of relational databases, filenames, directory names, figures, etc.). Also, while documenting can help prevent unintended behavior (e.g., through a warning), it is often more effective to write preventative code (that doesn’t allow the unintended behavior) than a preventative message (which relies on the user reading and respecting the comments).
+
+---
+
+**Chapter 8 - Management**
+
+**Key Words:**
+
+*   Task management system
+*   Collaborative note-taking environment
+
+**Rules:**
+
+1.  Manage tasks with a task management system.
+2.  E-mail is not a task management system.
+
+**Summary:**  
+Task management issues are simpler to untangle when one is working alone, but these issues propagate with bigger teams. Using a task management system for collaboration can reduce ambiguity about tasks, goals, and assignments. These systems also store task-specific records of “who did what and why” (33). The authors recommend Asana (www.asana.com), Wrike (www.wrike.com), and Flow (www.getflow.com) as good free options, although the authors use a paid program called JIRA. The authors also recommend using a collaborative note-taking environment to develop and share project notes such as Evernote (www.evernote.com - free) or OneNote (included in Microsoft Office).
+
+---
+
+**Appendix - Code Style**
+
+**Key Words:**
+
+*   Slow code: code that one plans to rarely change
+
+**Principles of writing good code:**
+
+1.  Keep it short and purposeful.
+2.  Make your functions shy.
+    1.  Functions should explicitly declare inputs and outputs and only operate on local variables.
+3.  Order your functions for linear reading.
+4.  Use descriptive names.
+5.  Pay special attention to coding algebra.
+    1.  Make sure that key calculations are clearly set off from the rest of the code.
+    2.  Break complicated algebraic calculations into pieces.
+6.  Make logical switches intuitive.
+7.  Be consistent.
+8.  Check for errors.
+9.  Write tests for just about every piece of code to make sure that the code does everything it is expected to do.
+10.  Profile slow code relentlessly.
+11.  Store “too much” output from slow code.
+12.  Separate slow code from fast code.
 
 Long 2009
 
