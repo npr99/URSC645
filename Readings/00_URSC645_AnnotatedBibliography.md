@@ -59,7 +59,6 @@ Practices such as blinding, pre-regristration, and continuing education in modul
 
 “_**Reproducibility**_… verification of research (including, for example, sharing data and methods).” p. 5
 
-
 ## Freese 2007
 
 Freese, J. (2007). Replication standards for quantitative social science: Why not sociology?. _Sociological Methods &amp; Research_, _36_(2), 153-172.
@@ -135,9 +134,79 @@ Lowndes walks us through a number of methods and tools that her and collaborativ
 
 Free software tools and platforms, like Github, can help collaborative research, improving workflow, and replicability, because it breaks the barriers between researchers.
 
-Gentzkow and Shapiro 2014
+## Gentzkow and Shapiro 2014
 
-**Chapter 4 - Directories**
+Gentzko, M., & Shapiro, J.N. (2014). Code and Data for the Social Sciences: A Practitioner’s Guide. https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf
+
+### Chapter 1 - Introduction  
+**Audience**: empirical social scientists
+
+**Purpose of book**: To share "insight from experts in code & data into practical terms." The whole book focused on workflow skills.
+
+**Key Definitions**:  
+Empirical social science: "Asking good questions. Digging up novel data. Designing statistical analysis. Writing up results. many of us, most of the time, what it means is writing & debugging code…” .pg 3  
+reproducible - no definition  
+workflow - no definition  
+quality of science - no definition  
+efficiency of science - no definition
+
+**Tip**:  
+If a major firm is working on a problem, there's probably a class on it at your university. Check it out.
+
+**Summary**:  
+Authors provide an observation that many social scientists do have some programming basics, but overall they lack a formal computer science training. This lack of formal training approach that social scientists use has limitations as "projects grow bigger, the problems grew nastier, and our piecemeal efforts at improving matters... proved ever more ineffective" (pg 4). Important limitations or challenges from this approach include: replication, unexpected data changes, inefficiency in the researcher code, or clarity.
+
+### Chapter 2 - Automation
+**Software**: Predominantly Stata
+
+**Key Definitions**:  
+Reproducible - no definition  
+workflow - no definition  
+quality of science - no definition  
+efficiency of science - no definition
+
+**Rules**:
+
+1.  Automate everything that can be automated
+2.  Write a single script that executes all code from beginning to end (authors provide Stata code recommendations for this on page 8 & 9.)
+
+**Summary**:  
+The Interactive mode of research - save as you go without thinking long term - is bad for 2 reasons:  
+Replicability: With the interactive mode there is "no record of the precise steps taken" or "definition of what anything means”.  
+Efficiency: In the interactive mode there are no “scripting key steps” nor a project directory therefore future analyses changes are more challenging to make.
+
+The authors recommend automating as much as possible.
+
+Introduces the reader to the potato chip and TV method that runs the length of the book.
+
+### Chapter 3 - Version Control  
+**Recommended Resources**:
+
+*   Version Control Resources
+*   Sub Version
+*   Tortviso SNV for Windows
+*   Git or Bit Buckets
+
+**Key Definitions**:  
+Reproducible - no definition  
+workflow - no definition  
+quality of science - no definition  
+efficiency of science - no definition
+
+**Rules**:
+
+1.  Store code and data under version control
+2.  Run the whole directory before checking it back in
+
+**Summary**:  
+Using dates to indicate a file version - while a good attempt - is wrong, because 1) it is hard to know "when to ‘spawn’ a new version and when to edit the old one." (12 pg) and 2) it generates  
+confusion because the naming of the file is also not clear.
+
+The authors recommend using a version control method. On your PC, you create a repository or remote server. When you want to modify a directory, you check it out, make your edits & changes. Then you run the entire directory to make sure it works. Make corrections if needed. Once it's complete, you check the directory back in.
+
+Version control also comes with an undo function, so it is easy to access older versions.
+
+### Chapter 4 - Directories
 
 **Key Words:**
 
@@ -156,7 +225,7 @@ Separating directories by purpose makes it easier to intentionally modify the en
 
 ---
 
-**Chapter 5 - Keys**
+### Chapter 5 - Keys
 
 **Key Words:**
 
@@ -178,7 +247,7 @@ Managing complex datasets is possible, and it begins with ensuring that “the p
 
 ---
 
-**Chapter 6 - Abstraction**
+### Chapter 6 - Abstraction
 
 **Key Words:**
 
@@ -195,7 +264,7 @@ Copying and pasting code can propagate errors. A less error-prone alternative is
 
 ---
 
-**Chapter 7 - Documentation**
+### Chapter 7 - Documentation
 
 **Key Words:**
 
@@ -210,9 +279,8 @@ Copying and pasting code can propagate errors. A less error-prone alternative is
 **Summary:**  
 Over-commenting code is an issue if the code is later changed but the comment is not updated; in this scenario, the comment no longer accurately reflects the code. The authors state, “If it’s not worth maintaining a piece of documentation up to \[standard\], it probably isn’t worth writing it in the first place (rule \[1\])” (27). Thus to make code clear without extensive comments that ultimately may have a limited shelf-life, the authors suggest making code self-documenting (rule 2) by guiding the reader through the code’s operations using the variable names and code’s structure. This self-documentation is applicable to more than just code (e.g., purpose of relational databases, filenames, directory names, figures, etc.). Also, while documenting can help prevent unintended behavior (e.g., through a warning), it is often more effective to write preventative code (that doesn’t allow the unintended behavior) than a preventative message (which relies on the user reading and respecting the comments).
 
----
 
-**Chapter 8 - Management**
+### Chapter 8 - Management
 
 **Key Words:**
 
@@ -229,7 +297,7 @@ Task management issues are simpler to untangle when one is working alone, but th
 
 ---
 
-**Appendix - Code Style**
+### Appendix - Code Style
 
 **Key Words:**
 
@@ -253,8 +321,6 @@ Task management issues are simpler to untangle when one is working alone, but th
 11.  Store “too much” output from slow code.
 12.  Separate slow code from fast code.
 
-Long 2009
-
 ## Goodman et al 2016
 
 Goodman, S. N., Fanelli, D., &amp; Ioannidis, J. P. (2016). What does research reproducibility mean?. _Science translational medicine_, _8_(341), 341ps12-341ps12.
@@ -268,158 +334,10 @@ Goodman, S. N., Fanelli, D., &amp; Ioannidis, J. P. (2016). What does research r
 ### Argument
 
 The researchers need to move toward a better understanding of the relationship between reproducibility, cumulative evidence, and the truth of scientific claims.
-Rendered
-Annotated Bibliography [TAMU Writing Center Guidance]
-Introduction
-This annotated bibliography highlights the following ideas and concepts as discussed in the literature:
-
-Definitions of terms such as reproducible, replicable, workflow, science
-Challenges associated with reproducible research
-Social norms vs individual goals - tradeoffs
-Computer coding, scripting, and programming concepts
-Appropriate software for replicable research
-Discussions of bias (what is better science?)
-The Problem (see Foss and Waters 2015 ch. 4 p. 36-38)
-Principal Proposition [a statement that is known to be true]:
-
-Research is a "systematic investigation or inquiry aimed at contributing to knowledge of a theory, topic, etc., by careful consideration, observation, or study of a subject." (OED Online, 2020)
-
-"research, n.1". OED Online. December 2020. Oxford University Press. https://www-oed-com.srv-proxy2.library.tamu.edu/view/Entry/163432?rskey=sD70JD&result=1 (accessed January 29, 2021).
-
-Research is a fundamental part of science. Research involves a significant investment of time, application of methods, and decisions.
-
-"Science demands reproducibility" (Long 2009, p. 2)
-
-Interacting proposition [Cast doubt on principal proposition - insert contradictory information]:
-
-Most research is not reproducible because many of the research methods are not clearly documented, tools (software) is not always available, the contextual natural laboratory external factors not controllable…. (something like this comeback to this point)...
-
-Individualistic nature of research - Judanne Lennox "I struggled to get these results, you need to struggle too…" - Research needs to be new and novel - so why would you want to replicate something already done...
-
-Speculative proposition [put principal and interacting propositions side by side and name the gap of knowledge that exists]:
-
-Researchers lack the skills for building a strong workflow to support urban and regional analytic research that is systematic, generalizable, and replicable. Researchers that invest time to develop skills for reproducible research will be able to accomplish better science in less time.
-
-Research Question:
-How do reproducible workflow skills affect the quality and efficiency of science?
-Audience
-This annotated bibliography for academic researchers interested in reproducible research.
-
-Munafo et al 2017
-Schulyer Carter - "Promoting transparency helps people be more open, oral history example"
-
-"In a high-dimensional dataset, there may be hundreds or thousands of reasonable approaches to analysing the same data...If several thousand potential analytical pipelines can be applied to high-dimensional data, the generation of false-positive findings is highly likely." (demonstrates the importance and possible difficulty of being able to reproduce a finding using the exact original method) - MCS
-
-Pre-registration may involve conflict of interest as well, especially when the researcher needs money to do their research. For example, big pharmaceutical companies pay for the clinical trials and keep the researchers from publishing non-favorable results even if pre-registration is in place.
-
-Outcome bias is quite common. Researchers tend to rewrite their hypotheses after analysis. (Is changing measures/variables of a concept an example of outcome bias too?)
-
-Current academic incentive system works opposite way from encouraging people to share research data.
-
-A panelist during a disaster conference in 2018: "If you don't want to share your data, you are an evil person." However, the question is, the system is evil and we have to play that evil game.
-
-Freese 2007
-Freese, J. (2007). Replication standards for quantitative social science: Why not sociology?. Sociological Methods & Research, 36(2), 153-172.
-
-Freese defines replicate as " the simple verification or duplication of results using the same data and analytic procedures as the original researcher." (p. 154) Freese points out within Sociology there is an implicit individualistic policy that all published research should be replicable. Freese argues that the responsibility to do replicate research should be based on a social contract.
-
-Individual policy	Social policy
-If asked a researcher should be able to provide the files to replicate published results	Files to replicate published results are submitted at time of publication.
-emphasis on trust over transparency, faith in the author, reinforcement of status, ethically obscure, expires with the individual	Reduce egalitarianism. Distributes power and access. Openness. Highlights exemplary work.
-More recent examples:
-
-American Sociological Review (https://us.sagepub.com/en-us/nam/journal/american-sociological-review#submission-guidelines)
-
-ASA's stated policy on data-sharing: "Sociologists make their data available after completion of the project or its major publications, except where proprietary agreements with employers, contractors, or clients preclude such accessibility or when it is impossible to share data and protect the confidentiality of the data or the anonymity of research participants (e.g., raw field notes or detailed information from ethnographic interviews)" (ASA Code of Ethics, 1997)
-Social Psychology Quarterly (In Association with American Sociological Association)
-
-(https://us.sagepub.com/en-us/nam/social-psychology-quarterly/journal201972#submission-guidelines)
-
-SPQ encourages researchers to make their data, code, and other materials available for others to review and use. We are happy to assist authors in locating a suitable depository for these materials and will be pleased to add footnotes pointing to these deposits in the published article. Because we know that not all areas of social psychology are able to provide these materials, practically or ethically, this is not a requirement and willingness to publicly release data and other materials will have no impact on the likelihood of acceptance. (Revised January 2018)
-Elsevier Journals: research data sharing webpage (https://www.elsevier.com/authors/author-services/research-data)
-
-"A number of Elsevier journals encourage authors to submit a data statement alongside their manuscript." "Several journals support co-submission of a data article alongside your manuscript. In each case, the data article is transferred to the open access journal Data in Brief for publication."
-
-Taylor & Francis offers the following standardized data sharing policies across our journals (Journal of the American Planning Association included):
-
-(https://authorservices.taylorandfrancis.com/understanding-our-data-sharing-policies/)
-
-From 2018, Taylor & Francis will be introducing new policies on data sharing….
-
-Basic – Journal encourages authors to share and make data open where this does not violate protection of human subjects or other valid subject privacy concerns. Authors are further encouraged to cite data and provide a data availability statement.
-Share upon reasonable request – Authors agree to make their data available upon reasonable request. It's up to the author to determine whether a request is reasonable.
-Publicly available – Authors make their data freely available to the public, under a license of their choice.
-Open data – Authors must make their data freely available to the public, under a license allowing re-use by any third party for any lawful purpose. Data shall be findable and fully accessible.
-Open and fully FAIR (Findable, accessible, interoperable and re-usable) – Authors must make their data freely available to the public, under a license allowing re-use by any third party for any lawful purpose. Additionally, data shall meet with FAIR standards as established in the relevant subject area.
-Lowndes et al 2017
-"Integrating open data science practices and tools into science can save time, while also improving reproducibility for our most important collaborators: our future selves." - Lowndes et al
-
-Lowndes, Julia S. Stewart, Benjamin D. Best, Courtney Scarborough, Jamie C. Afflerbach, Melanie R. Frazier, Casey C. O'Hara, Ning Jiang and Benjamin S. Halpern (2017). Our path to better science in less time using open data science tools. Nature Ecology & Evolution, 1, 1-7.
-
-Introduction
-Lowndes provides a methodological account of the open data tools that they use to improve their workflow (i.e. data preparation, modeling, coding, collaboration and sharing data).
-
-Argument
-It is often implied that good science is science that is reproducible. One of the main challenges across disciplines is making data accessible, transparent and collaborative. The author introduces various open data science tools that can make the process of reproducibility and collaboration easier. Shifting from an individual to collaborative approach to data analysis is beneficial by allowing for analysis and interpretation to become a collaborative learning process resulting in individual and collective growth and improvement.
-
-Audience
-An experienced community of data analysts and researchers interested in collaboration and improving methodology through collaboration.
-
-Content
-Lowndes walks us through a number of methods and tools that her and collaborative research partners use to improve their workflow and the reproducibility of their work. Table 1 provided a summary of workflow tasks, primary open data tools and how tools have advanced to make workflow more efficient. For example, every time R Markdown output files are regenerated, the R code is rerun and the associated text and figures are also regenerated to reflect any updates to the code. Another resource they used was Git 44 as a version control system tool (which tracks changes within files and allows you to revert to previous version if needed). It takes snapshots of the changes being made line-by-line and throughout time.
-
-Definition not mentioned.
-Software usually creates barriers between researchers and restrains data sharing, because of the cost of software researchers use in their research. Further, individual data organizations place challenges in reproducing research. Workflow and sharing data organization is essential to overcome replicable research challenges.
-Free software helps establish workflow and sharing data. Establishing workflow and sharing data improve data replicability, which cannot be based on individual data organization.
-How free software tools and platforms can help collaborative research, improving workflow, and replicability. It uses an Ocean Health Index project as an example of replicability and collaboration research.Open sources also help reproducibility.
-Emphasis on reproducibility, collaboration, and communication
-Argument:
-Free software tools and platforms, like Github, can help collaborative research, improving workflow, and replicability, because it breaks the barriers between researchers.
-
-
-
-Automation Rules
-(A) Automate everything that can be automated.
-
-(B) Write a single script that executes all code from beginning to end.
-
-Version Control Rules
-(A) Store code and data under version control.
-
-(B) Run the whole directory before checking it back in.
-
-Directories Rules
-(A) Separate directories by function.
-
-(B) Separate files into inputs and outputs.
-
-(C) Make directories portable.
-
-Keys Rules
-(A) Store cleaned data in tables with unique, non-missing keys.
-
-(B) Keep data normalized as far into your code pipeline as you can.
-
-Abstraction Rules
-(A) Abstract to eliminate redundancy.
-
-(B) Abstract to improve clarity.
-
-(C) Otherwise, don't abstract.
-
-Documentation Rules
-(A) Don't write documentation you will not maintain.
-
-(B) Code should be self-documenting.
-
-Management Rules
-(A) Manage tasks with a task management system.
-
-(B) E-mail is not a task management system.
 
 ## Long (2009) - The Workflow of Data Analysis Using Stata
 
-## Chapter 3
+### Chapter 3
 
 Problem: In this chapter, Long (2009) discusses the importance of writing and debugging do-files. Each of the tools he provides contribute to the accuracy, replicability, and efficiency of your work. While there may be a time investment in learning these tools, it will quickly be recovered as they are applied to the work being done. When conducting research, we often run into errors. We must know how to diagnose any arising issues. Long argues that the most effective way to submit commands is with do-files, which is a primary form of documentation.
 
@@ -699,76 +617,7 @@ Recommended resources for licenses:
 _Conclusion_  
 Data sharing can be transformative for the field of science and therefore there is growing interest in it. More funders are requesting for data to be shared. However, the shift will not be impactful, if others cannot use your data. The provided tips in this article should improve your data and make it more usable for others. The authors also emphasize that these tips are also just general better data practices. These tips can be implemented at any point in the project, but its best to start using them at the start.
 
-## Gentzko, M., & Shapiro, J.N. (2014). Code and Data for the Social Sciences: A Practitioner’s Guide. https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf
 
-_**Chapter 1 - Introduction**_  
-**Audience**: empirical social scientists
-
-**Purpose of book**: To share "insight from experts in code & data into practical terms." The whole book focused on workflow skills.
-
-**Key Definitions**:  
-Empirical social science: "Asking good questions. Digging up novel data. Designing statistical analysis. Writing up results. many of us, most of the time, what it means is writing & debugging code…” .pg 3  
-reproducible - no definition  
-workflow - no definition  
-quality of science - no definition  
-efficiency of science - no definition
-
-**Tip**:  
-If a major firm is working on a problem, there's probably a class on it at your university. Check it out.
-
-**Summary**:  
-Authors provide an observation that many social scientists do have some programming basics, but overall they lack a formal computer science training. This lack of formal training approach that social scientists use has limitations as "projects grow bigger, the problems grew nastier, and our piecemeal efforts at improving matters... proved ever more ineffective" (pg 4). Important limitations or challenges from this approach include: replication, unexpected data changes, inefficiency in the researcher code, or clarity.
-
-_**Chapter 2 - Automation**_  
-**Software**: Predominantly Stata
-
-**Key Definitions**:  
-Reproducible - no definition  
-workflow - no definition  
-quality of science - no definition  
-efficiency of science - no definition
-
-**Rules**:
-
-1.  Automate everything that can be automated
-2.  Write a single script that executes all code from beginning to end (authors provide Stata code recommendations for this on page 8 & 9.)
-
-**Summary**:  
-The Interactive mode of research - save as you go without thinking long term - is bad for 2 reasons:  
-Replicability: With the interactive mode there is "no record of the precise steps taken" or "definition of what anything means”.  
-Efficiency: In the interactive mode there are no “scripting key steps” nor a project directory therefore future analyses changes are more challenging to make.
-
-The authors recommend automating as much as possible.
-
-Introduces the reader to the potato chip and TV method that runs the length of the book.
-
-_**Chapter 3 - Version Control**_  
-**Recommended Resources**:
-
-*   Version Control Resources
-*   Sub Version
-*   Tortviso SNV for Windows
-*   Git or Bit Buckets
-
-**Key Definitions**:  
-Reproducible - no definition  
-workflow - no definition  
-quality of science - no definition  
-efficiency of science - no definition
-
-**Rules**:
-
-1.  Store code and data under version control
-2.  Run the whole directory before checking it back in
-
-**Summary**:  
-Using dates to indicate a file version - while a good attempt - is wrong, because 1) it is hard to know "when to ‘spawn’ a new version and when to edit the old one." (12 pg) and 2) it generates  
-confusion because the naming of the file is also not clear.
-
-The authors recommend using a version control method. On your PC, you create a repository or remote server. When you want to modify a directory, you check it out, make your edits & changes. Then you run the entire directory to make sure it works. Make corrections if needed. Once it's complete, you check the directory back in.
-
-Version control also comes with an undo function, so it is easy to access older versions.
-=======
 ## Libes, D. (1989). Choosing a Name for your Computer. Integrated Systems Group, National Institute of Standards and Technology, Gaithersburg, MD.
 
 **Key Words:**
@@ -806,8 +655,8 @@ Naming (e.g., computers, networks, files, etc.) feels like it should be intuitiv
 Fundamentally, Libes suggests choosing one’s computer name wisely.
 
 _Related reading:_ Mockapetris, P., "Domain Names - Concepts and Facilities", RFC 1034, Information Sciences Institute, CA, November 1987.
-=======
-### **Nosek, et al., 2015**
+
+## Nosek, et al., 2015
 
   
 Nosek, B. A., Alter, G., Banks, G. C., Borsboom, D., Bowman, S. D., Breckler, S. J., Buck, S., Chambers, C. D., Chin, G., Christensen, G., Contestabile, M., Dafoe, A., Eich, E., Freese, J., Glennerster, R., Goroff, D., Green, D. P., Hesse, B., Humphreys, M., . . . Yarkoni, T. (2015). Promoting an open research culture. Science, 348(6242), 1422-1425. https://doi.org/10.1126/science.aab2374
