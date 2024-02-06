@@ -22,6 +22,24 @@ Formulating your research question should be an iterative process,
 first knowing that it is important provides motivation to start writing, 
 but as a research project develops it is ok to revise and clarify the guiding question. 
 As a note of caution, avoid changing your research question to fit the model results. 
+
+Ideally, a research project has only one research question. 
+It is a common mistake to confuse questions that might guide the analysis for data with a larger research question. 
+A "research question is what the [research project] is about -- it produces the title of the [project]." (Foss and Waters, 2015, p. 47).
+
+A key part of the research question is the theoretical construct. 
+A theoretical construct is a the phenomenon that the researcher wants to learn more about. 
+The theoretical construct guides the exploration of data and data collection. 
+Without a recognizable theoretical construct, the researcher will struggle with sifting through the data to find relevant information. 
+
+Examples of theoretical concepts in Dr. Rosenheim's research: 
+* Food Access
+* Resilience
+* Intersectionality
+* Social Vulnerability
+
+Each of these constructs have specific bodies of literature that discuss how to measure and analyze the construct.
+
 To help with writing a good research question Foss and Waters (2015) provide six criteria:
 
 ### Assessing Research Questions: 
@@ -32,7 +50,7 @@ Will you be able to locate it and distinguish it easily from other constructs th
 3.	The research question (usually) transcends your data.
 4.	The research question identifies your study’s contribution to an understanding of the theoretical construct.
 5.	The research question has the capacity to surprise.	Do you already know the answer?
-6.	The research question can produce robust results.
+6.	The research question can produce robust results. If you can answer the question with yes or no, results are not robust.
 
 ## Argument vs Research Question:
 While a research question can provide clarity and guidance for your research, an argument is what is needed to support a journal article. According to Belcher (2019) an argument is “an answered research question or confirmed hypothesis” (p. 67).
@@ -49,6 +67,15 @@ What arguments could you make based on your research question?
 
 For an excellent discussion of how to write a strong argument see Belcher (2019) Week 2 – Advancing Your Argument. p. 60-87
 
+## How your research question relates to your data
+A good research question needs to transcend your data, which means that a specific dataset should not be mentioned in the research question. However, you data must be able to answer the research question. For example, in Dr. Rosenheim's research on food access after disasters, the research question did not mention survey's of food retailers after Hurricane Harvey. However, when the survey questions were developed, they were informed by the research question. 
+
+According to Foss and Waters (2015) your data should be _accessible_ and _limitable_. By accessible, they mean that the data should be easy to collect in a reasonable amount of time. By limitable, they mean that the data should not be overwhelming. 
+Having a lot of data does not make a research project significant. 
+Too much data can make a project superficial, because one will need to explain all of the relevant data and try to fit all of it into the analysis.
+Ask the question "Will the data answer the research question?" If the answer is yes - stop collecting more data. There may be more data or "better" data out there, but if the data you have can answer the research question, then you have enough data.
+
+
 # Example Problem Statement and Research Question
 
 ## Problem Statement
@@ -64,6 +91,11 @@ The research question defines the sections to focus on in the literature review.
 * workflow skills
 * quality of science
 * efficiency of science
+
+## Possible Data Sources
+- Published journal articles that provide reproducible workflows.
+- Analysis of journals that have adopted reproducibility standards.
+- Surveys of researchers that have adopted reproducible workflows.
 
 ## References
 
