@@ -135,9 +135,79 @@ Lowndes walks us through a number of methods and tools that her and collaborativ
 
 Free software tools and platforms, like Github, can help collaborative research, improving workflow, and replicability, because it breaks the barriers between researchers.
 
-Gentzkow and Shapiro 2014
+## Gentzkow and Shapiro 2014
 
-**Chapter 4 - Directories**
+Gentzko, M., & Shapiro, J.N. (2014). Code and Data for the Social Sciences: A Practitioner’s Guide. https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf
+
+## Chapter 1 - Introduction  
+**Audience**: empirical social scientists
+
+**Purpose of book**: To share "insight from experts in code & data into practical terms." The whole book focused on workflow skills.
+
+**Key Definitions**:  
+Empirical social science: "Asking good questions. Digging up novel data. Designing statistical analysis. Writing up results. many of us, most of the time, what it means is writing & debugging code…” .pg 3  
+reproducible - no definition  
+workflow - no definition  
+quality of science - no definition  
+efficiency of science - no definition
+
+**Tip**:  
+If a major firm is working on a problem, there's probably a class on it at your university. Check it out.
+
+**Summary**:  
+Authors provide an observation that many social scientists do have some programming basics, but overall they lack a formal computer science training. This lack of formal training approach that social scientists use has limitations as "projects grow bigger, the problems grew nastier, and our piecemeal efforts at improving matters... proved ever more ineffective" (pg 4). Important limitations or challenges from this approach include: replication, unexpected data changes, inefficiency in the researcher code, or clarity.
+
+### Chapter 2 - Automation
+**Software**: Predominantly Stata
+
+**Key Definitions**:  
+Reproducible - no definition  
+workflow - no definition  
+quality of science - no definition  
+efficiency of science - no definition
+
+**Rules**:
+
+1.  Automate everything that can be automated
+2.  Write a single script that executes all code from beginning to end (authors provide Stata code recommendations for this on page 8 & 9.)
+
+**Summary**:  
+The Interactive mode of research - save as you go without thinking long term - is bad for 2 reasons:  
+Replicability: With the interactive mode there is "no record of the precise steps taken" or "definition of what anything means”.  
+Efficiency: In the interactive mode there are no “scripting key steps” nor a project directory therefore future analyses changes are more challenging to make.
+
+The authors recommend automating as much as possible.
+
+Introduces the reader to the potato chip and TV method that runs the length of the book.
+
+### Chapter 3 - Version Control  
+**Recommended Resources**:
+
+*   Version Control Resources
+*   Sub Version
+*   Tortviso SNV for Windows
+*   Git or Bit Buckets
+
+**Key Definitions**:  
+Reproducible - no definition  
+workflow - no definition  
+quality of science - no definition  
+efficiency of science - no definition
+
+**Rules**:
+
+1.  Store code and data under version control
+2.  Run the whole directory before checking it back in
+
+**Summary**:  
+Using dates to indicate a file version - while a good attempt - is wrong, because 1) it is hard to know "when to ‘spawn’ a new version and when to edit the old one." (12 pg) and 2) it generates  
+confusion because the naming of the file is also not clear.
+
+The authors recommend using a version control method. On your PC, you create a repository or remote server. When you want to modify a directory, you check it out, make your edits & changes. Then you run the entire directory to make sure it works. Make corrections if needed. Once it's complete, you check the directory back in.
+
+Version control also comes with an undo function, so it is easy to access older versions.
+
+### Chapter 4 - Directories
 
 **Key Words:**
 
@@ -156,7 +226,7 @@ Separating directories by purpose makes it easier to intentionally modify the en
 
 ---
 
-**Chapter 5 - Keys**
+### Chapter 5 - Keys
 
 **Key Words:**
 
@@ -178,7 +248,7 @@ Managing complex datasets is possible, and it begins with ensuring that “the p
 
 ---
 
-**Chapter 6 - Abstraction**
+### Chapter 6 - Abstraction
 
 **Key Words:**
 
@@ -195,7 +265,7 @@ Copying and pasting code can propagate errors. A less error-prone alternative is
 
 ---
 
-**Chapter 7 - Documentation**
+### Chapter 7 - Documentation
 
 **Key Words:**
 
@@ -210,9 +280,8 @@ Copying and pasting code can propagate errors. A less error-prone alternative is
 **Summary:**  
 Over-commenting code is an issue if the code is later changed but the comment is not updated; in this scenario, the comment no longer accurately reflects the code. The authors state, “If it’s not worth maintaining a piece of documentation up to \[standard\], it probably isn’t worth writing it in the first place (rule \[1\])” (27). Thus to make code clear without extensive comments that ultimately may have a limited shelf-life, the authors suggest making code self-documenting (rule 2) by guiding the reader through the code’s operations using the variable names and code’s structure. This self-documentation is applicable to more than just code (e.g., purpose of relational databases, filenames, directory names, figures, etc.). Also, while documenting can help prevent unintended behavior (e.g., through a warning), it is often more effective to write preventative code (that doesn’t allow the unintended behavior) than a preventative message (which relies on the user reading and respecting the comments).
 
----
 
-**Chapter 8 - Management**
+### Chapter 8 - Management
 
 **Key Words:**
 
@@ -229,7 +298,7 @@ Task management issues are simpler to untangle when one is working alone, but th
 
 ---
 
-**Appendix - Code Style**
+### Appendix - Code Style
 
 **Key Words:**
 
@@ -252,8 +321,6 @@ Task management issues are simpler to untangle when one is working alone, but th
 10.  Profile slow code relentlessly.
 11.  Store “too much” output from slow code.
 12.  Separate slow code from fast code.
-
-Long 2009
 
 ## Goodman et al 2016
 
@@ -419,7 +486,7 @@ Management Rules
 
 ## Long (2009) - The Workflow of Data Analysis Using Stata
 
-## Chapter 3
+### Chapter 3
 
 Problem: In this chapter, Long (2009) discusses the importance of writing and debugging do-files. Each of the tools he provides contribute to the accuracy, replicability, and efficiency of your work. While there may be a time investment in learning these tools, it will quickly be recovered as they are applied to the work being done. When conducting research, we often run into errors. We must know how to diagnose any arising issues. Long argues that the most effective way to submit commands is with do-files, which is a primary form of documentation.
 
@@ -699,76 +766,7 @@ Recommended resources for licenses:
 _Conclusion_  
 Data sharing can be transformative for the field of science and therefore there is growing interest in it. More funders are requesting for data to be shared. However, the shift will not be impactful, if others cannot use your data. The provided tips in this article should improve your data and make it more usable for others. The authors also emphasize that these tips are also just general better data practices. These tips can be implemented at any point in the project, but its best to start using them at the start.
 
-## Gentzko, M., & Shapiro, J.N. (2014). Code and Data for the Social Sciences: A Practitioner’s Guide. https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf
 
-_**Chapter 1 - Introduction**_  
-**Audience**: empirical social scientists
-
-**Purpose of book**: To share "insight from experts in code & data into practical terms." The whole book focused on workflow skills.
-
-**Key Definitions**:  
-Empirical social science: "Asking good questions. Digging up novel data. Designing statistical analysis. Writing up results. many of us, most of the time, what it means is writing & debugging code…” .pg 3  
-reproducible - no definition  
-workflow - no definition  
-quality of science - no definition  
-efficiency of science - no definition
-
-**Tip**:  
-If a major firm is working on a problem, there's probably a class on it at your university. Check it out.
-
-**Summary**:  
-Authors provide an observation that many social scientists do have some programming basics, but overall they lack a formal computer science training. This lack of formal training approach that social scientists use has limitations as "projects grow bigger, the problems grew nastier, and our piecemeal efforts at improving matters... proved ever more ineffective" (pg 4). Important limitations or challenges from this approach include: replication, unexpected data changes, inefficiency in the researcher code, or clarity.
-
-_**Chapter 2 - Automation**_  
-**Software**: Predominantly Stata
-
-**Key Definitions**:  
-Reproducible - no definition  
-workflow - no definition  
-quality of science - no definition  
-efficiency of science - no definition
-
-**Rules**:
-
-1.  Automate everything that can be automated
-2.  Write a single script that executes all code from beginning to end (authors provide Stata code recommendations for this on page 8 & 9.)
-
-**Summary**:  
-The Interactive mode of research - save as you go without thinking long term - is bad for 2 reasons:  
-Replicability: With the interactive mode there is "no record of the precise steps taken" or "definition of what anything means”.  
-Efficiency: In the interactive mode there are no “scripting key steps” nor a project directory therefore future analyses changes are more challenging to make.
-
-The authors recommend automating as much as possible.
-
-Introduces the reader to the potato chip and TV method that runs the length of the book.
-
-_**Chapter 3 - Version Control**_  
-**Recommended Resources**:
-
-*   Version Control Resources
-*   Sub Version
-*   Tortviso SNV for Windows
-*   Git or Bit Buckets
-
-**Key Definitions**:  
-Reproducible - no definition  
-workflow - no definition  
-quality of science - no definition  
-efficiency of science - no definition
-
-**Rules**:
-
-1.  Store code and data under version control
-2.  Run the whole directory before checking it back in
-
-**Summary**:  
-Using dates to indicate a file version - while a good attempt - is wrong, because 1) it is hard to know "when to ‘spawn’ a new version and when to edit the old one." (12 pg) and 2) it generates  
-confusion because the naming of the file is also not clear.
-
-The authors recommend using a version control method. On your PC, you create a repository or remote server. When you want to modify a directory, you check it out, make your edits & changes. Then you run the entire directory to make sure it works. Make corrections if needed. Once it's complete, you check the directory back in.
-
-Version control also comes with an undo function, so it is easy to access older versions.
-=======
 ## Libes, D. (1989). Choosing a Name for your Computer. Integrated Systems Group, National Institute of Standards and Technology, Gaithersburg, MD.
 
 **Key Words:**
@@ -806,8 +804,8 @@ Naming (e.g., computers, networks, files, etc.) feels like it should be intuitiv
 Fundamentally, Libes suggests choosing one’s computer name wisely.
 
 _Related reading:_ Mockapetris, P., "Domain Names - Concepts and Facilities", RFC 1034, Information Sciences Institute, CA, November 1987.
-=======
-### **Nosek, et al., 2015**
+
+## Nosek, et al., 2015
 
   
 Nosek, B. A., Alter, G., Banks, G. C., Borsboom, D., Bowman, S. D., Breckler, S. J., Buck, S., Chambers, C. D., Chin, G., Christensen, G., Contestabile, M., Dafoe, A., Eich, E., Freese, J., Glennerster, R., Goroff, D., Green, D. P., Hesse, B., Humphreys, M., . . . Yarkoni, T. (2015). Promoting an open research culture. Science, 348(6242), 1422-1425. https://doi.org/10.1126/science.aab2374
