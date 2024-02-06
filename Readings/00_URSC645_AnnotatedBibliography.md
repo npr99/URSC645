@@ -475,4 +475,40 @@ Claerbout J,  Karrenbach M. Electronic documents give reproducible research a ne
 
 Donoho, D. (2017). 50 years of data science. [Journal of Computational and Graphical Statistics](http://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf), 26(4), 745-766.
 
+## Libes, D. (1989). Choosing a Name for your Computer. Integrated Systems Group, National Institute of Standards and Technology, Gaithersburg, MD.
 
+**Key Words:**
+
+*   Domain name system
+*   Naming conventions
+*   Computer administration
+*   Computer network management
+
+  
+**Important note:** This article begins with a Gary Larson cartoon, which should be enough encouragement for anyone to dive right in.  
+ 
+
+**Summary:**
+
+Naming (e.g., computers, networks, files, etc.) feels like it should be intuitive, but developing good naming conventions requires some thought. Libes outlines what NOT to do:
+
+*   Don’t overload other terms already in common use.
+*   Don’t choose a name after a project unique to that machine.
+*   Don’t use your own name.
+*   Don’t use long names.
+*   Avoid alternate spellings.
+*   Avoid domain names.
+*   Avoid domain-like names.
+*   Don’t use antagonistic or otherwise embarrassing names.
+*   Don’t use digits at the beginning of the name.
+*   Don’t use non-alphanumeric characters in a name.
+*   Don’t expect case to be preserved.
+*   Use words/names that are rarely used.
+*   Use theme names.
+*   Use real words.
+*   Don’t worry about reusing someone else’s hostname.
+*   There is always room for an exception.
+
+Fundamentally, Libes suggests choosing one’s computer name wisely.
+
+_Related reading:_ Mockapetris, P., "Domain Names - Concepts and Facilities", RFC 1034, Information Sciences Institute, CA, November 1987.
