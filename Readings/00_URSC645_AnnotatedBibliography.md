@@ -347,10 +347,105 @@ Management Rules
 
 (B) E-mail is not a task management system.
 
-Long 2009
-Jason Campos is working on this section
+## Long (2009) - The Workflow of Data Analysis Using Stata
 
-Goodman et al 2016
+## Chapter 3
+
+Problem: In this chapter, Long (2009) discusses the importance of writing and debugging do-files. Each of the tools he provides contribute to the accuracy, replicability, and efficiency of your work. While there may be a time investment in learning these tools, it will quickly be recovered as they are applied to the work being done. When conducting research, we often run into errors. We must know how to diagnose any arising issues. Long argues that the most effective way to submit commands is with do-files, which is a primary form of documentation.
+
+The primary research question in this chapter:
+- Can you (or how do you) run a do-file without running into any errors and producing the same results?
+
+Definitions:
+
+Do-file: Do-files are simply text files that contain your commands (Long, p. 49)
+
+Robust: A do-file that produce exactly the same result when run at a later time or on another computer (Long, p. 51)
+
+Legible: A do-file that is documented and formatted so that it is easy to understand what is being done (Long, p. 51)
+
+Long suggests that the reproducibility can be measured by the following:
+- Understanding how to execute commands
+- Writing effective do-files
+- Debugging do-files
+
+In previous chapters, long has emphasized the importance of a good workflow. In this chapter, he states that “part of an effective workflow is taking advantage of the powerful features of your software” (Long, p. 47).
+
+Some of the workflow skills discussed relate to writing effective do-files. More specifically, he suggest that do-files should be robust and legible. There are detailed instructions on how to make sure they fit this criteria  (Long, p. 51).
+
+The quality of science can be assessed by ensuring the quality of do-files and knowing how to debug them in case of errors.
+
+For the efficiency of science, he suggests having templates for do-files. “The more uniform your do-files are, the less likely you are to make errors and the easier it will be to read your output (Long, p. 63).
+
+The Command Window: Long goes into detail about the interface of Stata and gives suggestions for how to execute commands, such as the review window, variables window, etc. (Pg. 48). One way to do that is with dialog boxes. These are drop down functions in the main Stata interface that allow you to execute commands. However, he highly suggests executing commands with a do-file. He states that 99% of the work he does in Stata uses do-files (Long, p. 49). The importance of this is that 1) it keeps a record of the commands  you ran, and 2) you can use features of your text editor, including copying, pasting, global changes, and much more.
+
+In order to replicate and correctly interpret results, they must be robust and legible (Long, p. 51).
+
+To make a do-file robust, they must meet the following:
+- Need to be self-contained – it should use the dataset that is loaded. The do-file should not rely on something left in memory by a prior do-file or command.
+- Use version control – this is done to ensure a newer version of Stata computes the commands correctly (e.g., you run a do-file that was created on an older Stata version)
+- Exclude directory information – this is done so that you can run do-files on other computers without any changes since data will not always stay in the same place (you will possibly move the data over the years)
+
+To make a do-file legible, Long suggest the following:
+- Use lots of comments. For example, if you start a line with *, everything that follows is treated as a comment. You can also use // and comments as dividers.
+- Use short lines. Having lines (e.g. commands) that are too long cause problems.
+- Limit your abbreviations
+- Have command abbreviations (see image below)
+- Most importantly, be consistent! You will make fewer errors if you have a standard way to do things. This applied to the style of your do-files. 
+
+![image](https://github.com/jason805sm/URSC645/assets/158380929/290b2ebd-7535-4433-8f85-61d43bc61053)
+
+One of the more important suggestions Long makes it to have a template for do-files (Long, p. 63). He provides suggestions for things that should be included in your template from creating a simple do more to a more complex one (Long, p. 65).
+
+In practice, your do-files will run into errors. It is imperative that we have solutions for how to debug them (Long, p. 68). Long provides instructions for fixing simple errors in do-files and how to fix them: it is likely that the a0 log file is open, b) log file already exists, c) incorrect variable name, d) incorrect command name, e) incorrect option, or f) missing comma before options.
+
+He also provides steps for resolving errors (Long, p. 70). He gives general strategies that we should consider if we do not see an obvious solution for the error code encountered: Step 1 is to update Stata and user written programs (including the do-file). Step 2 is to start with a clean slate, which consists of not leaving any information in the memory, restarting Stata if necessary, rebooting your computer, etc. (Long, p. 71). Step 3 is to try other data. Step 4 is to assume everything could be wrong. Step 5 is to run the program in steps. Step 6 is to exclude parts of the do-file. Step 7 is to start over (e.g., throw out the original code, use a new file). Step 8 is to know that sometimes it is not your mistake – it could be possible that there is an error in Stata.
+
+Long also provides instructions on debugging syntax errors (Long, p. 75, unanticipated results (Long, p. 77), and more advanced methods for debugging (Long, p. 81). If nothing else works, trace the error. His last suggestion is to ask for help so that another person try and replicate the work and find a solution (Long, p. 82).
+
+## Hoelter, L. F., LeClere, F., Pienta, A. M., McNally, J. W., & Barlow, R. E. (2008). Using ICPSR Resources to Teach Sociology. Teaching Sociology, 36, 17-25.
+
+Article can be found here: https://drive.google.com/file/d/1hjta3dVpWkgRUpiJp4VuQlmOh3NOdAXz/view?usp=drive_link
+
+Problem: Over the last two decades, colleges and universities have taken on the challenge of teaching quantitative literacy (QL) to students in all majors. The social sciences are “particularly well suited to teaching students these skills” because can engage in problem solving with data
+(Hoelter et al., p. 17). However, there are challenges to include quantitative literacy in undergraduate classes, such as re-working syllabi and assignments. It is also the case that students are resistant to group work, and faculty and students sometimes have difficulty separating QL from traditional mathematics as they both evoke similar stresses and anxieties. The authors suggest several ways in which the Inter-university Consortium for Political and Social Research (ICPSR) and its resources can enhance students’ quantitative literacy in coursework and across the undergraduate and graduate curricula. They also discuss several general tools available through the ICPSR website to enhance teaching and research at all levels.
+
+The primary research question in this article:
+
+What are the tools available to aid in the development of a curriculum that teaches undergraduate and graduate students quantitative and statistical literacy skills early in their academic careers?
+
+Definitions:
+
+Quantitative Literacy: The ability to understand and critically evaluate statistical results that permeate our daily lives – coupled with the ability to appreciate the contributions that statistical thinking can make public and private, professional and personal decisions (Hoelter et al., p. 18).
+
+Information Literacy: Finding and critically evaluating information to answer questions
+
+Statistical Literacy: Using statistics as evidence for arguments
+
+Data Literacy: The need to understand and work with data
+
+Workflow: Not found in this article.
+
+Workflow skills: The authors point out several tools available for students to engage in Quantitative Literacy (QL) skills early, such as those found on the ICPSR website. Specifically, using Online Learning Center for undergraduates and Secondary Datasets for graduate students are some ways to teach workflow skills.
+
+Quality of science: In the article, the authors state that asking students to replicate an article of interest in sociology or other fields is a valuable way to socialize students to the expectations and practices of the discipline, teaches them the norms of scientific transparency, and helps them get published early in their careers (Hoelter et al. p. 21).
+
+Efficiency of science: Using the online tools suggested helps students to begin direct replication practices by allowing them to ask research questions that they are interested in and finding an article in a sociological journal of their interest (Hoelter et al. p. 21).
+
+Goals, Resources, and Tools: ICPSR has prioritized making data holdings more accessible to faculty and students. When interviewing faculty in focus groups and in-depth interviews, they specified wanting the ability to 1) quickly locate relevant data that are easy to work with to demonstrate the content(s), and 2) customize any material to their own teaching approach and syllabus. This resulted in the creation of the Online Learning Center (OLC).
+
+The OLC is a teaching/learning module that helps identify relevant, usable datasets quickly. The core of the site is made up of Data-Driven Learning Guides (DDLG’s) - it is set up like a lesson plan and makes use of “real” data from ICPSR holdings. The benefits of this are that no license is required nor do students need to learn statistical software.
+ 
+A New Approach to Teaching Research Methods: The exposure to the scholarly process outside of some isolated journal articles is why students may have a problem coming up with good research questions that lead to the analysis of quantitative data (Hoelter et al., p. 20). Authors suggest a more useful way: “to use a model in which the students analyze not data in the traditional sense but the objects of social science discourse: the scholars, datasets, and publications that compose a network of scholarly exchange” (Hoelter et al., p. 20). A tool called Exploring Data through Research Literacy (EDRL) is available for this.
+
+The Use of Secondary Data in Graduate Courses: Authors contend that asking students to replicate an article of interest is a valuable way to socialize students to the expectations and practices of the discipline (of sociology), and it teaches them the norms of scientific transparency and helps them get published early in their careers (Hoelter et al., p. 21). For this, there are two tools available: 1) the Publication-Related Archive, and 2) the Bibliography of Data-Related Literature.
+
+![image](https://github.com/jason805sm/URSC645/assets/158380929/4d029dfc-ca84-4b02-8609-6f9290e991bc)
+
+General Tools for Making Data Instruments and Analysis Easier: Another tool for students is the Survey Documentation and Analysis Interface (SDA), which was developed at UC Berkeley. There is also a variable search tool, as well as a Quick Tables to explore datasets and variables. Tutorials and teaching aids can be found throughout the ICSPR website. To foster interest in data analysis, students are awarded an Undergraduate Paper Competition for completing a research project. Those who want to learn more can apply for a summer internship at ICPSR.
+
+
+## Goodman et al 2016
 Goodman, S. N., Fanelli, D., & Ioannidis, J. P. (2016). What does research reproducibility mean?. Science translational medicine, 8(341), 341ps12-341ps12.
 
 The paper introduces a new lexicon for research reproducibility. (a) Methods reproducibility, the provision of enough detail about research procedures (e.g. how many analyses were performed) and data. (b) Results reproducibility refers to obtainings the same results from a conduct of an independent study whose procedures are as close as possible. (c) Inferential reproducibility refers to drawing the same conclusions from an either independent study or a reanalysis of the original study.
