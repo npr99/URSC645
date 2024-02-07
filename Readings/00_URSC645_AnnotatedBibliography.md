@@ -669,3 +669,55 @@ In Nosek et al, 2015 the authors are members of the Transparency and Openness Pr
 “**Reproducibility** increases confidence in results and also allows scholars to learn more about what results do and do not mean. (i) Design standards increase transparency about the research process and reduce vague or incomplete reporting of the methodology. (ii) Research materials standards encourage the provision of all elements of that methodology. (iii) Data sharing standards incentivize authors to make data available in trusted repositories such as Dataverse, Dryad, the Interuniversity Consortium for Political and Social Research (ICPSR), the Open Science Framework, or the Qualitative Data Repository. (iv) Analytic methods standards do the same for the code comprising the statistical models or simulations conducted for the research.” (Nosek et al, 2015, p. 1423)
 
 A common version control users are familiar with is Google Docs.
+
+## Kontokosta, C. E. (2021)
+
+https://journals.sagepub.com/doi/full/10.1177/0739456X18793716
+
+The author emphasizes the importance of reproducible workflows in ensuring the quality and efficiency of science. The author suggests that reproducibility can be achieved by providing detailed documentation of the data sources, analytical methods, and software used in the study, as well as making the data and code publicly available.
+
+### **Definitions**
+
+The term "**reproducible**" in the context of research and data analysis typically refers to the ability to recreate or replicate the results of a study or analysis using the same data and methods. The author may define reproducible as ensuring that the processes, methodologies, and analyses conducted in a study are transparent and well-documented so that other researchers can replicate the findings. This transparency allows for verification of results and promotes trust in the research outcomes..
+
+The author discusses the **workflow** in the context of an urban informatics project, emphasizing the importance of understanding the system in which the problem originates and the criticality of problem definition and understanding the problem context in developing usable solutions (Page 388)
+
+**Quality of science** is addressed in terms of the interpretability versus accuracy trade-off in machine learning algorithms, where the author highlights the importance of building trust in data-driven decision making and the need for end-users to understand how the output was produced
+
+### **Ways to measure**
+
+To measure the **workflow** in the article, you can assess the level of transparency in documenting data sources and analytical methods, evaluate the reproducibility of the research findings by checking if data and code are made publicly available, analyze the efficiency of the workflow in terms of time and resource savings, examine the collaboration facilitated by reproducible workflows, and consider how the author emphasizes the importance of reproducibility for enhancing the quality and reliability of scientific research.
+
+![](https://lh7-us.googleusercontent.com/3-18rBDb78BZGqj2zi8Ou9ZZ3T_ISIJtY73Zevn1vX79Q9uNAz8hE7EG1UPQOwfI7ImLW1KhI44Qk79qrGCtKfqcqoc0AWUYdJhoCEfjBOl19v_e2kVMVOHTMWB6z2X8DwwTGtTZphwwmc4Q0sB1EvA)
+
+In **quality of life**, one can evaluate the robustness of the methodology employed, the transparency of the research process in documenting data sources and analytical methods, the reproducibility of the findings through publicly available data and code, the impact and contribution of the research to the field of urban planning, and the interdisciplinary approach taken to address complex urban challenges. Assessing these aspects will provide insights into the rigor, transparency, significance, and interdisciplinary nature of the scientific research presented in the article.
+
+## Freese, J. (2007).
+
+[https://journals.sagepub.com/doi/10.1177/0049124107306659](https://journals.sagepub.com/doi/10.1177/0049124107306659)
+
+### **Research question**
+
+Realizing that the credibility of quantitative social science is from the repeatable research results. The economic profession has been taking measures to improve the repeatability. With the development of computing and programming, quantitative social analysis becomes drastically complex. The lack of detail and repeatability could reduce the credibility of quantitative social science. The internet makes it possible for researchers to increase the transparency of research, thus increasing the credibility. By disputing six objections, the author argues that replication could benefit and increase the credibility of quantitative social science, and the cost is acceptable.
+
+ASA: American Sociological Association (ASA) code of ethics, which is just that sociologists should ‘‘permit’’ attempts to verify results after their publication.
+
+AER policy: “Papers could be published _only if the data used in the analysis are clearly and precisely documented and are readily available to any researcher for purposes of replication._”
+
+### **Definitions**
+
+**Reproducible** refers to the ability to replicate or reproduce the results of a study using the same data and procedures. It involves making all necessary information, such as data, code, and materials, available to others to verify the presented results.
+
+**Workflow** is defined as the sequence of steps involved in conducting a research study, from data collection to analysis and reporting of results. Freese emphasizes the importance of documenting and sharing this workflow to enhance transparency and replicability in social science research.
+
+These are the skills required to manage and document the workflow of a research project effectively. Researchers are encouraged to develop these skills to ensure that their work is transparent and reproducible.
+
+**Quality of science** means to the credibility and reliability of scientific research. Freese argues that increasing transparency and replication standards in sociology can enhance the quality of science by allowing for the verification of results and promoting the sharing of research materials for further analysis and extension by other researchers
+
+### **Ways to measure**
+
+The **reproducibility** of research findings can be measured by evaluating the extent to which researchers make their data and code available for replication purposes. Compliance with replication policies and standards, such as depositing materials in online archives, can also indicate the level of reproducibility in quantitative social science research. Transparency in reporting methods and decisions made during the research process is crucial for assessing reproducibility. By examining data availability, code sharing, transparency in methods, and adherence to replication policies, the reproducibility of research in sociology can be effectively measured.
+
+Measuring the "**Workflow**" in research involves evaluating the completeness and clarity of documentation, adherence to reproducibility standards, transparency in methods, and compliance with best practices. Researchers can assess the quality of their workflow by documenting data collection, cleaning procedures, analysis steps, and result interpretation. Transparency in reporting methods and adherence to best practices, such as version control and clear communication of the workflow, are essential for ensuring the robustness and reproducibility of research in quantitative social science.: (1) Is the original data provided? (2) Is the code stored?(3) Did the researcher save the syntax, when they use the GUI? (4) Did the researcher document the version information on the data?
+
+
