@@ -134,192 +134,151 @@ Lowndes walks us through a number of methods and tools that her and collaborativ
 
 Free software tools and platforms, like Github, can help collaborative research, improving workflow, and replicability, because it breaks the barriers between researchers.
 
-## Gentzkow and Shapiro 2014
 
+
+
+
+
+## Gentzkow and Shapiro (2014)
 Gentzko, M., & Shapiro, J.N. (2014). Code and Data for the Social Sciences: A Practitioner’s Guide. https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf
 
-### Chapter 1 - Introduction  
-**Audience**: empirical social scientists
+Purpose of book: To share "insight from experts in code & data into practical terms." The whole book focused on workflow skills. 
 
-**Purpose of book**: To share "insight from experts in code & data into practical terms." The whole book focused on workflow skills.
+### Chapter 1 - Introduction
 
-**Key Definitions**:  
-Empirical social science: "Asking good questions. Digging up novel data. Designing statistical analysis. Writing up results. many of us, most of the time, what it means is writing & debugging code…” .pg 3  
-reproducible - no definition  
-workflow - no definition  
-quality of science - no definition  
+**Key Words**: 
+Empirical social science: "Asking good questions. Digging up novel data. Designing statistical analysis. Writing up results. For many of us, most of the time, what it means is writing & debugging code…” .pg 3 
+Reproducible - no definition
+workflow - no definition
+quality of science - no definition
 efficiency of science - no definition
 
-**Tip**:  
-If a major firm is working on a problem, there's probably a class on it at your university. Check it out.
-
-**Summary**:  
-Authors provide an observation that many social scientists do have some programming basics, but overall they lack a formal computer science training. This lack of formal training approach that social scientists use has limitations as "projects grow bigger, the problems grew nastier, and our piecemeal efforts at improving matters... proved ever more ineffective" (pg 4). Important limitations or challenges from this approach include: replication, unexpected data changes, inefficiency in the researcher code, or clarity.
+**Summary**:
+Authors provide an observation that many social scientists do have some programming basics, but overall they lack a formal computer science training. This lack of formal training approach that social scientists use has limitations as "projects grow bigger, the problems grew nastier, and our piecemeal efforts at improving matters... proved ever more ineffective" (pg 4). Important limitations or challenges from this approach include: replication, unexpected data changes, inefficiency in the researcher code, or clarity. 
 
 ### Chapter 2 - Automation
-**Software**: Predominantly Stata
+Key Words: 
+**Rules:**
+1. Automate everything that can be automated 
+2. Write a single script that executes all code from beginning to end. 
+have recommendations on Stata code on page 8 and 9 related to this chapter topic
 
-**Key Definitions**:  
-Reproducible - no definition  
-workflow - no definition  
-quality of science - no definition  
-efficiency of science - no definition
+**Summary:**
+The Interactive mode of research - save/modify as you go without thinking long term - is bad for 2 reasons:
+Replicability: Lacks a "record of the precise steps taken" or "definition of what anything means”. 
+Efficiency: In the interactive mode there are no “scripting key steps” nor a project directory to organize the project for yourself and others. 
+The authors recommend automating as much as possible. 
 
-**Rules**:
+Introduces the reader to the potato chip and TV method that runs the length of the book. 
 
-1.  Automate everything that can be automated
-2.  Write a single script that executes all code from beginning to end (authors provide Stata code recommendations for this on page 8 & 9.)
+### Chapter 3 - Version Control
+**Recommended Resources:**
+* Version Control Resources 
+* Sub Version 
+* Tortviso SNV for Windows 
+* Git or Bit Buckets
 
-**Summary**:  
-The Interactive mode of research - save as you go without thinking long term - is bad for 2 reasons:  
-Replicability: With the interactive mode there is "no record of the precise steps taken" or "definition of what anything means”.  
-Efficiency: In the interactive mode there are no “scripting key steps” nor a project directory therefore future analyses changes are more challenging to make.
+Key Words: 
+**Rules:**
+1. Store code and data under version control 
+2. Run the whole directory before checking it back in 
 
-The authors recommend automating as much as possible.
+**Summary:**
+Using dates to indicate a file version is not enough because 1) it is hard to know "when to ‘spawn’ a new version and when to edit the old one." (12 pg) and 2) it generates 
+confusion because the naming of the file is also not clear. 
 
-Introduces the reader to the potato chip and TV method that runs the length of the book.
-
-### Chapter 3 - Version Control  
-**Recommended Resources**:
-
-*   Version Control Resources
-*   Sub Version
-*   Tortviso SNV for Windows
-*   Git or Bit Buckets
-
-**Key Definitions**:  
-Reproducible - no definition  
-workflow - no definition  
-quality of science - no definition  
-efficiency of science - no definition
-
-**Rules**:
-
-1.  Store code and data under version control
-2.  Run the whole directory before checking it back in
-
-**Summary**:  
-Using dates to indicate a file version - while a good attempt - is wrong, because 1) it is hard to know "when to ‘spawn’ a new version and when to edit the old one." (12 pg) and 2) it generates  
-confusion because the naming of the file is also not clear.
-
-The authors recommend using a version control method. On your PC, you create a repository or remote server. When you want to modify a directory, you check it out, make your edits & changes. Then you run the entire directory to make sure it works. Make corrections if needed. Once it's complete, you check the directory back in.
-
-Version control also comes with an undo function, so it is easy to access older versions.
+The authors recommend using a version control method. On your PC, you create a repository or remote server. When you want to modify a directory, you check it out, make your edits & changes. Then you run the entire directory to make sure it works. Make corrections if needed. Once it's complete, you check the directory back in. 
+Version control also comes with a work long so you can see who made changes and revert if needed. 
+A common version control users are familiar with is Google Docs. 
 
 ### Chapter 4 - Directories
 
 **Key Words:**
-
-*   Rundirectory.bat: single script that executes a directory from start to finish
-*   /temp
-*   /output
-
+* Rundirectory.bat: single script that executes a directory from start to finish
+* /temp
+* /output
 **Rules:**
+1. Separate directories by function.
+2. Separate files into inputs and outputs.
+3. Make directories portable.
 
-1.  Separate directories by function.
-2.  Separate files into inputs and outputs.
-3.  Make directories portable.
-
-**Summary:**  
-Separating directories by purpose makes it easier to intentionally modify the encapsulated analysis without having to rerun all the unrelated scripts, and it makes it possible to use local references. To get around this set-up breaking on a different machine where the local links are not valid, one can link to fixed revisions of the dataset on shared network storage, which the user can then decide to update once the user is satisfied with the new revision.
-
----
+**Summary:**
+Separating directories by purpose makes it easier to intentionally modify the encapsulated analysis without having to rerun all the unrelated scripts, and it makes it possible to use local references. To get around this set-up breaking on a different machine where the local links are not valid, one can link to fixed revisions of the dataset on shared network storage, which the user can then decide to update once they are satisfied with the new revision.
 
 ### Chapter 5 - Keys
 
 **Key Words:**
-
-*   Relational database: a database format whose physical structure communicates the logic behind it to be self-documenting
-*   Table: rectangular arrays in which data are stored
-*   Element: The row of a table
-*   Variable: the column of a table, which is an attribute of the table’s elements
-*   Key: a variable or set of variables that uniquely identifies the elements of a table. The variables that form the key never take on missing values, and a key’s value is never duplicated across rows of the table
-*   Foreign key: the key for another table in the database
-*   Normalized: a form of data that is easier to understand because the data are organized to be similar across all records
-
+* Relational database: a database format whose physical structure communicates the logic behind it to be self-documenting
+* Table: rectangular arrays in which data are stored
+* Element: The row of a table
+* Variable: the column of a table, which is an attribute of the table’s elements
+* Key:  a variable or set of variables that uniquely identifies the elements of a table. The variables that form the key never take on missing values, and a key’s value is never duplicated across rows of the table
+* Foreign key: the key for another table in the database
+* Normalized: a form of data that is easier to understand because the data are organized to be similar across all records
 **Rules:**
+1. Store cleaned data in tables with unique, non-missing keys.
+2. Keep data normalized as far into your code pipeline as you can.
 
-1.  Store cleaned data in tables with unique, non-missing keys.
-2.  Keep data normalized as far into your code pipeline as you can.
-
-**Summary:**  
-Managing complex datasets is possible, and it begins with ensuring that “the physical structure of a database \[communicates\] its logical structure” (19). The authors illustrate this by creating a toy relational database of the effect of television on potato chip consumption in New York and Virginia, in which the authors normalize the data. To perform an analysis on a relational database, the tables of the database must be merged (joined) into a single array, at which point the data will likely no longer be normalized. The authors describe this process using their toy relational database.
-
----
+**Summary:**
+Managing complex datasets is possible, and it begins with ensuring that “the physical structure of a database \[communicates]\ its logical structure” (19). The authors illustrate this by creating a toy relational database of the effect of television on potato chip consumption in New York and Virginia, in which the authors normalize the data. To perform an analysis on a relational database, the tables of the database must be merged (joined) into a single array, at which point the data will likely no longer be normalized. The authors describe this process using their toy relational database.
 
 ### Chapter 6 - Abstraction
 
 **Key Words:**
-
-*   Abstraction: turning the specific instances of something into a general-purpose tool
-
+* Abstraction: turning the specific instances of something into a general-purpose tool
 **Rules:**
+1. Abstract to eliminate redundancy.
+2. Abstract to improve clarity.
+3. Otherwise, don’t abstract.
 
-1.  Abstract to eliminate redundancy.
-2.  Abstract to improve clarity.
-3.  Otherwise, don’t abstract.
-
-**Summary:**  
+**Summary:**
 Copying and pasting code can propagate errors. A less error-prone alternative is abstraction, developing general-purpose code (e.g., functions, classes, scripts, etc.) that can cleanly be applied to the specific situation of interest as well as to future projects. Abstraction eliminates redundancy and makes code more readable. However, be sure to double-check that the abstraction works as intended and to not abstract without a purpose.
-
----
 
 ### Chapter 7 - Documentation
 
 **Key Words:**
+* Commenting code
+* Documentation
+Rules:
+1. Don’t write documentation you will not maintain.
+2. Code should be self-documenting.
 
-*   Commenting code
-*   Documentation
-
-**Rules:**
-
-1.  Don’t write documentation you will not maintain.
-2.  Code should be self-documenting.
-
-**Summary:**  
-Over-commenting code is an issue if the code is later changed but the comment is not updated; in this scenario, the comment no longer accurately reflects the code. The authors state, “If it’s not worth maintaining a piece of documentation up to \[standard\], it probably isn’t worth writing it in the first place (rule \[1\])” (27). Thus to make code clear without extensive comments that ultimately may have a limited shelf-life, the authors suggest making code self-documenting (rule 2) by guiding the reader through the code’s operations using the variable names and code’s structure. This self-documentation is applicable to more than just code (e.g., purpose of relational databases, filenames, directory names, figures, etc.). Also, while documenting can help prevent unintended behavior (e.g., through a warning), it is often more effective to write preventative code (that doesn’t allow the unintended behavior) than a preventative message (which relies on the user reading and respecting the comments).
-
+**Summary:**
+Over-commenting code is an issue if the code is later changed but the comment is not updated; in this scenario, the comment no longer accurately reflects the code. The authors state, “If it’s not worth maintaining a piece of documentation up to [standard], it probably isn’t worth writing it in the first place (rule [1])” (27). Thus to make code clear without extensive comments, the authors suggest making code self-documenting (rule 2) by guiding the reader through the code through descriptive variable names and easily read code structure. This self-documentation is applicable to more than just code (e.g., purpose of relational databases, filenames etc.). While documenting can help prevent unintended behavior (through a written warning), it is often more effective to create preventative code that doesn’t allow the unintended behavior.
 
 ### Chapter 8 - Management
 
 **Key Words:**
-
-*   Task management system
-*   Collaborative note-taking environment
-
+* Task management system: “systems that enforce organized communication and reporting about tasks.” pg. 32 
+* Collaborative note-taking environment : “a place to jot down thoughts or display results that are less structured than the code… but more permanent than an e-mail or conversation.”
 **Rules:**
+* Manage tasks with a task management system.
+* E-mail is not a task management system.
 
-1.  Manage tasks with a task management system.
-2.  E-mail is not a task management system.
-
-**Summary:**  
-Task management issues are simpler to untangle when one is working alone, but these issues propagate with bigger teams. Using a task management system for collaboration can reduce ambiguity about tasks, goals, and assignments. These systems also store task-specific records of “who did what and why” (33). The authors recommend Asana (www.asana.com), Wrike (www.wrike.com), and Flow (www.getflow.com) as good free options, although the authors use a paid program called JIRA. The authors also recommend using a collaborative note-taking environment to develop and share project notes such as Evernote (www.evernote.com - free) or OneNote (included in Microsoft Office).
-
----
+**Summary:**
+Task management issues propagate with bigger teams. Using a task management system for collaboration can reduce ambiguity about tasks, goals, and assignments. These systems also store task-specific records of “who did what and why” (33). The authors recommend Asana (www.asana.com), Wrike (www.wrike.com), and Flow (www.getflow.com) as good free options, although the authors use a paid program called JIRA. The authors also recommend using a collaborative note-taking environment to develop and share project notes such as Evernote (www.evernote.com - free) or OneNote (included in Microsoft Office).
 
 ### Appendix - Code Style
 
 **Key Words:**
-
-*   Slow code: code that one plans to rarely change
+* Slow code: code that one plans to rarely change
 
 **Principles of writing good code:**
-
-1.  Keep it short and purposeful.
-2.  Make your functions shy.
-    1.  Functions should explicitly declare inputs and outputs and only operate on local variables.
-3.  Order your functions for linear reading.
-4.  Use descriptive names.
-5.  Pay special attention to coding algebra.
-    1.  Make sure that key calculations are clearly set off from the rest of the code.
-    2.  Break complicated algebraic calculations into pieces.
-6.  Make logical switches intuitive.
-7.  Be consistent.
-8.  Check for errors.
-9.  Write tests for just about every piece of code to make sure that the code does everything it is expected to do.
-10.  Profile slow code relentlessly.
-11.  Store “too much” output from slow code.
-12.  Separate slow code from fast code.
+1. Keep it short and purposeful.
+2. Make your functions shy.
+       a. Functions should explicitly declare inputs and outputs and only operate on local variables.
+3. Order your functions for linear reading.
+4. Use descriptive names.
+5. Pay special attention to coding algebra.
+    a. Make sure that key calculations are clearly set off from the rest of the code.
+    b. Break complicated algebraic calculations into pieces.
+6. Make logical switches intuitive.
+7. Be consistent.
+8. Check for errors.
+9. Write tests for just about every piece of code to make sure that the code does everything it is expected to do.
+10. Profile slow code relentlessly.
+11. Store “too much” output from slow code.
+12. Separate slow code from fast code.
 
 ## Goodman et al 2016
 
