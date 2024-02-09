@@ -57,20 +57,29 @@ conda install dask
 Note: This process can take a long time and depends on a solid internet connection.
 
 5. How to check your environment? Use the command `conda list` in Anaconda Prompt to see what packages and the versions are installed in an environment.
-- The steps above created an environment with 279 python packages (the 7 required and the packages that they require)
-- The primary packages that were installed on 2023-02-08 included the following versions, builds, and channels
+- The steps above created an environment with 324 python packages (the 7 required and the packages that they require)
+- The primary packages that were installed on 2024-02-09 included the following versions, builds, and channels
 ```
 # Name                    Version
-contextily                1.3.0
+contextily                1.5.0
 descartes                 1.1.0
-geopandas                 0.12.2
+geopandas                 0.14.3
 jupyter                   1.0.0
-openpyxl                  3.1.0
-pandas                    1.3.5
-python                    3.10.9
+openpyxl                  3.1.2
+pandas                    2.2.0
+python                    3.10.13
 ```
 - If your environment does not have these versions of the primary packages the code may or may not replicate. 
 - Try to replicate the code provided by this course, if it does not replicate the issue might be with the environment.
+
+## Install Visual Studio Code
+"Learning to code is intimidating, so set yourself up for success with a tool built for you. 
+Visual Studio Code is a free coding editor that helps you start coding quickly. 
+Use it to code in any programming language, without switching editors."
+
+https://code.visualstudio.com/?wt.mc_id=DX_841432
+
+To run python in Visual Studio code requires installing Python. If you have followed the steps for to create the URSC 645 Python environment, then you have python installed.
 
 ### Check that new environment is available in VS Code
 1. In Visual Studio Code this new environment will be provided as an option for running your Jupyter Notebooks and Python Code.
@@ -82,6 +91,11 @@ python                    3.10.9
 ---
 ### Known installation issues
 - OpenSSL error
+
+Error installing openpyxl on MacOS
+```
+pip install --user openpyxl
+```
 
 ### How to uninstall Anaconda and Miniconda
 If you have issues with your Anaconda or Miniconda installation, you can uninstall it and reinstall it.
@@ -109,3 +123,11 @@ For URSC 645, the command would be:
 ```
 conda env remove -n URSC645
 ```
+
+### How to remove a conda channel
+If you accidentally misspell a channel name, you can remove it using the following command line prompt:
+
+```
+conda config --show channels
+conda config --remove channels <channel_name>
+``` 
