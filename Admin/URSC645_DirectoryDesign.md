@@ -38,3 +38,6 @@ Ideally the directories sort themselves into a logical order based on the direct
 If you need a directory to be at the top of the list of directories you can use a number to start the directory name.
 For example, "00_Admin" will be at the top of the list of directories. 
 To help ensure that your have enough numbers, use two digits for the numbers (01, 02, 03...).
+
+## References
+Long, S. (2009). The Workflow of Data Analysis Using Stata. Stata Press. https://www.stata.com/bookstore/workflow-data-analysis-stata/
