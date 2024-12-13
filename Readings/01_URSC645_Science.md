@@ -21,6 +21,11 @@ Motivating quote from NYTimes Science section (Overbye, 2023):
 
 > ### If it is not testable, at least not yet, it is not science.
 
+## Explicating Assumptions
+"Paradigm shifts emerge when scientists or others question their assumptions (tacit or explicit). Van Neurath (cited in Harste et al., 1984, p. 85) uses the metaphor of shipbuilding to describe this process. “Scientists are like sailors who have to rebuild their ships at high sea, without being able to seek port. Each plank in the hull may be jettisoned in the process, but it is not feasible to jettison all of the planks at the same time.” Thus, the “ships” of knowledge are built with pieces of wood (assumptions). The “worth” of each piece has to be examined from time to time. The pieces that are outdated by new information or disproven need to be jettisoned. Based on this metaphor, we can say that “knowing” is about making and testing assumptions. Science is an activity of reflective thinking. Brookfield (1995) calls this “hunting assumptions,” and Fogarty (1994) calls it “meta-cognition,” reflecting on how we think, how we know, and how we learn." (Nkwake 2020 p. 88)
+Nkwake, A. M. (2013). Working with assumptions in international development program evaluation (pp. 25-50). New York, NY: Springer. https://doi.org/10.1007/978-3-030-33004-0
+
+
 ## Engineering Design Process
 Motivating example of engineering design process (science/engineering) from Mark Rober:
 
