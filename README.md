@@ -84,3 +84,12 @@ Davis, Annyce. (2020). Programming Foundations: Fundamentals. https://www.linked
 Buscha, Franz. (2019). Introduction to Stata 15. https://www.linkedin.com/learning/introduction-to-stata-15/  
 
 ## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
