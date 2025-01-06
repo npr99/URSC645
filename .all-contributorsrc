@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "npr99",
+      "name": "Nathanael Rosenheim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5131566?v=4",
+      "profile": "https://github.com/npr99",
+      "contributions": [
+        "projectManagement"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "URSC645",
+  "projectOwner": "npr99"
+}
