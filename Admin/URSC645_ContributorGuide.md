@@ -1,3 +1,6 @@
+# Contributor Guide
+Before making a contribution please set up your computer with the following software.
+
 # Helpful Software to Install
 ---
 ## GitHub Account
@@ -75,6 +78,7 @@ Before and after workstation pictures:
 ## Understand GitHub
 ---
 Key words to understand and define:
+Repository (Repo)
 Fork
 Push
 Pull
