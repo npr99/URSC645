@@ -2,10 +2,10 @@
 
 For current students in the course, fill in the [course roster](https://docs.google.com/spreadsheets/d/1HCtZfY-8l8dNZT2A8AUCcyr19sjrMTvny_U3qWobuGA/edit?usp=sharing)
 
-Since 2019 36 people have participated in the URSC 645 course. 
+Since 2019 43 people have participated in the URSC 645 course. 
 Initially the course was listed as URSC 689, with Drs. Nathanael Rosenheim, Bethany DeSalvo, and Phil Lasley as instructors. 
 
-32 out of  of the students have been in the Urban and Regional Science program. 
+32 out of 43 students have been in the Urban and Regional Science program. 
 
 The data from the course includes the following questions:
 
