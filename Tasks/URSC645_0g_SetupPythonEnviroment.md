@@ -59,13 +59,14 @@ conda install seaborn
 Note: This process can take a long time and depends on a solid internet connection.
 
 5. How to check your environment? Use the command `conda list` in Anaconda Prompt to see what packages and the versions are installed in an environment.
-- The steps above created an environment with 299 python packages (the 8 required and the packages that they require)
+- The steps above created an environment with 300 python packages (the 9 required and the packages that they require)
 - The primary packages that were installed on 2025-01-08 included the following versions, builds, and channels
 ```
 Name                      Version            Build           Channel
 contextily                1.6.2              pyhd8ed1ab_1    conda-forge
 dask                      2024.12.1          pyhd8ed1ab_0    conda-forge
 descartes                 1.1.0              pyhd8ed1ab_5    conda-forge
+fiona                     1.10.1          py312h6e88f47_3    conda-forge
 geopandas                 1.0.1              pyhd8ed1ab_3    conda-forge
 jupyter                   1.1.1              pyhd8ed1ab_1    conda-forge
 openpyxl                  3.1.5           py312he70551f_1    conda-forge
@@ -117,6 +118,16 @@ C:\Users\<username>\miniconda3
 > note: The AppData folder may be hidden. Type the path in the address bar of Windows Explorer to access the folder.
 
 > note: The folder may not be delted after the uninstall. You may have to delete the folder before reinstalling.
+
+### How to uninstall VS Code
+[Uninstall Visual Studio Code](https://code.visualstudio.com/docs/setup/uninstall)
+
+Restarted computer for good measure
+
+Also delete the folder:
+C:\Users\<username>\.vscode
+
+The .vscode folder includes all of the VS Code settings and extensions.
 
 ### How to remove a conda environment
 Sometimes you might need to remove a conda environment. This can be done using the following command line prompt:
