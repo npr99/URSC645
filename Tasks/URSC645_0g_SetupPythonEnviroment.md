@@ -117,7 +117,7 @@ C:\Users\<username>\miniconda3
 
 > note: The AppData folder may be hidden. Type the path in the address bar of Windows Explorer to access the folder.
 
-> note: The folder may not be delted after the uninstall. You may have to delete the folder before reinstalling.
+> note: The folder may not be deleted after the uninstall. You may have to delete the folder before reinstalling.
 
 ### How to uninstall VS Code
 [Uninstall Visual Studio Code](https://code.visualstudio.com/docs/setup/uninstall)
