@@ -1,50 +1,18 @@
 # Contributor Guide
 Before making a contribution please set up your computer with the following software.
 
-# Helpful Software to Install
+# Tasks to Accomplish
 ---
-## GitHub Account
-Sign up for a free GitHub account: https://github.com/signup 
 
-## VisualStudio Code:
-"Learning to code is intimidating, so set yourself up for success with a tool built for you. 
-Visual Studio Code is a free coding editor that helps you start coding quickly. 
-Use it to code in any programming language, without switching editors."
+Within the Tasks Folder there are detailed instructions on the following tasks:
 
-https://code.visualstudio.com/?wt.mc_id=DX_841432
+1. [Set up your GitHub account](../Tasks/URSC645_0c_Create_GitHub_Account.md)
+2. [Make your first contribution to URSC 645 Repository](../Tasks/URSC645_0d_YourFirstContribution.md)
+3. [Set up Google Drive for Desktop](../Tasks/URSC645_0f_GoogleDriveForDesktop.md)
+4. [Set up Python Environment on your computer](../Tasks/URSC645_0g_SetupPythonEnviroment.md)
 
-To run python in Visual Studio code requires installing Python 
 
-https://code.visualstudio.com/docs/python/python-tutorial
-
-## GitHub for Desktop:
-"Focus on what matters instead of fighting with Git. 
-Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow."
-
-https://desktop.github.com/
-
-## Anaconda - Helps manage versions of Python and Packages
-Python is an open source software which requires users to manage the various versions and add-on packages. Anaconda provides the tools for managing your Python environment.
-
-Download the latest Miniconda3 installer from the Miniconda web page or Anaconda3 installer from Anaconda page
-
-https://docs.conda.io/en/latest/miniconda.html
-
-https://www.anaconda.com/products/individual
-
-## Slack
-Slack is a messaging app for business that connects people to the information they need. By bringing people together to work as one unified team, Slack transforms the way organizations communicate.
-
-https://slack.com/help/articles/115004071768-What-is-Slack-
-
-https://slack.com/downloads/windows
-
-## Google Drive for Desktop
-
-## Notepad++
-
-## 7-zip
-
+---
 # Set up a good workstation
 ---
 A good workstation can help make the data workflow process easier - the more monitor workspace the better. Here is an example of a healthy workspace:
@@ -75,30 +43,6 @@ Before and after workstation pictures:
 
 ---
 # Software Tips and Tricks
-## Understand GitHub
----
-Key words to understand and define:
-Repository (Repo)
-Fork
-Push
-Pull
-Commit
-Pull request
-Branch
-
-Helpful video for understanding the Github process
-
-https://www.youtube.com/watch?v=gVa4d728T0k
-
-Note: If you are new to Git, the git-scm (https://git-scm.com/documentation) website is a good place to start, with a popular online book (https://git-scm.com/book/en/v2), 
-Getting Started videos (https://git-scm.com/video/what-is-git) and cheat sheets (https://training.github.com/downloads/github-git-cheat-sheet.pdf). 
-The VS Code documentation assumes you are already familiar with Git.
-
-### How to Use GitHub with Visual Studio
-
-https://code.visualstudio.com/docs/editor/versioncontrol
-
-https://www.youtube.com/watch?v=iR1Xhu5K1cU
 
 ### Markdown Language
 
@@ -122,13 +66,3 @@ A full filename includes the filename with a decimal followed by the file extens
 .ipynb = Jupyter Notebook file
 .dta = Stata Data file
 ```
-
-## Visual Studio Code Help
-### Issue - Indention Settings
-Python depends on correct indentions for the code to work. An issue might arise where VS Code attempts to set the indents automatically. If this issue creates a problem it is possible to change the settings in VS Code.
-
-https://stackoverflow.com/questions/42118651/how-to-set-python-language-specific-tab-spacing-in-visual-studio-code
-
-![image](https://user-images.githubusercontent.com/5131566/151396820-197fc2ec-acad-4b2c-84e6-ea897e63cfed.png)
-
-
