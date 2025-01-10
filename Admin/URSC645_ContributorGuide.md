@@ -16,7 +16,8 @@ Within the Tasks Folder there are detailed instructions on the following tasks:
 # Set up a good workstation
 ---
 A good workstation can help make the data workflow process easier - the more monitor workspace the better. Here is an example of a healthy workspace:
-![image](https://user-images.githubusercontent.com/5131566/151397786-08070788-2816-444f-a41d-5ba7806bd698.png)
+
+![Healthy Workstation](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/RosenheimHealthyWorkstation.png)
 
 The vertical monitor is nice for viewing PDF Files and Word Documents, the middle wide monitor is useful for having multiple program files open side-by-side and the small laptop monitor is good for viewing the file explorer. 
 

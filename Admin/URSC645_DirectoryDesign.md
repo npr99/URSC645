@@ -1,6 +1,6 @@
 ## Directory and Folder Name Structure
 
-![Data Dumpster or Data Directory](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/AdobeExpress_Data Dumpster or Directory 2025-01-10.png)
+![Data Dumpster or Data Directory](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/AdobeExpress_DataDumpsterorDirectory2025-01-10.png)
 
 **Admin**      = Administration Folder = Folder has files and guides to introduce project. Folder may contain proposals, budgets, hiring documents, etc. Using the word Admin also helps to have this folder at the top of the list of folders.
 
