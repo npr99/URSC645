@@ -37,7 +37,7 @@ conda config --add channels conda-forge
 3. Create the python environment (for this example we choose URSC645) and activate it
 
 ```
-conda create -n URSC645 python=3.10
+conda create -n URSC645 python=3.12
 ```
 
 > note: the python version should match the miniconda python version. The most recent version is 3.10. Using different versions of python can cause issues.
@@ -53,21 +53,26 @@ conda install contextily
 conda install descartes
 conda install openpyxl
 conda install dask
+conda install fiona
+conda install seaborn
 ```
 Note: This process can take a long time and depends on a solid internet connection.
 
 5. How to check your environment? Use the command `conda list` in Anaconda Prompt to see what packages and the versions are installed in an environment.
-- The steps above created an environment with 324 python packages (the 7 required and the packages that they require)
-- The primary packages that were installed on 2024-02-09 included the following versions, builds, and channels
+- The steps above created an environment with 300 python packages (the 9 required and the packages that they require)
+- The primary packages that were installed on 2025-01-08 included the following versions, builds, and channels
 ```
-# Name                    Version
-contextily                1.5.0
-descartes                 1.1.0
-geopandas                 0.14.3
-jupyter                   1.0.0
-openpyxl                  3.1.2
-pandas                    2.2.0
-python                    3.10.13
+Name                      Version            Build           Channel
+contextily                1.6.2              pyhd8ed1ab_1    conda-forge
+dask                      2024.12.1          pyhd8ed1ab_0    conda-forge
+descartes                 1.1.0              pyhd8ed1ab_5    conda-forge
+fiona                     1.10.1          py312h6e88f47_3    conda-forge
+geopandas                 1.0.1              pyhd8ed1ab_3    conda-forge
+jupyter                   1.1.1              pyhd8ed1ab_1    conda-forge
+openpyxl                  3.1.5           py312he70551f_1    conda-forge
+pandas                    2.2.3           py312h72972c8_1    conda-forge
+python                    3.12.8          h3f84c4b_1_cpython    conda-forge
+seaborn                   0.13.2               hd8ed1ab_3    conda-forge
 ```
 - If your environment does not have these versions of the primary packages the code may or may not replicate. 
 - Try to replicate the code provided by this course, if it does not replicate the issue might be with the environment.
@@ -79,7 +84,14 @@ Use it to code in any programming language, without switching editors."
 
 https://code.visualstudio.com/?wt.mc_id=DX_841432
 
-To run python in Visual Studio code requires installing Python. If you have followed the steps for to create the URSC 645 Python environment, then you have python installed.
+To run python in Visual Studio code requires installing Python. If you have followed the steps for create the URSC 645 Python environment, then you have python installed.
+
+### Installed and now need to install extensions:
+[How to manage extensions](https://code.visualstudio.com/docs/editor/extension-marketplace)
+- Python Extension
+- Jupyter Extension
+- GitHub Copilot (now free)
+- Code Spell Checker
 
 ### Check that new environment is available in VS Code
 1. In Visual Studio Code this new environment will be provided as an option for running your Jupyter Notebooks and Python Code.
@@ -111,6 +123,18 @@ C:\Users\<username>\miniconda3
 > note: the folder name will be different depending on the version of Anaconda or Miniconda you installed.
 
 > note: The AppData folder may be hidden. Type the path in the address bar of Windows Explorer to access the folder.
+
+> note: The folder may not be deleted after the uninstall. You may have to delete the folder before reinstalling.
+
+### How to uninstall VS Code
+[Uninstall Visual Studio Code](https://code.visualstudio.com/docs/setup/uninstall)
+
+Restarted computer for good measure
+
+Also delete the folder:
+C:\Users\<username>\.vscode
+
+The .vscode folder includes all of the VS Code settings and extensions.
 
 ### How to remove a conda environment
 Sometimes you might need to remove a conda environment. This can be done using the following command line prompt:
