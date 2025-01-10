@@ -84,7 +84,7 @@ Use it to code in any programming language, without switching editors."
 
 https://code.visualstudio.com/?wt.mc_id=DX_841432
 
-To run python in Visual Studio code requires installing Python. If you have followed the steps for to create the URSC 645 Python environment, then you have python installed.
+To run python in Visual Studio code requires installing Python. If you have followed the steps for create the URSC 645 Python environment, then you have python installed.
 
 ### Check that new environment is available in VS Code
 1. In Visual Studio Code this new environment will be provided as an option for running your Jupyter Notebooks and Python Code.
