@@ -92,6 +92,7 @@ To run python in Visual Studio code requires installing Python. If you have foll
 - Jupyter Extension
 - GitHub Copilot (now free)
 - Code Spell Checker
+- vscode-pdf
 
 ### Check that new environment is available in VS Code
 1. In Visual Studio Code this new environment will be provided as an option for running your Jupyter Notebooks and Python Code.
