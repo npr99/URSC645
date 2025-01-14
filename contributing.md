@@ -44,7 +44,7 @@ The material in the GitHub repository is open to anyone with internet access. If
 
 Most of the Google Docs linked in the repository are viewable by anyone with the link. However, access to editing and contributing to the Google Docs is limited to the course instructors and current students enrolled in the course.
 
-Students enrolled in the course have access to the course's shared Google Drive Folder. The Google Drive folder contains more material than is currently in the GitHub repository. The Google Drive folder is also the primary location for students to submit their assignments. Access to the files on the Google Drive are limited by the .gitignore file in the repository.
+Students enrolled in the course have access to the course's shared Google Drive Folder. The Google Drive folder contains more material than is currently in the GitHub repository. The Google Drive folder is also the primary location for students to submit their assignments.
 
 ## Get in touch
 
@@ -71,7 +71,7 @@ In order to contribute via GitHub, you'll need to set up a free account and sign
 Here are some [instructions](https://help.github.com/articles/signing-up-for-a-new-github-account/) to help you get going.
 Remember that you can ask us any questions you need to along the way.
 
-To use GitHub requires setting up your local machine with the following [software](https://github.com/npr99/URSC645/blob/main/Admin/URSC645_ContributorGuide.md#helpful-software-to-install).
+To use GitHub requires setting up your local machine by following the tasks described in the [Getting Started Page](https://github.com/npr99/URSC645/blob/main/Admin/URSC645_GettingStarted).
 
 ## Writing in Markdown
 
