@@ -51,7 +51,7 @@ https://www.markdownguide.org/getting-started/
 
 ## Turn on File Extensions
 ---
-![image](https://user-images.githubusercontent.com/5131566/150422462-fc33e914-9720-41fe-9fa2-c39eaaa30a7c.png)
+![Windows 10 Turn on File Name Extensions](https://user-images.githubusercontent.com/5131566/150422462-fc33e914-9720-41fe-9fa2-c39eaaa30a7c.png)
 
 Note: A filename can include several periods or decimal characters “.”. 
 However, it is good practice to not use periods or decimals in filenames. 
@@ -67,3 +67,8 @@ A full filename includes the filename with a decimal followed by the file extens
 .ipynb = Jupyter Notebook file
 .dta = Stata Data file
 ```
+
+## View Directory Details 
+Try viewing folders and files using directory details in Windows or list layout view in Google Drive. (not sure what the option is within Mac OS) These views may make it easier to navigate complicated folder structures and see detailed file names.
+
+![Directory Design Views for URSC 645](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/URSC645_DirectoryDesignOverview_2025-01-14.jpg)

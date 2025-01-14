@@ -103,6 +103,12 @@ Therefore, filenames (including the path) must be less than 255 characters. Addi
 filenames longer than 80 characters will be cutoff, requiring the user to scroll to see the full name. 
 Therefore, it is recommended that file names not exceed 80 characters.
 
+# Tell a story
+
+![PhD Comics #1323 Filenames tell a story](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/phdcomics_filenamestory_1323.jpg)
+
+Let your file names tell the story of the project workflow. As one reads the file names in order (sort by name) the names should give a hint as to how the data has been obtained, cleaned, explored and modeled.
+ 
 # Summary
 
 A good naming plan needs to be easy to understand and should be consistent. 
