@@ -1,7 +1,12 @@
-# Contributor Guide
-Before making a contribution please set up your computer with the following software.
+# Getting Started, Tasks, Tips, and Tricks
 
-# Tasks to Accomplish
+## Getting Started
+Welcome. Here are some suggestions for getting started.
+
+The page on [Contributing to URSC 645](../contributing.md) is a great page to review for details on how to contribute to this GitHub repository.
+
+
+## Tasks to Accomplish
 ---
 
 Within the Tasks Folder there are detailed instructions on the following tasks:
@@ -12,8 +17,10 @@ Within the Tasks Folder there are detailed instructions on the following tasks:
 4. [Set up Python Environment on your computer](../Tasks/URSC645_0g_SetupPythonEnviroment.md)
 
 
+## Tips 
+
 ---
-# Set up a good workstation
+### Set up a good workstation
 ---
 A good workstation can help make the data workflow process easier - the more monitor workspace the better. Here is an example of a healthy workspace:
 
@@ -43,13 +50,13 @@ Before and after workstation pictures:
 "I have a lot of space to work comfortably now, and the chair helps me reduce my back pain." - Student Testimonial
 
 ---
-# Software Tips and Tricks
+## Software Tips and Tricks
 
 ### Markdown Language
 
 https://www.markdownguide.org/getting-started/
 
-## Turn on File Extensions
+### Turn on File Extensions
 ---
 ![Windows 10 Turn on File Name Extensions](https://user-images.githubusercontent.com/5131566/150422462-fc33e914-9720-41fe-9fa2-c39eaaa30a7c.png)
 
@@ -68,7 +75,7 @@ A full filename includes the filename with a decimal followed by the file extens
 .dta = Stata Data file
 ```
 
-## View Directory Details 
+### View Directory Details 
 Try viewing folders and files using directory details in Windows or list layout view in Google Drive. (not sure what the option is within Mac OS) These views may make it easier to navigate complicated folder structures and see detailed file names.
 
 ![Directory Design Views for URSC 645](https://raw.githubusercontent.com/npr99/URSC645/main/.github/images/URSC645_DirectoryDesignOverview_2025-01-14.jpg)
