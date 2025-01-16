@@ -1,3 +1,5 @@
+# Are you a scientist?
+
 # What is Science?
 
 Summary of readings that discuss and define science.
@@ -23,7 +25,8 @@ Motivating quote from NYTimes Science section (Overbye, 2023):
 
 ## Explicating Assumptions
 "Paradigm shifts emerge when scientists or others question their assumptions (tacit or explicit). Van Neurath (cited in Harste et al., 1984, p. 85) uses the metaphor of shipbuilding to describe this process. “Scientists are like sailors who have to rebuild their ships at high sea, without being able to seek port. Each plank in the hull may be jettisoned in the process, but it is not feasible to jettison all of the planks at the same time.” Thus, the “ships” of knowledge are built with pieces of wood (assumptions). The “worth” of each piece has to be examined from time to time. The pieces that are outdated by new information or disproven need to be jettisoned. Based on this metaphor, we can say that “knowing” is about making and testing assumptions. Science is an activity of reflective thinking. Brookfield (1995) calls this “hunting assumptions,” and Fogarty (1994) calls it “meta-cognition,” reflecting on how we think, how we know, and how we learn." (Nkwake 2020 p. 88)
-Nkwake, A. M. (2013). Working with assumptions in international development program evaluation (pp. 25-50). New York, NY: Springer. https://doi.org/10.1007/978-3-030-33004-0
+
+Nkwake, A. M. (2013). _Working with assumptions in international development program evaluation_ (pp. 25-50). New York, NY: Springer. https://doi.org/10.1007/978-3-030-33004-0
 
 
 ## Engineering Design Process
@@ -42,11 +45,13 @@ Overbye, Dennis (2023-01-25). *Where is Physics Headed (and How Soon Do We Get T
 
 Does the tool help you engage with the world, think about different future outcomes, and communicate your story?
 
-Before asking a scientific model (an oracle (Eidinow 2018)) - prepare diligently and phrase your research question carefully. Consider what answer will the model create and how will those answers lead to different possibilities? Often the answers provided by models (GPS, a medical diagnostic tool... (Harford 2019)) are taken without question, thought or engagement. Harford (2019) gives examples of how using GPS to navigate a route limits engagement and when asked to walk the same route without help those who used a paper map were more confident. Sometimes a model can be "too good", and therefore we don't stop and think about questions we ask or the answers we receive.
+Before asking a scientific model (an oracle (Eidinow 2018)) - prepare diligently and phrase your research question carefully. Consider what answer will the model create and how will those answers lead to different possibilities? Often the answers provided by models (GPS, a medical diagnostic tool... (Harford 2019)) are taken without question, thought or engagement. Harford (2019) gives examples of how using GPS to navigate a route limits engagement and when asked to walk the same route without help those who used a paper map were more confident. Sometimes a model can be "too good", and therefore we don't stop and think about questions we ask or the answers we receive. An example of a model that appears to be "too good" is Internet Protocol (IP) address mapping. Assumptions about how to locate where an IP address is physically located led to a house in the middle of Kansas being assumed to be the location of significant criminal activity (Hill, 2016).  
 
 Eidinow, Esther (2018)  “[Oracles and models: ancient and modern ways of telling the future](https://theconversation.com/oracles-and-models-ancient-and-modern-ways-of-telling-the-future-90124)” _The Conversation_.
 
 Harford, Tim (2019) [Cautionary Tales Ep 8 – You Have Reached Your Destination](https://timharford.com/2019/12/cautionary-tales-ep-8-you-have-reached-your-desination/)
+
+Hill, K. (2016) "How an internet mapping glitch turned a random Kansas farm into a digital hell"
 
 Wyatt J., Spiegelhalter D. (1991) Evaluating Medical Expert Systems: What To Test, And How ?. In: Talmon J.L., Fox J. (eds) Knowledge Based Systems in Medicine: Methods, Applications and Evaluation. Lecture Notes in Medical Informatics, vol 47. Springer, Berlin, Heidelberg
 
