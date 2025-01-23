@@ -18,10 +18,11 @@ This annotated bibliography highlights the following ideas and concepts as discu
 ## The Problem
 
 Research is a fundamental part of science that involves a significant investment of time, systematic application of methods, and careful consideration. 
-"Science demands reproducibility" (Long 2009, p. 2) therefore reproducible research is a fundamental part of science. 
-However, most research is not reproducible because many of the research methods are not clearly documented and tools or software are not always available.
-Additionally, within the social sciences there is a general sense while research should be reproducible, the requirements are left to individual researchers.
-To overcome the gap between the demand for reproducible research and the lack the skills to build reproducibility into projects, researchers need to invest time to develop data science skills. Data science skill can help build a strong workflow to support urban and regional analytic research that is systematic, generalizable, and replicable. Researchers that invest time to develop skills for reproducible research will be able to accomplish better science in less time.
+"Science demands reproducibility" (Long 2009, p. 2); therefore, reproducible research is a fundamental part of science. 
+However, most research is not reproducible because many of the research methods are not clearly documented, and tools or software are not always available.
+Additionally, within the social sciences, there is a general sense while research should be reproducible, the requirements are left to individual researchers.
+To overcome the gap between the demand for reproducible research and the lack of skills to build reproducibility into projects, researchers need to invest time to develop data science skills. Data science skills can help build a strong workflow to support urban and regional analytic research that is systematic, generalizable, and replicable. 
+Researchers who invest time to develop skills for reproducible research will be able to accomplish better science in less time.
 
 ## Research Question:
 
