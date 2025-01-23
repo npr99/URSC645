@@ -1,4 +1,17 @@
 # Are you a scientist?
+Simply stated: Scientist do science... so
+
+"Everyone is a scientist...
+
+From the moment you ask how and where - You are a scientist!
+
+When you explore by experiment and build from the imagination - You are a scientist!
+
+Where you allow your curiosity to wander as you pursue a solution - You are a scientist!
+
+When you push the frontiers of innovation to new heights of discovery - You are a scientist!"
+
+- [National Science Foundation](https://www.youtube.com/watch?v=OYz00fNQu3g&t=24s) (2022) "YOU are a Scientist"
 
 # What is Science?
 
