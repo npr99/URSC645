@@ -136,10 +136,6 @@ Lowndes walks us through a number of methods and tools that her and collaborativ
 Free software tools and platforms, like Github, can help collaborative research, improving workflow, and replicability, because it breaks the barriers between researchers.
 
 
-
-
-
-
 ## Gentzkow and Shapiro (2014)
 Gentzko, M., & Shapiro, J.N. (2014). Code and Data for the Social Sciences: A Practitioner’s Guide. https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf
 
