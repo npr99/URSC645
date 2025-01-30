@@ -10,9 +10,11 @@
 
 
 # Editing a Markdown Page in a Forked GitHub Repository
-## Step 1: Draft in Google Docs
+## Step 1: Decide what you want to edit in the Course Annotated Bibliography
 - Access the Google Doc: [URSC645 Annotated Bibliography Draft](https://docs.google.com/document/d/1elFspZUIEzc66LLatNqcZBW3WM7vJ7qKHhX6Z0YcEVo/edit#heading=h.5tiemxbsaair).
-- Collaborate with your team to draft your section. Use Google Docs' editing and commenting features for initial drafting and feedback.
+- For your assigned articles review the current annotated bibliography entry. 
+- Use an AI tool (such as Notebook LM) to summarize a journal article with respect to the course research question.
+- Use Google Docs' editing and commenting features for initial drafting and feedback.
 - Once your content is final, you'll need to format it using Markdown syntax. You can practice this formatting in an online Markdown editor like [OnlineMarkdownEditor.dev](https://onlinemarkdowneditor.dev/).
 
 ## Step 2: Log into GitHub
