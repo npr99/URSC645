@@ -691,7 +691,7 @@ Playford, C. J., Gayle, V., Connelly, R., & Gray, A. J. (2016). Administrative s
 
 Playford et al. (2016) address how reproducible workflow skills affect the quality and efficiency of science by emphasizing the importance of a planned and organized workflow, particularly when using administrative data. The authors argue that sharing research code is essential for achieving reproducibility, which enhances the accuracy and validity of analyses, as well as facilitating further testing of research. They advocate for the use of version control software like Git to improve code sharing and make research more reproducible. **The paper highlights that a well-planned workflow and the sharing of research code are critical for improving the overall quality and efficiency of social science research, making it more transparent and reproducible**. The authors also note that the use of syntax files (as opposed to graphical user interfaces) is imperative for reproducibility and transparency.
 
-### **Challenges and Solutions**
+### **Challenges & Solutions**
 
 - Challenge 1: Lack of code sharing and documentation. Social scientists often don't share their analysis code, which makes research difficult to reproduce. Using point-and-click methods instead of syntax also means that analysis steps aren't recorded.
 
