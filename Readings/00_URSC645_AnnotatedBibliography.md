@@ -37,7 +37,7 @@ The research question defines the sections to focus on in the literature review.
 
 ## Audience
 
-This annotated bibliography for academic researchers interested in reproducible research.
+This annotated bibliography is for academic researchers interested in reproducible research.
 
 ---
 # Required Reading
