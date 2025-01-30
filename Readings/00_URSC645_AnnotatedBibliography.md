@@ -693,23 +693,25 @@ Playford et al. (2016) address how reproducible workflow skills affect the quali
 
 ### **Challenges and Solutions**
 
-* Challenge: Lack of code sharing and documentation. Social scientists often don't share their analysis code, which makes research difficult to reproduce. Using point-and-click methods instead of syntax also means that analysis steps aren't recorded.
+- Challenge 1: Lack of code sharing and documentation. Social scientists often don't share their analysis code, which makes research difficult to reproduce. Using point-and-click methods instead of syntax also means that analysis steps aren't recorded.
 
-Solution: Share all research code (syntax files) and any code used to get or combine data. Always use syntax files instead of graphical interfaces to make sure the analysis is recorded.
+  Solution 1: Share all research code (syntax files) and any code used to get or combine data. Always use syntax files instead of graphical interfaces to make sure the analysis 
+  is recorded.
 
-- Challenge 1: Restrictions on data access and retention. Access restrictions and short data retention periods limit the ability to share data and code.
+- Challenge 2: Restrictions on data access and retention. Access restrictions and short data retention periods limit the ability to share data and code.
 
-  Solution 1: Use meta-information and share code to help make research reproducible. Work toward policies that keep data and research code for a long time.
+  Solution 2: Use meta-information and share code to help make research reproducible. Work toward policies that keep data and research code for a long time.
 
-- Challenge 2: Working with changing data. Data from administrative systems can change over time, so it's hard to know exactly which data were used.
+- Challenge 3: Working with changing data. Data from administrative systems can change over time, so it's hard to know exactly which data were used.
   
-  Solution 2: Document the code and time parameters used to get the data from the dynamic system.
+  Solution 3: Document the code and time parameters used to get the data from the dynamic system.
 
-- Challenge 3: Limited exploratory data analysis when using administrative data.
+- Challenge 4: Limited exploratory data analysis when using administrative data.
 
-  Solution 3: Develop better tools to explore this kind of data.
+  Solution 4: Develop better tools to explore this kind of data.
 
-- Challenge 4: Lack of version control. Without version control, it's hard to track changes in code or go back to older versions. Using personal websites or repositories is not ideal.
+- Challenge 5: Lack of version control. Without version control, it's hard to track changes in code or go back to older versions. Using personal websites or repositories is not 
+  ideal.
 
-  Solution 4: Use version control systems like Git to manage code changes. Also, use Research Objects (ROs) to organize all research outputs (data, code, documentation).
+  Solution 5: Use version control systems like Git to manage code changes. Also, use Research Objects (ROs) to organize all research outputs (data, code, documentation).
 
