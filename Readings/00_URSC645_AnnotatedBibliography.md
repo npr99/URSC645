@@ -105,8 +105,24 @@ From 2018, Taylor &amp; Francis will be introducing new policies on data sharing
 
 Lowndes, J. S. S., Best, B. D., Scarborough, C., Afflerbach, J. C., Frazier, M. R., O’Hara, C. C., Jiang, N., & Halpern, B. S. (2017). Our path to better science in less time using open data science tools. Nature Ecology & Evolution, 1(6), 0160. https://doi.org/10.1038/s41559-017-0160 
 
-In Lowndes et al., 2017, the authors discuss their reasoning and process for how they reevaluated and overhauled their approach to data management and collaboration. After publishing their initial report (Ocean Health Index), when they attempted to reproduce their methods for the second report, they realized that the team varied in their approaches to data management style, and versioning, and recreating their methods easily was impossible. They elected to all use one systematic approach to data management, collectively learning the R programming language and using Git and GitHub for their file management and collaboration. They discovered that not only did the new system improve their management, it also improved their team collaboration and overall productivity because everyone had the same base knowledge about the process and language of the data management code and programs. This allowed for better vetting of the data entry and written code for errors. Over time as they incorporate more methods for improving the workflow, the overall time they must spend working on generating the annual report decreases, indicating that the methods are creating efficient work that is still accurate and does not require retooling.
+### Overview
+<p align="justify">
+This paper provides three essential concepts and discussions related to our research question. First, it explores how replicability and open data science improve the quality of research. Second, what workflows can contribute to replicability? Third, how to learn open data science and achieve the transformation from traditional research approaches to an open and transparent research environment.
+</p>
+1. Benefits of Replicability
+<p align="justify">
+Replicability in research enhances confidence in findings, promotes transparency, and improves efficiency by reducing redundant efforts. It fosters collaboration, improves research quality, and bridges science with policy. By supporting open science, replicability ensures accessibility and reliability, ultimately accelerating scientific progress and the practical application of research.
+</p>
+2. Workflows and Practices for Reproducibility
+<p align="justify">
+Adopting open data science tools, such as R, Git, and GitHub, enhance reproducibility by organizing, documenting, and sharing data. Standardizing formats, coding data preparation, and using version control improve collaboration and efficiency. Openly sharing code, structuring files consistently, and using platforms like GitHub Issues facilitate communication, and finally, follow open science principles—transparency, collaboration, and sharing.
+</p>
+3. Learning Open Data Science and Transformation
+<p align="justify">
+Learning strategies include self-paced resources, community engagement, workshops, and incremental adoption of tools like R and GitHub. Overcoming challenges requires patience, teamwork, and confidence in coding. Good teamwork values coding skills, fostering leadership, and sharing knowledge. Ultimately, through the open sharing of data, code, and methods, moving from traditional, often inefficient, and less reproducible methods to a more open, collaborative, transparent, and efficient approach using data science tools and principles.
+</p>
 
+### Critical Citation
 "Integrating open data science practices and tools into science can save time, while also improving reproducibility for our most important collaborators: our future selves." - Lowndes et al
 
 Lowndes, Julia S. Stewart, Benjamin D. Best, Courtney Scarborough, Jamie C. Afflerbach, Melanie R. Frazier, Casey C. O'Hara, Ning Jiang and Benjamin S. Halpern (2017). Our path to better science in less time using open data science tools. _Nature Ecology &amp; Evolution_, 1, 1-7.
@@ -282,6 +298,22 @@ Task management issues propagate with bigger teams. Using a task management syst
 10. Profile slow code relentlessly.
 11. Store “too much” output from slow code.
 12. Separate slow code from fast code.
+
+## Goodman et al. (2014) Ten Simple Rules for the Care and Feeding of Scientific Data
+
+<p align="justify">
+Goodman A, Pepe A, Blocker AW, Borgman CL, Cranmer K, Crosas M, et al. (2014) Ten Simple Rules for the Care and Feeding of Scientific Data. PLoS Comput Biol 10(4): e1003542. https://doi.org/10.1371/journal.pcbi.1003542
+</p>
+<p align="justify">
+This paper emphasizes the importance of data management and data care in terms of reproducibility and the quality of research. In the meanwhile, it provides some data management practices to facilitate reproducibility.
+</p>
+<p align="justify">
+1. Effective data management ensures research reproducibility, transparency, and long-term value. It promotes data reuse, facilitates collaboration, and enhances credit and recognition for researchers. By preserving data and providing detailed workflows, it addresses the complexities of modern research, ensuring the reliability, validity, and accessibility of scientific findings.
+</p>
+<p align="justify">
+2. Sharing data with persistent identifiers, providing metadata, documenting workflows, publishing code, and linking data to publications are essential for reproducibility and reuse. Using standard formats, version control, workflow management systems, and packaging research materials enhance collaboration and long-term accessibility. Open licenses and data papers ensure proper credit and recognition.
+</p>
+
 
 ## Goodman et al 2016
 
