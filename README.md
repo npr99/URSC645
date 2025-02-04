@@ -95,7 +95,7 @@ Buscha, Franz. (2019). Introduction to Stata 15. https://www.linkedin.com/learni
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/npr99"><img src="https://avatars.githubusercontent.com/u/5131566?v=4?s=100" width="100px;" alt="Nathanael Rosenheim"/><br /><sub><b>Nathanael Rosenheim</b></sub></a><br /><a href="#projectManagement-npr99" title="Project Management">📆</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Jiangzla"><img src="https://avatars.githubusercontent.com/u/137592856?v=4?s=100" width="100px;" alt="Jiangzla"/><br /><sub><b>Jiangzla</b></sub></a><br /><a href="#content-Jiangzla" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Jiangzla"><img src="https://avatars.githubusercontent.com/u/137592856?v=4?s=100" width="100px;" alt="Jiangzla"/><br /><sub><b>Jiangzla</b></sub></a><br /><a href="#content-Jiangzla" title="Content">🖋</a> <a href="https://github.com/npr99/URSC645/commits?author=Jiangzla" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
