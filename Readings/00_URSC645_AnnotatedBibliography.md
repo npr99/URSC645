@@ -147,124 +147,32 @@ Gentzko, M., & Shapiro, J.N. (2014). Code and Data for the Social Sciences: A Pr
 
 Purpose of book: To share "insight from experts in code & data into practical terms." The whole book focused on workflow skills. 
 
-### Chapter 1 - Introduction
+### Chapter 1: Introduction
+This chapter introduces the challenges of empirical social science, emphasizing the central role of coding and data management. Many researchers lack formal computer science training, leading to common issues like non-replicable results and difficulty in understanding old code. The authors describe common situations they encountered, such as code that no longer works and inconsistent results. The chapter argues for learning from experts in code and data management and presents the guide as a means of translating these practices into the social sciences to improve research workflows. The main goal of this guide is to help researchers focus on the research questions rather than wrestle with messy code.
 
-**Key Words**: 
-Empirical social science: "Asking good questions. Digging up novel data. Designing statistical analysis. Writing up results. For many of us, most of the time, what it means is writing & debugging code…” .pg 3 
-Reproducible - no definition
-workflow - no definition
-quality of science - no definition
-efficiency of science - no definition
+### Chapter 2: Automation
+This chapter stresses the importance of automating all research steps. It contrasts an inefficient interactive approach to research with a more structured, script-based approach. The authors argue for the use of scripts to make research more replicable and efficient. The chapter provides an example of converting an interactive workflow into a set of scripts and then demonstrates how to make the output of the project replicable by creating a single script that executes all code. The chapter concludes by emphasizing the benefits of automation in terms of time and effort savings.
 
-**Summary**:
-Authors provide an observation that many social scientists do have some programming basics, but overall they lack a formal computer science training. This lack of formal training approach that social scientists use has limitations as "projects grow bigger, the problems grew nastier, and our piecemeal efforts at improving matters... proved ever more ineffective" (pg 4). Important limitations or challenges from this approach include: replication, unexpected data changes, inefficiency in the researcher code, or clarity. 
+### Chapter 3: Version Control
+This chapter introduces the concept of version control to manage code and data changes. It argues against using methods like date and initial tags and instead advocates for using version control software to track changes automatically. The chapter highlights the benefits of version control, including the ability to revert to previous versions, record authorship, and see detailed changes. The authors emphasize the importance of running the entire project before checking in changes to ensure the code is working properly and consistently. This practice ensures replicability and makes editing less risky.
 
-### Chapter 2 - Automation
-Key Words: 
-**Rules:**
-1. Automate everything that can be automated 
-2. Write a single script that executes all code from beginning to end. 
-have recommendations on Stata code on page 8 and 9 related to this chapter topic
+### Chapter 4: Directories
+This chapter focuses on the organization of project directories to improve efficiency and clarity. It recommends separating directories by function and separating input files from output files. The authors suggest a directory structure that includes subdirectories for inputs, outputs, code, and temporary files. The chapter explains how modular, functional directories facilitate modifications, make data dependencies clear and allow easy access to the output of specific directories from any other directory. The authors suggest that making directories portable allows them to be run on different machines.
 
-**Summary:**
-The Interactive mode of research - save/modify as you go without thinking long term - is bad for 2 reasons:
-Replicability: Lacks a "record of the precise steps taken" or "definition of what anything means”. 
-Efficiency: In the interactive mode there are no “scripting key steps” nor a project directory to organize the project for yourself and others. 
-The authors recommend automating as much as possible. 
+### Chapter 5: Keys
+This chapter discusses the importance of storing cleaned data in tables with unique, non-missing keys. The authors use an example to illustrate common issues, such as missing or conflicting data. They introduce the concept of a relational database, and emphasize that the physical structure of a database should communicate its logical structure. The guide stresses that each table should have a key to identify its elements and that data should be normalized to avoid ambiguity. The chapter concludes with a three-step process to organize data from raw sources to the final analysis.
 
-Introduces the reader to the potato chip and TV method that runs the length of the book. 
+### Chapter 6: Abstraction
+This chapter discusses the concept of abstraction in coding to eliminate redundancy and improve clarity. The authors provide an example of calculating a leave-out mean to demonstrate the problem of using copy-and-paste methods and offer a solution by creating a general-purpose function. They also suggest that abstraction makes the code more readable. The chapter emphasizes the importance of implementing functions carefully, including unit testing to ensure functions work as intended. The authors also highlight the use of abstraction beyond code in everyday tasks.
 
-### Chapter 3 - Version Control
-**Recommended Resources:**
-* Version Control Resources 
-* Sub Version 
-* Tortviso SNV for Windows 
-* Git or Bit Buckets
+### Chapter 7: Documentation
+This chapter addresses the importance of documentation, advocating for self-documenting code over extensive comments that can be difficult to maintain. The authors describe the issues with comments that contradict the code. They argue that code should be written so that its structure and variable names guide the reader. They suggest using comments to clarify when something may seem wrong at first. Additionally, comments can also be used to prevent unintended behavior by clarifying the input required for functions.
 
-Key Words: 
-**Rules:**
-1. Store code and data under version control 
-2. Run the whole directory before checking it back in 
+### Chapter 8: Management
+This chapter focuses on task management, stressing the importance of using a task management system instead of email. The authors illustrate the ambiguity and confusion that can result from relying on email to manage tasks. They recommend using project and task management systems that provide structure and clear communication. They give an example of a task management portal and highlight the benefits of task management systems, such as clear responsibilities and a centralized place for all communications. They also recommend using a collaborative note-taking environment to organize notes and share them with other users.
 
-**Summary:**
-Using dates to indicate a file version is not enough because 1) it is hard to know "when to ‘spawn’ a new version and when to edit the old one." (12 pg) and 2) it generates 
-confusion because the naming of the file is also not clear. 
-
-The authors recommend using a version control method. On your PC, you create a repository or remote server. When you want to modify a directory, you check it out, make your edits & changes. Then you run the entire directory to make sure it works. Make corrections if needed. Once it's complete, you check the directory back in. 
-Version control also comes with a work long so you can see who made changes and revert if needed. 
-A common version control users are familiar with is Google Docs. 
-
-### Chapter 4 - Directories
-
-**Key Words:**
-* Rundirectory.bat: single script that executes a directory from start to finish
-* /temp
-* /output
-**Rules:**
-1. Separate directories by function.
-2. Separate files into inputs and outputs.
-3. Make directories portable.
-
-**Summary:**
-Separating directories by purpose makes it easier to intentionally modify the encapsulated analysis without having to rerun all the unrelated scripts, and it makes it possible to use local references. To get around this set-up breaking on a different machine where the local links are not valid, one can link to fixed revisions of the dataset on shared network storage, which the user can then decide to update once they are satisfied with the new revision.
-
-### Chapter 5 - Keys
-
-**Key Words:**
-* Relational database: a database format whose physical structure communicates the logic behind it to be self-documenting
-* Table: rectangular arrays in which data are stored
-* Element: The row of a table
-* Variable: the column of a table, which is an attribute of the table’s elements
-* Key:  a variable or set of variables that uniquely identifies the elements of a table. The variables that form the key never take on missing values, and a key’s value is never duplicated across rows of the table
-* Foreign key: the key for another table in the database
-* Normalized: a form of data that is easier to understand because the data are organized to be similar across all records
-**Rules:**
-1. Store cleaned data in tables with unique, non-missing keys.
-2. Keep data normalized as far into your code pipeline as you can.
-
-**Summary:**
-Managing complex datasets is possible, and it begins with ensuring that “the physical structure of a database \[communicates]\ its logical structure” (19). The authors illustrate this by creating a toy relational database of the effect of television on potato chip consumption in New York and Virginia, in which the authors normalize the data. To perform an analysis on a relational database, the tables of the database must be merged (joined) into a single array, at which point the data will likely no longer be normalized. The authors describe this process using their toy relational database.
-
-### Chapter 6 - Abstraction
-
-**Key Words:**
-* Abstraction: turning the specific instances of something into a general-purpose tool
-**Rules:**
-1. Abstract to eliminate redundancy.
-2. Abstract to improve clarity.
-3. Otherwise, don’t abstract.
-
-**Summary:**
-Copying and pasting code can propagate errors. A less error-prone alternative is abstraction, developing general-purpose code (e.g., functions, classes, scripts, etc.) that can cleanly be applied to the specific situation of interest as well as to future projects. Abstraction eliminates redundancy and makes code more readable. However, be sure to double-check that the abstraction works as intended and to not abstract without a purpose.
-
-### Chapter 7 - Documentation
-
-**Key Words:**
-* Commenting code
-* Documentation
-Rules:
-1. Don’t write documentation you will not maintain.
-2. Code should be self-documenting.
-
-**Summary:**
-Over-commenting code is an issue if the code is later changed but the comment is not updated; in this scenario, the comment no longer accurately reflects the code. The authors state, “If it’s not worth maintaining a piece of documentation up to [standard], it probably isn’t worth writing it in the first place (rule [1])” (27). Thus to make code clear without extensive comments, the authors suggest making code self-documenting (rule 2) by guiding the reader through the code through descriptive variable names and easily read code structure. This self-documentation is applicable to more than just code (e.g., purpose of relational databases, filenames etc.). While documenting can help prevent unintended behavior (through a written warning), it is often more effective to create preventative code that doesn’t allow the unintended behavior.
-
-### Chapter 8 - Management
-
-**Key Words:**
-* Task management system: “systems that enforce organized communication and reporting about tasks.” pg. 32 
-* Collaborative note-taking environment : “a place to jot down thoughts or display results that are less structured than the code… but more permanent than an e-mail or conversation.”
-**Rules:**
-* Manage tasks with a task management system.
-* E-mail is not a task management system.
-
-**Summary:**
-Task management issues propagate with bigger teams. Using a task management system for collaboration can reduce ambiguity about tasks, goals, and assignments. These systems also store task-specific records of “who did what and why” (33). The authors recommend Asana (www.asana.com), Wrike (www.wrike.com), and Flow (www.getflow.com) as good free options, although the authors use a paid program called JIRA. The authors also recommend using a collaborative note-taking environment to develop and share project notes such as Evernote (www.evernote.com - free) or OneNote (included in Microsoft Office).
-
-### Appendix - Code Style
-
-**Key Words:**
-* Slow code: code that one plans to rarely change
+### Appendix: Code Style
+This section outlines principles for writing good code, emphasizing that code has multiple audiences, including the computer, the author, and collaborators. The authors recommend keeping code short and purposeful and ordering functions for linear reading. The chapter also promotes descriptive names for variables, functions, and files, highlighting the importance of consistency. The authors also stress the importance of error checking and testing and advocate profiling slow code to identify areas of improvement. The chapter concludes by discussing the tradeoff between storage and CPU time and suggests that slow and fast code should be separated.
 
 **Principles of writing good code:**
 1. Keep it short and purposeful.
@@ -623,14 +531,13 @@ _Related reading:_ Mockapetris, P., "Domain Names - Concepts and Facilities", RF
   
 Nosek, B. A., Alter, G., Banks, G. C., Borsboom, D., Bowman, S. D., Breckler, S. J., Buck, S., Chambers, C. D., Chin, G., Christensen, G., Contestabile, M., Dafoe, A., Eich, E., Freese, J., Glennerster, R., Goroff, D., Green, D. P., Hesse, B., Humphreys, M., . . . Yarkoni, T. (2015). Promoting an open research culture. Science, 348(6242), 1422-1425. https://doi.org/10.1126/science.aab2374
 
-In Nosek et al, 2015 the authors are members of the Transparency and Openness Promotion Committee, and they advocate for the advancement of these topics in scientific research and publishing. They argue that the primary hindrance to widespread transparency among researchers is the lack of overall incentives from publishers or other bodies to make it a requirement as part of the publishing process. The members (consisting of subject matter experts, publishers, and funding bodies) created a system for citation and declaration of data availability that meets different standards for different types of research and fields, but ultimately promotes transparency. There are four levels covering multiple paper/research component topics in a transparency matrix. (Nosek et al, 2015, p. 1424) The lowest level is Zero, which is when there is little enforcement of additional transparency measures, or the current accepted level is maintained. The highest level is Three, which requires citations and public repository access of any data used, among other things. Ultimately, the system is not intended to require every scientific publication use Level Three in every category or it won’t publish, but that the matrix be used to grade the articles appropriately for each discipline to ensure the appropriate quality of transparency.
+The Transparency and Openness Promotion (TOP) guidelines aim to enhance scientific rigor through eight standards, each with three levels of implementation. The standards include: **citation standards** that extend citation norms to data and code; **replication standards** which recognize the importance of replication studies; and **design standards** that encourage transparent reporting of research methods. The guidelines also include standards for **research materials, data, and analytic methods** sharing that promote accessibility of research components. Additionally, the guidelines address **preregistration of studies and analysis plans**, which help distinguish between exploratory and confirmatory research.  
 
-**Concepts and Definitions:**  
-“**Replication** standards recognize the value of replication for independent verification of research results and identify the conditions under which replication studies will be published in the journal. To progress, science needs both innovation and self-correction; replication offers opportunities for self-correction to more efficiently identify promising research directions.” (Nosek et al, 2015, p. 1423)
+The levels of implementation increase in stringency, allowing journals to adopt guidelines gradually.  
 
-“**Reproducibility** increases confidence in results and also allows scholars to learn more about what results do and do not mean. (i) Design standards increase transparency about the research process and reduce vague or incomplete reporting of the methodology. (ii) Research materials standards encourage the provision of all elements of that methodology. (iii) Data sharing standards incentivize authors to make data available in trusted repositories such as Dataverse, Dryad, the Interuniversity Consortium for Political and Social Research (ICPSR), the Open Science Framework, or the Qualitative Data Repository. (iv) Analytic methods standards do the same for the code comprising the statistical models or simulations conducted for the research.” (Nosek et al, 2015, p. 1423)
-
-A common version control users are familiar with is Google Docs.
+- **Level 1** focuses on encouraging open practices  
+- **Level 2** requires specific actions  
+- **Level 3** includes independent reproduction of reported results
 
 ## Kontokosta, C. E. (2021)
 
