@@ -39,7 +39,7 @@ The research question defines the sections to focus on in the literature review.
 
 ## Audience
 
-This annotated bibliography for academic researchers interested in reproducible research.
+This annotated bibliography is for academic researchers interested in reproducible research.
 
 ---
 # Required Reading
@@ -105,8 +105,24 @@ From 2018, Taylor &amp; Francis will be introducing new policies on data sharing
 
 Lowndes, J. S. S., Best, B. D., Scarborough, C., Afflerbach, J. C., Frazier, M. R., O’Hara, C. C., Jiang, N., & Halpern, B. S. (2017). Our path to better science in less time using open data science tools. Nature Ecology & Evolution, 1(6), 0160. https://doi.org/10.1038/s41559-017-0160 
 
-In Lowndes et al., 2017, the authors discuss their reasoning and process for how they reevaluated and overhauled their approach to data management and collaboration. After publishing their initial report (Ocean Health Index), when they attempted to reproduce their methods for the second report, they realized that the team varied in their approaches to data management style, and versioning, and recreating their methods easily was impossible. They elected to all use one systematic approach to data management, collectively learning the R programming language and using Git and GitHub for their file management and collaboration. They discovered that not only did the new system improve their management, it also improved their team collaboration and overall productivity because everyone had the same base knowledge about the process and language of the data management code and programs. This allowed for better vetting of the data entry and written code for errors. Over time as they incorporate more methods for improving the workflow, the overall time they must spend working on generating the annual report decreases, indicating that the methods are creating efficient work that is still accurate and does not require retooling.
+### Overview
+<p align="justify">
+This paper provides three essential concepts and discussions related to our research question. First, it explores how replicability and open data science improve the quality of research. Second, what workflows can contribute to replicability? Third, how to learn open data science and achieve the transformation from traditional research approaches to an open and transparent research environment.
+</p>
+1. Benefits of Replicability
+<p align="justify">
+Replicability in research enhances confidence in findings, promotes transparency, and improves efficiency by reducing redundant efforts. It fosters collaboration, improves research quality, and bridges science with policy. By supporting open science, replicability ensures accessibility and reliability, ultimately accelerating scientific progress and the practical application of research.
+</p>
+2. Workflows and Practices for Reproducibility
+<p align="justify">
+Adopting open data science tools, such as R, Git, and GitHub, enhance reproducibility by organizing, documenting, and sharing data. Standardizing formats, coding data preparation, and using version control improve collaboration and efficiency. Openly sharing code, structuring files consistently, and using platforms like GitHub Issues facilitate communication, and finally, follow open science principles—transparency, collaboration, and sharing.
+</p>
+3. Learning Open Data Science and Transformation
+<p align="justify">
+Learning strategies include self-paced resources, community engagement, workshops, and incremental adoption of tools like R and GitHub. Overcoming challenges requires patience, teamwork, and confidence in coding. Good teamwork values coding skills, fostering leadership, and sharing knowledge. Ultimately, through the open sharing of data, code, and methods, moving from traditional, often inefficient, and less reproducible methods to a more open, collaborative, transparent, and efficient approach using data science tools and principles.
+</p>
 
+### Critical Citation
 "Integrating open data science practices and tools into science can save time, while also improving reproducibility for our most important collaborators: our future selves." - Lowndes et al
 
 Lowndes, Julia S. Stewart, Benjamin D. Best, Courtney Scarborough, Jamie C. Afflerbach, Melanie R. Frazier, Casey C. O'Hara, Ning Jiang and Benjamin S. Halpern (2017). Our path to better science in less time using open data science tools. _Nature Ecology &amp; Evolution_, 1, 1-7.
@@ -143,124 +159,32 @@ Gentzko, M., & Shapiro, J.N. (2014). Code and Data for the Social Sciences: A Pr
 
 Purpose of book: To share "insight from experts in code & data into practical terms." The whole book focused on workflow skills. 
 
-### Chapter 1 - Introduction
+### Chapter 1: Introduction
+This chapter introduces the challenges of empirical social science, emphasizing the central role of coding and data management. Many researchers lack formal computer science training, leading to common issues like non-replicable results and difficulty in understanding old code. The authors describe common situations they encountered, such as code that no longer works and inconsistent results. The chapter argues for learning from experts in code and data management and presents the guide as a means of translating these practices into the social sciences to improve research workflows. The main goal of this guide is to help researchers focus on the research questions rather than wrestle with messy code.
 
-**Key Words**: 
-Empirical social science: "Asking good questions. Digging up novel data. Designing statistical analysis. Writing up results. For many of us, most of the time, what it means is writing & debugging code…” .pg 3 
-Reproducible - no definition
-workflow - no definition
-quality of science - no definition
-efficiency of science - no definition
+### Chapter 2: Automation
+This chapter stresses the importance of automating all research steps. It contrasts an inefficient interactive approach to research with a more structured, script-based approach. The authors argue for the use of scripts to make research more replicable and efficient. The chapter provides an example of converting an interactive workflow into a set of scripts and then demonstrates how to make the output of the project replicable by creating a single script that executes all code. The chapter concludes by emphasizing the benefits of automation in terms of time and effort savings.
 
-**Summary**:
-Authors provide an observation that many social scientists do have some programming basics, but overall they lack a formal computer science training. This lack of formal training approach that social scientists use has limitations as "projects grow bigger, the problems grew nastier, and our piecemeal efforts at improving matters... proved ever more ineffective" (pg 4). Important limitations or challenges from this approach include: replication, unexpected data changes, inefficiency in the researcher code, or clarity. 
+### Chapter 3: Version Control
+This chapter introduces the concept of version control to manage code and data changes. It argues against using methods like date and initial tags and instead advocates for using version control software to track changes automatically. The chapter highlights the benefits of version control, including the ability to revert to previous versions, record authorship, and see detailed changes. The authors emphasize the importance of running the entire project before checking in changes to ensure the code is working properly and consistently. This practice ensures replicability and makes editing less risky.
 
-### Chapter 2 - Automation
-Key Words: 
-**Rules:**
-1. Automate everything that can be automated 
-2. Write a single script that executes all code from beginning to end. 
-have recommendations on Stata code on page 8 and 9 related to this chapter topic
+### Chapter 4: Directories
+This chapter focuses on the organization of project directories to improve efficiency and clarity. It recommends separating directories by function and separating input files from output files. The authors suggest a directory structure that includes subdirectories for inputs, outputs, code, and temporary files. The chapter explains how modular, functional directories facilitate modifications, make data dependencies clear and allow easy access to the output of specific directories from any other directory. The authors suggest that making directories portable allows them to be run on different machines.
 
-**Summary:**
-The Interactive mode of research - save/modify as you go without thinking long term - is bad for 2 reasons:
-Replicability: Lacks a "record of the precise steps taken" or "definition of what anything means”. 
-Efficiency: In the interactive mode there are no “scripting key steps” nor a project directory to organize the project for yourself and others. 
-The authors recommend automating as much as possible. 
+### Chapter 5: Keys
+This chapter discusses the importance of storing cleaned data in tables with unique, non-missing keys. The authors use an example to illustrate common issues, such as missing or conflicting data. They introduce the concept of a relational database, and emphasize that the physical structure of a database should communicate its logical structure. The guide stresses that each table should have a key to identify its elements and that data should be normalized to avoid ambiguity. The chapter concludes with a three-step process to organize data from raw sources to the final analysis.
 
-Introduces the reader to the potato chip and TV method that runs the length of the book. 
+### Chapter 6: Abstraction
+This chapter discusses the concept of abstraction in coding to eliminate redundancy and improve clarity. The authors provide an example of calculating a leave-out mean to demonstrate the problem of using copy-and-paste methods and offer a solution by creating a general-purpose function. They also suggest that abstraction makes the code more readable. The chapter emphasizes the importance of implementing functions carefully, including unit testing to ensure functions work as intended. The authors also highlight the use of abstraction beyond code in everyday tasks.
 
-### Chapter 3 - Version Control
-**Recommended Resources:**
-* Version Control Resources 
-* Sub Version 
-* Tortviso SNV for Windows 
-* Git or Bit Buckets
+### Chapter 7: Documentation
+This chapter addresses the importance of documentation, advocating for self-documenting code over extensive comments that can be difficult to maintain. The authors describe the issues with comments that contradict the code. They argue that code should be written so that its structure and variable names guide the reader. They suggest using comments to clarify when something may seem wrong at first. Additionally, comments can also be used to prevent unintended behavior by clarifying the input required for functions.
 
-Key Words: 
-**Rules:**
-1. Store code and data under version control 
-2. Run the whole directory before checking it back in 
+### Chapter 8: Management
+This chapter focuses on task management, stressing the importance of using a task management system instead of email. The authors illustrate the ambiguity and confusion that can result from relying on email to manage tasks. They recommend using project and task management systems that provide structure and clear communication. They give an example of a task management portal and highlight the benefits of task management systems, such as clear responsibilities and a centralized place for all communications. They also recommend using a collaborative note-taking environment to organize notes and share them with other users.
 
-**Summary:**
-Using dates to indicate a file version is not enough because 1) it is hard to know "when to ‘spawn’ a new version and when to edit the old one." (12 pg) and 2) it generates 
-confusion because the naming of the file is also not clear. 
-
-The authors recommend using a version control method. On your PC, you create a repository or remote server. When you want to modify a directory, you check it out, make your edits & changes. Then you run the entire directory to make sure it works. Make corrections if needed. Once it's complete, you check the directory back in. 
-Version control also comes with a work long so you can see who made changes and revert if needed. 
-A common version control users are familiar with is Google Docs. 
-
-### Chapter 4 - Directories
-
-**Key Words:**
-* Rundirectory.bat: single script that executes a directory from start to finish
-* /temp
-* /output
-**Rules:**
-1. Separate directories by function.
-2. Separate files into inputs and outputs.
-3. Make directories portable.
-
-**Summary:**
-Separating directories by purpose makes it easier to intentionally modify the encapsulated analysis without having to rerun all the unrelated scripts, and it makes it possible to use local references. To get around this set-up breaking on a different machine where the local links are not valid, one can link to fixed revisions of the dataset on shared network storage, which the user can then decide to update once they are satisfied with the new revision.
-
-### Chapter 5 - Keys
-
-**Key Words:**
-* Relational database: a database format whose physical structure communicates the logic behind it to be self-documenting
-* Table: rectangular arrays in which data are stored
-* Element: The row of a table
-* Variable: the column of a table, which is an attribute of the table’s elements
-* Key:  a variable or set of variables that uniquely identifies the elements of a table. The variables that form the key never take on missing values, and a key’s value is never duplicated across rows of the table
-* Foreign key: the key for another table in the database
-* Normalized: a form of data that is easier to understand because the data are organized to be similar across all records
-**Rules:**
-1. Store cleaned data in tables with unique, non-missing keys.
-2. Keep data normalized as far into your code pipeline as you can.
-
-**Summary:**
-Managing complex datasets is possible, and it begins with ensuring that “the physical structure of a database \[communicates]\ its logical structure” (19). The authors illustrate this by creating a toy relational database of the effect of television on potato chip consumption in New York and Virginia, in which the authors normalize the data. To perform an analysis on a relational database, the tables of the database must be merged (joined) into a single array, at which point the data will likely no longer be normalized. The authors describe this process using their toy relational database.
-
-### Chapter 6 - Abstraction
-
-**Key Words:**
-* Abstraction: turning the specific instances of something into a general-purpose tool
-**Rules:**
-1. Abstract to eliminate redundancy.
-2. Abstract to improve clarity.
-3. Otherwise, don’t abstract.
-
-**Summary:**
-Copying and pasting code can propagate errors. A less error-prone alternative is abstraction, developing general-purpose code (e.g., functions, classes, scripts, etc.) that can cleanly be applied to the specific situation of interest as well as to future projects. Abstraction eliminates redundancy and makes code more readable. However, be sure to double-check that the abstraction works as intended and to not abstract without a purpose.
-
-### Chapter 7 - Documentation
-
-**Key Words:**
-* Commenting code
-* Documentation
-Rules:
-1. Don’t write documentation you will not maintain.
-2. Code should be self-documenting.
-
-**Summary:**
-Over-commenting code is an issue if the code is later changed but the comment is not updated; in this scenario, the comment no longer accurately reflects the code. The authors state, “If it’s not worth maintaining a piece of documentation up to [standard], it probably isn’t worth writing it in the first place (rule [1])” (27). Thus to make code clear without extensive comments, the authors suggest making code self-documenting (rule 2) by guiding the reader through the code through descriptive variable names and easily read code structure. This self-documentation is applicable to more than just code (e.g., purpose of relational databases, filenames etc.). While documenting can help prevent unintended behavior (through a written warning), it is often more effective to create preventative code that doesn’t allow the unintended behavior.
-
-### Chapter 8 - Management
-
-**Key Words:**
-* Task management system: “systems that enforce organized communication and reporting about tasks.” pg. 32 
-* Collaborative note-taking environment : “a place to jot down thoughts or display results that are less structured than the code… but more permanent than an e-mail or conversation.”
-**Rules:**
-* Manage tasks with a task management system.
-* E-mail is not a task management system.
-
-**Summary:**
-Task management issues propagate with bigger teams. Using a task management system for collaboration can reduce ambiguity about tasks, goals, and assignments. These systems also store task-specific records of “who did what and why” (33). The authors recommend Asana (www.asana.com), Wrike (www.wrike.com), and Flow (www.getflow.com) as good free options, although the authors use a paid program called JIRA. The authors also recommend using a collaborative note-taking environment to develop and share project notes such as Evernote (www.evernote.com - free) or OneNote (included in Microsoft Office).
-
-### Appendix - Code Style
-
-**Key Words:**
-* Slow code: code that one plans to rarely change
+### Appendix: Code Style
+This section outlines principles for writing good code, emphasizing that code has multiple audiences, including the computer, the author, and collaborators. The authors recommend keeping code short and purposeful and ordering functions for linear reading. The chapter also promotes descriptive names for variables, functions, and files, highlighting the importance of consistency. The authors also stress the importance of error checking and testing and advocate profiling slow code to identify areas of improvement. The chapter concludes by discussing the tradeoff between storage and CPU time and suggests that slow and fast code should be separated.
 
 **Principles of writing good code:**
 1. Keep it short and purposeful.
@@ -279,6 +203,22 @@ Task management issues propagate with bigger teams. Using a task management syst
 11. Store “too much” output from slow code.
 12. Separate slow code from fast code.
 
+## Goodman et al. (2014) Ten Simple Rules for the Care and Feeding of Scientific Data
+
+<p align="justify">
+Goodman A, Pepe A, Blocker AW, Borgman CL, Cranmer K, Crosas M, et al. (2014) Ten Simple Rules for the Care and Feeding of Scientific Data. PLoS Comput Biol 10(4): e1003542. https://doi.org/10.1371/journal.pcbi.1003542
+</p>
+<p align="justify">
+This paper emphasizes the importance of data management and data care in terms of reproducibility and the quality of research. In the meanwhile, it provides some data management practices to facilitate reproducibility.
+</p>
+<p align="justify">
+1. Effective data management ensures research reproducibility, transparency, and long-term value. It promotes data reuse, facilitates collaboration, and enhances credit and recognition for researchers. By preserving data and providing detailed workflows, it addresses the complexities of modern research, ensuring the reliability, validity, and accessibility of scientific findings.
+</p>
+<p align="justify">
+2. Sharing data with persistent identifiers, providing metadata, documenting workflows, publishing code, and linking data to publications are essential for reproducibility and reuse. Using standard formats, version control, workflow management systems, and packaging research materials enhance collaboration and long-term accessibility. Open licenses and data papers ensure proper credit and recognition.
+</p>
+
+
 ## Goodman et al 2016
 
 Goodman, S. N., Fanelli, D., &amp; Ioannidis, J. P. (2016). What does research reproducibility mean?. _Science translational medicine_, _8_(341), 341ps12-341ps12.
@@ -294,6 +234,9 @@ Goodman, S. N., Fanelli, D., &amp; Ioannidis, J. P. (2016). What does research r
 The researchers need to move toward a better understanding of the relationship between reproducibility, cumulative evidence, and the truth of scientific claims.
 
 ## Long (2009) - The Workflow of Data Analysis Using Stata
+
+### Chapter 1 & 2
+This book emphasizes that a **good workflow is essential for the replication of research, which is a cornerstone of good science**. The author argues that researchers often develop workflows ad hoc, learning from mistakes. Chapters 1 and 2 introduce a structured approach to data analysis, highlighting the importance of planning, organization, and documentation (PO&D).  **Replicability is the guiding principle**, and the book stresses that workflow should facilitate this. **Improved workflow leads to greater efficiency, accuracy, and the avoidance of errors**, ultimately improving the quality of scientific work.
 
 ### Chapter 3
 
@@ -619,14 +562,13 @@ _Related reading:_ Mockapetris, P., "Domain Names - Concepts and Facilities", RF
   
 Nosek, B. A., Alter, G., Banks, G. C., Borsboom, D., Bowman, S. D., Breckler, S. J., Buck, S., Chambers, C. D., Chin, G., Christensen, G., Contestabile, M., Dafoe, A., Eich, E., Freese, J., Glennerster, R., Goroff, D., Green, D. P., Hesse, B., Humphreys, M., . . . Yarkoni, T. (2015). Promoting an open research culture. Science, 348(6242), 1422-1425. https://doi.org/10.1126/science.aab2374
 
-In Nosek et al, 2015 the authors are members of the Transparency and Openness Promotion Committee, and they advocate for the advancement of these topics in scientific research and publishing. They argue that the primary hindrance to widespread transparency among researchers is the lack of overall incentives from publishers or other bodies to make it a requirement as part of the publishing process. The members (consisting of subject matter experts, publishers, and funding bodies) created a system for citation and declaration of data availability that meets different standards for different types of research and fields, but ultimately promotes transparency. There are four levels covering multiple paper/research component topics in a transparency matrix. (Nosek et al, 2015, p. 1424) The lowest level is Zero, which is when there is little enforcement of additional transparency measures, or the current accepted level is maintained. The highest level is Three, which requires citations and public repository access of any data used, among other things. Ultimately, the system is not intended to require every scientific publication use Level Three in every category or it won’t publish, but that the matrix be used to grade the articles appropriately for each discipline to ensure the appropriate quality of transparency.
+The Transparency and Openness Promotion (TOP) guidelines aim to enhance scientific rigor through eight standards, each with three levels of implementation. The standards include: **citation standards** that extend citation norms to data and code; **replication standards** which recognize the importance of replication studies; and **design standards** that encourage transparent reporting of research methods. The guidelines also include standards for **research materials, data, and analytic methods** sharing that promote accessibility of research components. Additionally, the guidelines address **preregistration of studies and analysis plans**, which help distinguish between exploratory and confirmatory research.  
 
-**Concepts and Definitions:**  
-“**Replication** standards recognize the value of replication for independent verification of research results and identify the conditions under which replication studies will be published in the journal. To progress, science needs both innovation and self-correction; replication offers opportunities for self-correction to more efficiently identify promising research directions.” (Nosek et al, 2015, p. 1423)
+The levels of implementation increase in stringency, allowing journals to adopt guidelines gradually.  
 
-“**Reproducibility** increases confidence in results and also allows scholars to learn more about what results do and do not mean. (i) Design standards increase transparency about the research process and reduce vague or incomplete reporting of the methodology. (ii) Research materials standards encourage the provision of all elements of that methodology. (iii) Data sharing standards incentivize authors to make data available in trusted repositories such as Dataverse, Dryad, the Interuniversity Consortium for Political and Social Research (ICPSR), the Open Science Framework, or the Qualitative Data Repository. (iv) Analytic methods standards do the same for the code comprising the statistical models or simulations conducted for the research.” (Nosek et al, 2015, p. 1423)
-
-A common version control users are familiar with is Google Docs.
+- **Level 1** focuses on encouraging open practices  
+- **Level 2** requires specific actions  
+- **Level 3** includes independent reproduction of reported results
 
 ## Kontokosta, C. E. (2021)
 
@@ -678,4 +620,109 @@ The **reproducibility** of research findings can be measured by evaluating the 
 
 Measuring the "**Workflow**" in research involves evaluating the completeness and clarity of documentation, adherence to reproducibility standards, transparency in methods, and compliance with best practices. Researchers can assess the quality of their workflow by documenting data collection, cleaning procedures, analysis steps, and result interpretation. Transparency in reporting methods and adherence to best practices, such as version control and clear communication of the workflow, are essential for ensuring the robustness and reproducibility of research in quantitative social science.: (1) Is the original data provided? (2) Is the code stored?(3) Did the researcher save the syntax, when they use the GUI? (4) Did the researcher document the version information on the data?
 
+## Arribas-Bel, D., de Graaff, T., & Rey, S. J. (2017).
+
+Arribas-Bel, D., de Graaff, T., & Rey, S. J. (2017). Looking at John Snow’s cholera map from the twenty-first century: A practical primer on reproducibility and open science. In R. Jackson & P. Schaeffer (Eds.), Regional research frontiers - Vol. 2: Methodological advances, regional systems modeling, and open sciences (pp. 283–305). Springer. https://doi.org/10.1007/978-3-319-50590-9_17
+
+**Authors:** Arribas-Bel, D., de Graaff, T., & Rey, S. J. (2017)
+**Source:** Regional Research Frontiers - Vol. 2: Methodological Advances, Regional Systems Modeling, and Open Sciences
+
+### 1. Introduction
+**Objective:**
+*   Demonstrates the importance of reproducibility and Open Science in regional analysis.
+*   Uses John Snow’s cholera map as a case study to showcase modern spatial analysis techniques.
+*   Provides hands-on code examples in R and Python using Jupyter Notebooks.
+
+### 2. Data Import and Setup
+**Required Libraries:**
+# Python Libraries
+import rpy2.robjects as robjects
+import rpy2.robjects.conversion
+import rpy2.interactive as r
+import rpy2.interactive.packages
+import seaborn as sns
+import pandas as pd
+import pysal as ps
+import geopandas as gpd
+import numpy as np
+import matplotlib.pyplot as plt
+
+### 3. Data Loading and Visualization
+**Extract John Snow’s Cholera Data in R:**
+# Load Data
+r.packages.importr('HistData')
+r.packages.importr('ggplot2')
+
+# Plot Cholera Death Locations
+Snow_plot <- ggplot(Snow.deaths, aes(x = x, y = y)) +
+  geom_point(data = Snow.deaths, aes(x = x, y = y), col = "red", pch = 19, cex = 1.5) +
+  geom_point(data = Snow.pumps, aes(x = x, y = y), col = "black", pch = 17, cex = 4) +
+  geom_text(data = Snow.pumps, aes(label = label, x = x, y = y+0.5)) +
+  xlim(6, 19.5) + ylim(4, 18.5) +
+  geom_path(data = Snow.streets, aes(x = x, y = y, group = street), col = "gray40") +
+  ggtitle("Pumps and Cholera Deaths in 19th Century London") +
+  theme(panel.background = element_rect(fill = "gray85"))
+
+### 4. Spatial Analysis and Modeling
+**Load GIS Data:**
+pumps = gpd.read_file('data/Pumps.shp')   # Pump locations
+blocks = gpd.read_file('data/polys.shp')  # Building blocks
+js = gpd.read_file('data/streets_js.shp') # Street network
+
+### 5. Creating a Spatial Weights Matrix
+**Contiguity-Based Spatial Weights:**
+# Load the network
+ntw = ps.Network('data/streets_js.shp')
+
+# Create the spatial weights matrix
+w = ntw.contiguityweights(graph=False)
+
+# Rename IDs to match street segments
+w.remap_ids(js['segIdStr'])
+
+# Row-standardize the matrix
+w.transform = 'R'
+
+### Conclusion
+**Key Takeaways:**
+*   Reproducibility and Open Science Improve Research Efficiency
+Automating workflows saves time and ensures transparency.
+Open Science principles enhance collaboration and credibility.
+*   Modern Spatial Analysis Confirms John Snow’s Findings
+Using Python, R, and GIS tools, the study validated cholera clusters around a contaminated pump.
+Spatial autocorrelation (Moran’s I, LISA) confirmed statistically significant clustering.
+*   Adopting Reproducible Workflows Benefits Science
+Version control (Git), Jupyter Notebooks, and Markdown enhance research accessibility.
+Open research leads to faster knowledge dissemination and greater scientific impact.
+
+
+## Playford et al. (2016)
+
+Playford, C. J., Gayle, V., Connelly, R., & Gray, A. J. (2016). Administrative social science data: The challenge of reproducible research. Big Data & Society, 3(2). https://doi.org/10.1177/2053951716684143
+
+Playford et al. (2016) address how reproducible workflow skills affect the quality and efficiency of science by emphasizing the importance of a planned and organized workflow, particularly when using administrative data. The authors argue that sharing research code is essential for achieving reproducibility, which enhances the accuracy and validity of analyses, as well as facilitating further testing of research. They advocate for the use of version control software like Git to improve code sharing and make research more reproducible. **The paper highlights that a well-planned workflow and the sharing of research code are critical for improving the overall quality and efficiency of social science research, making it more transparent and reproducible**. The authors also note that the use of syntax files (as opposed to graphical user interfaces) is imperative for reproducibility and transparency.
+
+### **Challenges & Solutions**
+
+- Challenge 1: Lack of code sharing and documentation. Social scientists often don't share their analysis code, which makes research difficult to reproduce. Using point-and-click methods instead of syntax also means that analysis steps aren't recorded.
+
+  Solution 1: Share all research code (syntax files) and any code used to get or combine data. Always use syntax files instead of graphical interfaces to make sure the analysis 
+  is recorded.
+
+- Challenge 2: Restrictions on data access and retention. Access restrictions and short data retention periods limit the ability to share data and code.
+
+  Solution 2: Use meta-information and share code to help make research reproducible. Work toward policies that keep data and research code for a long time.
+
+- Challenge 3: Working with changing data. Data from administrative systems can change over time, so it's hard to know exactly which data were used.
+  
+  Solution 3: Document the code and time parameters used to get the data from the dynamic system.
+
+- Challenge 4: Limited exploratory data analysis when using administrative data.
+
+  Solution 4: Develop better tools to explore this kind of data.
+
+- Challenge 5: Lack of version control. Without version control, it's hard to track changes in code or go back to older versions. Using personal websites or repositories is not 
+  ideal.
+
+  Solution 5: Use version control systems like Git to manage code changes. Also, use Research Objects (ROs) to organize all research outputs (data, code, documentation).
 
