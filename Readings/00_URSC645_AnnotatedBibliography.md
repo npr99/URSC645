@@ -295,6 +295,9 @@ The researchers need to move toward a better understanding of the relationship b
 
 ## Long (2009) - The Workflow of Data Analysis Using Stata
 
+### Chapter 1 & 2
+This book emphasizes that a **good workflow is essential for the replication of research, which is a cornerstone of good science**. The author argues that researchers often develop workflows ad hoc, learning from mistakes. Chapters 1 and 2 introduce a structured approach to data analysis, highlighting the importance of planning, organization, and documentation (PO&D).  **Replicability is the guiding principle**, and the book stresses that workflow should facilitate this. **Improved workflow leads to greater efficiency, accuracy, and the avoidance of errors**, ultimately improving the quality of scientific work.
+
 ### Chapter 3
 
 Problem: In this chapter, Long (2009) discusses the importance of writing and debugging do-files. Each of the tools he provides contribute to the accuracy, replicability, and efficiency of your work. While there may be a time investment in learning these tools, it will quickly be recovered as they are applied to the work being done. When conducting research, we often run into errors. We must know how to diagnose any arising issues. Long argues that the most effective way to submit commands is with do-files, which is a primary form of documentation.
@@ -754,5 +757,33 @@ Version control (Git), Jupyter Notebooks, and Markdown enhance research accessib
 Open research leads to faster knowledge dissemination and greater scientific impact.
 
 
+## Playford et al. (2016)
 
+Playford, C. J., Gayle, V., Connelly, R., & Gray, A. J. (2016). Administrative social science data: The challenge of reproducible research. Big Data & Society, 3(2). https://doi.org/10.1177/2053951716684143
+
+Playford et al. (2016) address how reproducible workflow skills affect the quality and efficiency of science by emphasizing the importance of a planned and organized workflow, particularly when using administrative data. The authors argue that sharing research code is essential for achieving reproducibility, which enhances the accuracy and validity of analyses, as well as facilitating further testing of research. They advocate for the use of version control software like Git to improve code sharing and make research more reproducible. **The paper highlights that a well-planned workflow and the sharing of research code are critical for improving the overall quality and efficiency of social science research, making it more transparent and reproducible**. The authors also note that the use of syntax files (as opposed to graphical user interfaces) is imperative for reproducibility and transparency.
+
+### **Challenges & Solutions**
+
+- Challenge 1: Lack of code sharing and documentation. Social scientists often don't share their analysis code, which makes research difficult to reproduce. Using point-and-click methods instead of syntax also means that analysis steps aren't recorded.
+
+  Solution 1: Share all research code (syntax files) and any code used to get or combine data. Always use syntax files instead of graphical interfaces to make sure the analysis 
+  is recorded.
+
+- Challenge 2: Restrictions on data access and retention. Access restrictions and short data retention periods limit the ability to share data and code.
+
+  Solution 2: Use meta-information and share code to help make research reproducible. Work toward policies that keep data and research code for a long time.
+
+- Challenge 3: Working with changing data. Data from administrative systems can change over time, so it's hard to know exactly which data were used.
+  
+  Solution 3: Document the code and time parameters used to get the data from the dynamic system.
+
+- Challenge 4: Limited exploratory data analysis when using administrative data.
+
+  Solution 4: Develop better tools to explore this kind of data.
+
+- Challenge 5: Lack of version control. Without version control, it's hard to track changes in code or go back to older versions. Using personal websites or repositories is not 
+  ideal.
+
+  Solution 5: Use version control systems like Git to manage code changes. Also, use Research Objects (ROs) to organize all research outputs (data, code, documentation).
 
