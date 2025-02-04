@@ -1,6 +1,6 @@
 # URSC645
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## URSC 645 - Urban and Regional Analytics Course
 
@@ -95,6 +95,7 @@ Buscha, Franz. (2019). Introduction to Stata 15. https://www.linkedin.com/learni
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/npr99"><img src="https://avatars.githubusercontent.com/u/5131566?v=4?s=100" width="100px;" alt="Nathanael Rosenheim"/><br /><sub><b>Nathanael Rosenheim</b></sub></a><br /><a href="#projectManagement-npr99" title="Project Management">📆</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Jyun-anm"><img src="https://avatars.githubusercontent.com/u/195339070?v=4?s=100" width="100px;" alt="Jyun"/><br /><sub><b>Jyun</b></sub></a><br /><a href="#content-Jyun-anm" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
