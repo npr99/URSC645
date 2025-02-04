@@ -681,6 +681,82 @@ The **reproducibility** of research findings can be measured by evaluating the 
 
 Measuring the "**Workflow**" in research involves evaluating the completeness and clarity of documentation, adherence to reproducibility standards, transparency in methods, and compliance with best practices. Researchers can assess the quality of their workflow by documenting data collection, cleaning procedures, analysis steps, and result interpretation. Transparency in reporting methods and adherence to best practices, such as version control and clear communication of the workflow, are essential for ensuring the robustness and reproducibility of research in quantitative social science.: (1) Is the original data provided? (2) Is the code stored?(3) Did the researcher save the syntax, when they use the GUI? (4) Did the researcher document the version information on the data?
 
+## Arribas-Bel, D., de Graaff, T., & Rey, S. J. (2017).
+
+Arribas-Bel, D., de Graaff, T., & Rey, S. J. (2017). Looking at John Snow’s cholera map from the twenty-first century: A practical primer on reproducibility and open science. In R. Jackson & P. Schaeffer (Eds.), Regional research frontiers - Vol. 2: Methodological advances, regional systems modeling, and open sciences (pp. 283–305). Springer. https://doi.org/10.1007/978-3-319-50590-9_17
+
+**Authors:** Arribas-Bel, D., de Graaff, T., & Rey, S. J. (2017)
+**Source:** Regional Research Frontiers - Vol. 2: Methodological Advances, Regional Systems Modeling, and Open Sciences
+
+### 1. Introduction
+**Objective:**
+*   Demonstrates the importance of reproducibility and Open Science in regional analysis.
+*   Uses John Snow’s cholera map as a case study to showcase modern spatial analysis techniques.
+*   Provides hands-on code examples in R and Python using Jupyter Notebooks.
+
+### 2. Data Import and Setup
+**Required Libraries:**
+# Python Libraries
+import rpy2.robjects as robjects
+import rpy2.robjects.conversion
+import rpy2.interactive as r
+import rpy2.interactive.packages
+import seaborn as sns
+import pandas as pd
+import pysal as ps
+import geopandas as gpd
+import numpy as np
+import matplotlib.pyplot as plt
+
+### 3. Data Loading and Visualization
+**Extract John Snow’s Cholera Data in R:**
+# Load Data
+r.packages.importr('HistData')
+r.packages.importr('ggplot2')
+
+# Plot Cholera Death Locations
+Snow_plot <- ggplot(Snow.deaths, aes(x = x, y = y)) +
+  geom_point(data = Snow.deaths, aes(x = x, y = y), col = "red", pch = 19, cex = 1.5) +
+  geom_point(data = Snow.pumps, aes(x = x, y = y), col = "black", pch = 17, cex = 4) +
+  geom_text(data = Snow.pumps, aes(label = label, x = x, y = y+0.5)) +
+  xlim(6, 19.5) + ylim(4, 18.5) +
+  geom_path(data = Snow.streets, aes(x = x, y = y, group = street), col = "gray40") +
+  ggtitle("Pumps and Cholera Deaths in 19th Century London") +
+  theme(panel.background = element_rect(fill = "gray85"))
+
+### 4. Spatial Analysis and Modeling
+**Load GIS Data:**
+pumps = gpd.read_file('data/Pumps.shp')   # Pump locations
+blocks = gpd.read_file('data/polys.shp')  # Building blocks
+js = gpd.read_file('data/streets_js.shp') # Street network
+
+### 5. Creating a Spatial Weights Matrix
+**Contiguity-Based Spatial Weights:**
+# Load the network
+ntw = ps.Network('data/streets_js.shp')
+
+# Create the spatial weights matrix
+w = ntw.contiguityweights(graph=False)
+
+# Rename IDs to match street segments
+w.remap_ids(js['segIdStr'])
+
+# Row-standardize the matrix
+w.transform = 'R'
+
+### Conclusion
+**Key Takeaways:**
+*   Reproducibility and Open Science Improve Research Efficiency
+Automating workflows saves time and ensures transparency.
+Open Science principles enhance collaboration and credibility.
+*   Modern Spatial Analysis Confirms John Snow’s Findings
+Using Python, R, and GIS tools, the study validated cholera clusters around a contaminated pump.
+Spatial autocorrelation (Moran’s I, LISA) confirmed statistically significant clustering.
+*   Adopting Reproducible Workflows Benefits Science
+Version control (Git), Jupyter Notebooks, and Markdown enhance research accessibility.
+Open research leads to faster knowledge dissemination and greater scientific impact.
+
+
 ## Playford et al. (2016)
 
 Playford, C. J., Gayle, V., Connelly, R., & Gray, A. J. (2016). Administrative social science data: The challenge of reproducible research. Big Data & Society, 3(2). https://doi.org/10.1177/2053951716684143
