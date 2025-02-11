@@ -733,3 +733,25 @@ Playford et al. (2016) address how reproducible workflow skills affect the quali
 
   Solution 5: Use version control systems like Git to manage code changes. Also, use Research Objects (ROs) to organize all research outputs (data, code, documentation).
 
+## Arribas-Bel, D., de Graaff, T., & Rey, S. (2014). 
+
+Arribas-Bel, D., de Graaff, T., & Rey, S. J. (2017). Looking at John Snow’s cholera map from the twenty-first century: A practical primer on reproducibility and open science. In R. Jackson & P. Schaeffer (Eds.), Regional research frontiers - Vol. 2: Methodological advances, regional systems modeling, and open sciences (pp. 283–305). Springer. 
+
+### Relevance to Reproducibility Research
+*   Definitions (p. 284-285): Clarifies key terms—workflow, reproducibility, and Open Science.
+*   Challenges (p. 285-286): Discuss obstacles like proprietary data, lack of training, and time costs.
+*   Social norms vs. individual goals (p. 304-305): Explores tensions between academic competition and Open Science.
+*   Software & coding (p. 286-287, 289-293): Demonstrates data analysis, documentation, and workflow automation using modern computational tools.
+*   Impact on science quality & efficiency (p. 287-288, 304-305): Shows how reproducible workflows enhance transparency, credibility, and efficiency.
+### Conclusion
+**Key Takeaways:**
+*   Reproducibility and Open Science Improve Research Efficiency
+Automating workflows saves time and ensures transparency.
+Open Science principles enhance collaboration and credibility.
+*   Modern Spatial Analysis Confirms John Snow’s Findings
+Using Python, R, and GIS tools, the study validated cholera clusters around a contaminated pump.
+Spatial autocorrelation (Moran’s I, LISA) confirmed statistically significant clustering.
+*   Adopting Reproducible Workflows Benefits Science
+Version control (Git), Jupyter Notebooks, and Markdown enhance research accessibility.
+Open research leads to faster knowledge dissemination and greater scientific impact.
+
