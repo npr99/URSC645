@@ -101,5 +101,5 @@ The research question defines the sections to focus on in the literature review.
 
 Belcher, W. L. (2019). _Writing your journal article in twelve weeks: A guide to academic publishing success_. University of Chicago Press. Available on [Google Books](https://www.google.com/books/edition/Writing_Your_Journal_Article_in_Twelve_W/Bis8p2ejEqIC?hl=en&gbpv=0)
 
-Foss, S. K. and William, W. (2015). _Destination dissertation: A traveler's guide to a done dissertation_. Rowman & Littlefield. Available on [Google](https://www.google.com/books/edition/_/kBmaCgAAQBAJ?hl=en&sa=X&ved=2ahUKEwiWlsC3guWDAxWunWoFHS2ZAb4Qre8FegQIAxAV) Books and [TAMU Library](https://web-p-ebscohost-com.srv-proxy2.library.tamu.edu/ehost/ebookviewer/ebook?sid=d7c0c203-78f1-478f-a36d-7631108dffea%40redis&vid=0&format=EB)
+Foss, S. K. and Waters, W. (2015). _Destination dissertation: A traveler's guide to a done dissertation_. Rowman & Littlefield. Available on [Google](https://www.google.com/books/edition/_/kBmaCgAAQBAJ?hl=en&sa=X&ved=2ahUKEwiWlsC3guWDAxWunWoFHS2ZAb4Qre8FegQIAxAV) Books and [TAMU Library](https://web-p-ebscohost-com.srv-proxy2.library.tamu.edu/ehost/ebookviewer/ebook?sid=d7c0c203-78f1-478f-a36d-7631108dffea%40redis&vid=0&format=EB)
 
