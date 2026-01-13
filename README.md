@@ -69,6 +69,8 @@ Source code in SAS, Stata, and R: http://gattonweb.uky.edu/sheather/book/
 
 ---
 ### Motivating Data Publication Examples:
+Rosenheim, N., M. Watson, J. Casellas Connors, M. Safayet, W. Peacock (2024). "Food Access Restoration Model", in Food Access Impact Survey for Harris County and Southeast Texas after Hurricane Harvey in 2017. DesignSafe-CI. https://doi.org/10.17603/ds2-bpxr-ck20
+
 Rosenheim, N. Peacock, W. Williams, A. Lane, G. Watson, M. Sullivan, E. Katare, A. Kastor, H. (2021) "Report of Applied Methods", in Food Access Impact Survey for Harris County and Southeast Texas after Hurricane Harvey in 2017. DesignSafe-CI. https://doi.org/10.17603/ds2-dh61-m731.
 
 Rosenheim, Nathanael; Day, Wayne; Seong, Kijin (2021) “Automated Neighborhood Characteristics for Community Resilience Planning.” DesignSafe-CI. https://doi.org/10.17603/ds2-hj0p-bp40.
@@ -79,7 +81,12 @@ Rosenheim, Nathanael (2021) “Detailed Household and Housing Unit Characteristi
 
 Additional readings will be made available through Google Drive.  
 
+### GitHub Courses
+
+
 ### LinkedInLearning Course Work
+
+
 Vijayan, Lavanya. (2019). Python Quick Start. https://www.linkedin.com/learning/python-quick-start/ 
 
 Davis, Annyce. (2020). Programming Foundations: Fundamentals. https://www.linkedin.com/learning/programming-foundations-fundamentals-3/ 
