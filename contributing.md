@@ -71,7 +71,7 @@ In order to contribute via GitHub, you'll need to set up a free account and sign
 Here are some [instructions](https://help.github.com/articles/signing-up-for-a-new-github-account/) to help you get going.
 Remember that you can ask us any questions you need to along the way.
 
-To use GitHub requires setting up your local machine by following the tasks described in the [Getting Started Page](https://github.com/npr99/URSC645/blob/main/Admin/URSC645_GettingStarted).
+To use GitHub requires setting up your local machine by following the tasks described in the [Getting Started Page](https://github.com/npr99/URSC645/blob/main/Admin/URSC645_0b_GettingStarted.md).
 
 ## Writing in Markdown
 

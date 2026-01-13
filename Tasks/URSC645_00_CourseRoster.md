@@ -13,7 +13,7 @@ The data from the course includes the following questions:
 - What is your last name?
 - How do you pronounce your preferred name?
 - Any weblink to help pronounce your name?
-- Which pronouns do you like to hear?
+- Which pronouns do you like to hear? (Question optional to be inline with spirit of TAMUS policies on not advocating for Gender Ideology. As an instructor I care about supporting students.)
 - What is today's date?
 - What is your TAMU Google Account email?
 - Where do you consider your hometown?

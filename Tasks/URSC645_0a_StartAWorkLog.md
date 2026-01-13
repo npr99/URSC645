@@ -5,6 +5,11 @@ A work log provides a means for keeping track and documenting the work accomplis
 
 The work log can be organized in many ways. In general it is best to have a work log for each project or task. A recommendation is to use a digital file that allows for adding screenshots of issues, notes on work, notes from meetings, and successes or complaints.
 
+### GitHub Issues Work Log:
+I have found that using GitHub Issues is a great way to keep track of work and streamline the Work Log process. Here is an example of work logs that track the effort to complete a LinkedIn Learning Course of Python.
+
+[Hands on Python - Issues Work Log](https://github.com/npr99/hands-on-python-3084712/issues?q=is%3Aissue%20state%3Aclosed)
+
 ### Google Drive Work Logs:
 Google Docs is an excellent option for keeping a work log. Google Docs provide a way to tag colleagues with issues, questions, or to assign tasks to colleagues.
 
@@ -16,6 +21,11 @@ Google Docs is an excellent option for keeping a work log. Google Docs provide a
 ### Example Work Log:
 
 ## Work Log for Nathanael Rosenheim - URSC 645 Tasks
+
+### Jan 13, 2026 - How to add screenshots to work log (or GitHub Issue)
+[Create Screenshot and paste into an issue](https://oboacademy.github.io/obook/howto/screenshot/)
+
+I love adding screenshots to my Worklogs and to GitHub Issues. Above is a quick guide for Mac or PC.
 
 ### Jan 25, 2024 - creating example work log
 On the course GitHub page I have added an example of a work log entry. Work log entries provide a short summary of what has been completed. In general each entry is under a specific date. If a lot of work is done in one day it can be helpful to have multiple entries for that day. A work log can include snippets of code, screen shots, and links to other documents.
