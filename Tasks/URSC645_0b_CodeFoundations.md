@@ -17,7 +17,7 @@ You can also edit the code and play around with it to see how changing the code 
 
 5. Use a Large Language Model (ChatGPT or Bard or Bing) to create function similar to the ones at the end of the Code Foundations notebook. Or create some block of code that you are curious about. Paste the code from the LLM to your notebook and run the notebook. 
 
-6. Save your notebok to your personal Google Drive. Google Drive will create a new folder called "Colab Notebooks" and save your notebook there.
+6. Save your notebook to your personal Google Drive. Google Drive will create a new folder called "Colab Notebooks" and save your notebook there.
 
 7. In class we will cover your experience by reviewing your work logs. So - PLEASE keep a detailed work log. Your grade for this assignment will be based on your work log.
 
