@@ -755,3 +755,34 @@ Spatial autocorrelation (Moran’s I, LISA) confirmed statistically significant 
 Version control (Git), Jupyter Notebooks, and Markdown enhance research accessibility.
 Open research leads to faster knowledge dissemination and greater scientific impact.
 
+## Munafò et al. (2017)
+
+**Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Percie du Sert, N., Simonsohn, U., Wagenmakers, E.-J., Ware, J. J., & Ioannidis, J. P. A. (2017).** *A manifesto for reproducible science.* *Nature Human Behaviour*, 1, 0021.https://doi.org/10.1038/s41562-016-0021
+
+### Problem and Motivation
+Munafò et al. (2017) address what is widely described as a reproducibility crisis in modern science. The authors argue that a substantial proportion of published findings are difficult to verify or build upon due to low statistical power, publication bias, analytic flexibility (e.g., p-hacking), and limited transparency in research practices. These issues undermine not only the credibility of individual studies but also the efficiency of cumulative scientific knowledge production.
+
+### Definitions and Key Concepts
+
+- **Reproducibility** is framed as a core scientific norm, defined as the ability to verify research findings through access to data, methods, and analytic decisions.
+
+- **Open science** is described as the practice of making both the products and processes of research transparent and accessible, thereby enabling scrutiny, reuse, and extension by other researchers.
+
+Together, these concepts emphasize that reproducibility is not a single technical step or tool, but a property of the entire research workflow.
+
+### Challenges and Trade-offs
+A central challenge identified in the paper is the misalignment between individual incentives and collective scientific goals. While transparency and careful documentation require time and effort, prevailing academic reward systems prioritize novelty, speed, and positive results. As a result, researchers may face trade-offs between short-term career incentives and practices that support long-term scientific reliability.
+
+### Workflow Skills and Research Practices
+Rather than focusing on specific software tools, Munafò et al. emphasize workflow-oriented practices that structure research from design to dissemination. These include **pre-registration of hypotheses and analysis plans, standardized documentation of methods, open sharing of data and code, and collaborative or multi-site study designs**. Such practices are presented as workflow skills that reduce bias, clarify analytic decisions, and make research outputs more reusable.
+
+### Implications for Quality and Efficiency of Science
+
+- **Reproducible workflow skills as scientific infrastructure**: The article illustrates how reproducible workflows function as foundational infrastructure that supports reliable and cumulative scientific research.
+
+- **Implications for scientific quality**: By making analytic processes explicit and verifiable, reproducible workflow skills improve the quality of scientific findings through increased credibility, robustness, and transparency.
+
+- **Implications for scientific efficiency**: Reproducible workflows enhance research efficiency by reducing duplicated effort, enabling faster verification of results, and supporting cumulative knowledge building rather than repeated reinvention.
+
+
+
