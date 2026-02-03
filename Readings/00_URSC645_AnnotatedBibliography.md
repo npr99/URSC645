@@ -755,3 +755,33 @@ Spatial autocorrelation (Moran’s I, LISA) confirmed statistically significant 
 Version control (Git), Jupyter Notebooks, and Markdown enhance research accessibility.
 Open research leads to faster knowledge dissemination and greater scientific impact.
 
+## Frias-Navarro et al., 2020
+Frias‐Navarro, D., Pascual‐Llobell, J., Pascual‐Soler, M., Perezgonzalez, J., & Berrios‐Riquelme, J. (2020). Replication crisis or an opportunity to improve scientific production?. European Journal of Education, 55(4), 618-631.
+
+## a. Introduction 
+Frias-Navarro et al. review the so-called replication crisis across psychology, education, and the social sciences, situating it within broader debates about scientific credibility, false positives, and research integrity. Rather than framing the crisis as a failure of science, the authors argue it represents a critical opportunity to reform research practices, training, and incentives.
+The article synthesizes evidence from meta-research, large-scale replication projects, and methodological critiques to diagnose why many published findings fail to replicate and what systemic changes are required to address this problem.
+
+## b. Research Questions
+The article addresses several interrelated questions: 1). What factors contribute to the replication crisis in social and educational research? 2). How do statistical practices and research culture interact to produce false positives? 3). What reforms in workflow, training, and publication practices can improve scientific reliability?
+
+## c. Definition of Key Terms (As Used in This Paper)
+The authors provide an expanded conceptual vocabulary relevant to reproducible workflows:
+Replication crisis: A systemic pattern in which a substantial proportion of published findings cannot be reproduced or replicated with comparable results.
+False positives: Findings that achieve statistical significance despite reflecting no true underlying effect.
+Questionable Research Practices (QRPs): Practices such as p-hacking, HARKing, and selective reporting that inflate false discovery rates.
+Researcher degrees of freedom: The flexibility researchers have in data collection, variable selection, model specification, and stopping rules—often exercised post-hoc.
+Open science: A framework emphasizing pre-registration, open data, open code, and transparent reporting.
+Meta-research: Research on research practices, designed to evaluate and improve scientific methods themselves.
+
+## d. Importance of the Article (Why It Matters)
+This article is important because it connects reproducibility failures to workflow decisions across the entire research lifecycle, not just statistical analysis. The authors show that replication problems arise from the interaction of:
+Incentive structures (publish or perish) - Statistical misunderstandings (overreliance on p-values) - Editorial bias against null results - Insufficient methodological training
+Crucially, they argue that replication is essential for scientific self-correction, theory validation, and cumulative knowledge building. Without transparent workflows and replication, science risks becoming a system that rewards novelty over truth.
+
+## e. What We Can Take Away as Scientists
+For practicing scientists, the article offers several actionable insights:
+1). Reproducible workflows must begin before data collection, through pre-registration and power planning.
+2). Transparency in analysis decisions reduces unconscious bias and QRPs.
+3). Sharing data and code enables replication, meta-analysis, and cumulative evidence synthesis.
+4). Training in reproducibility and meta-research should be central to scientific education.
