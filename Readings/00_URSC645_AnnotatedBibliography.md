@@ -168,9 +168,20 @@ Purpose of book: To share "insight from experts in code & data into practical te
 
 ### Chapter 1: Introduction
 This chapter introduces the challenges of empirical social science, emphasizing the central role of coding and data management. Many researchers lack formal computer science training, leading to common issues like non-replicable results and difficulty in understanding old code. The authors describe common situations they encountered, such as code that no longer works and inconsistent results. The chapter argues for learning from experts in code and data management and presents the guide as a means of translating these practices into the social sciences to improve research workflows. The main goal of this guide is to help researchers focus on the research questions rather than wrestle with messy code.
+#### Research Question Measures:
+* Reproducible : While not explicitly defined here, it is framed by its absence; it is hindered by code that no longer works or depends on manual steps that cannot be verified.
+* Workflow Skills: Defined as the ability to organize datasets and write code using methodologies borrowed from software engineering.
+* Quality of science : Measured by the avoidance of "inconsistent samples" and the ability to build upon previous work without having to rewrite code from scratch.
+* Efficiency of science : Measured by time spent on actual research questions versus time wasted "wrestling with... messy code" or "reverse-engineering" old project directories.
 
 ### Chapter 2: Automation
 This chapter stresses the importance of automating all research steps. It contrasts an inefficient interactive approach to research with a more structured, script-based approach. The authors argue for the use of scripts to make research more replicable and efficient. The chapter provides an example of converting an interactive workflow into a set of scripts and then demonstrates how to make the output of the project replicable by creating a single script that executes all code. The chapter concludes by emphasizing the benefits of automation in terms of time and effort savings.
+#### Research Question Measures:
+* Reproducible : Defined operationally as the state where all output files (logs, figures, PDFs) can be deleted and then perfectly recreated by running a __single execution script__.
+* Workflow : Characterized as the transition from a manual, step-by-step process to a __scripted pipeline__ where data building and analysis are stored in code.
+* Workflow Skills: Measured by the ability to write scripts that tell the operating system how to run a project directory and the discipline to avoid manual data manipulations.
+* Quality of science : Measured by the existence of an __"authoritative definition"__ of what the numbers in a paper actually are, replacing the fallible memory of the researcher.
+* Efficiency of science : Measured by the ability to rerun a thousand-step process hundreds of times without manual effort; the authors note that while automation requires an upfront investment, it __"pays big dividends"__ as the analysis is refined.
 
 ### Chapter 3: Version Control
 This chapter introduces the concept of version control to manage code and data changes. It argues against using methods like date and initial tags and instead advocates for using version control software to track changes automatically. The chapter highlights the benefits of version control, including the ability to revert to previous versions, record authorship, and see detailed changes. The authors emphasize the importance of running the entire project before checking in changes to ensure the code is working properly and consistently. This practice ensures replicability and makes editing less risky.
@@ -410,11 +421,11 @@ Donoho, D. (2017). 50 years of data science. [Journal of Computational and Graph
 **Software**: Python & R; some other recommendations
 
 **Key Definitions**\*:  
-Reproducible - no definition  
+* Reproducible : This is measured by the ability for existing scientific analyses to be __reproduced and improved upon__ by others.  
 Replicable - no definition  
-workflow - no definition  
-quality of science - no definition  
-efficiency of science - no definition  
+* Workflow : While not explicitly defined, it is framed as a __planned process__ starting from the data collection stage to ensure reusability.
+* Quality of science : This is measured by __data accuracy__ and the ability to catch typographical or recorder errors before sharing.  
+* Efficiency of science : Efficiency is measured by the ability of scientists to __spend less time__ "deciphering and cleaning up data" and more time doing actual science.  
 \*The authors provide no key definitions of words found in the article, however, the entire article is devoted to the importance of quality dataset for the purpose of reproducing, replicating, and reusing data.
 
 **Summary**:  
