@@ -774,3 +774,7 @@ Spatial autocorrelation (Moran’s I, LISA) confirmed statistically significant 
 Version control (Git), Jupyter Notebooks, and Markdown enhance research accessibility.
 Open research leads to faster knowledge dissemination and greater scientific impact.
 
+### Ziemann, M., Poulain, P., & Bora, A. (2023). The five pillars of computational reproducibility: bioinformatics and beyond. Briefings in Bioinformatics, 24(6).
+This review article considers the persistent reproducibility crisis in bioinformatics and computational research and proposes an effective framework, the "Five Pillars of Computational Reproducibility." The authors synthesize evidence from previous reproducibility studies and actual failure cases. And they also highlight that irreproducibility remains widespread and has serious consequences, particularly in data-intensive biomedical research. They define five interconnected pillars: readable programming, code version control and sharing, control of the computational environment, persistent data sharing, and comprehensive documentation.
+
+
