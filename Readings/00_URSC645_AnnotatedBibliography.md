@@ -253,8 +253,16 @@ The researchers need to move toward a better understanding of the relationship b
 
 ## Long (2009) - The Workflow of Data Analysis Using Stata
 
-### Chapter 1 & 2
+### Chapter 1&2 Key Points
 This book emphasizes that a **good workflow is essential for the replication of research, which is a cornerstone of good science**. The author argues that researchers often develop workflows ad hoc, learning from mistakes. Chapters 1 and 2 introduce a structured approach to data analysis, highlighting the importance of planning, organization, and documentation (PO&D).  **Replicability is the guiding principle**, and the book stresses that workflow should facilitate this. **Improved workflow leads to greater efficiency, accuracy, and the avoidance of errors**, ultimately improving the quality of scientific work.
+
+### Chapter 1 (Introduction)
+This chapter introduces the core concepts of the "data analysis workflow," pointing out that reproducibility is the highest principle in all research. The author points out that data analysis is not simply modeling or computation, but a continuous process encompassing four stages: data cleaning, analysis, results presentation, and file saving. Each stage requires planning, organization, documentation, and execution. A good workflow guarantees the accuracy and reproducibility of research results and prevents confusion in complex, and long-term projects. The author also proposes seven criteria for evaluating workflows, including accuracy, efficiency, simplicity, standardization, automation, usability, and scalability, noting that there is no single correct best method. The key to this chapter is choosing a workflow that meets the researcher's needs and can be sustained in the long term.
+
+### Chapter 2
+Chapter 2 systematically discusses the fundamental role of planning, organization, and documentation (collectively referred to as PO&D) within data analysis, emphasizing that they aren't simply supportive tasks but core mechanisms for ensuring research quality and reproducibility. The author describes data analysis as a continuous process—planning, organization, computation, and documentation to emphasize that PO&D needs to be continuously revised and improved as the project progresses. This chapter discusses in detail how to develop research and publication plans at the beginning of a project, reasonably schedule timelines, clearly define roles, and use consistent directory structures and clear file naming conventions. Clear filenames, directories, and comprehensive research logs and code comments can prevent file loss and information forgetting. The author emphasizes that spending time on PO&D may seem time-consuming, but in the long run, it can significantly save time, reduce errors, and provide the necessary conditions for others to reproduce the research.
+
+(Chapter 1 and Chapter 2 have been updated)
 
 ### Chapter 3
 
