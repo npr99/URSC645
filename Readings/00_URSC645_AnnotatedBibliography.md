@@ -785,4 +785,20 @@ Rather than focusing on specific software tools, Munafò et al. emphasize workfl
 - **Implications for scientific efficiency**: Reproducible workflows enhance research efficiency by reducing duplicated effort, enabling faster verification of results, and supporting cumulative knowledge building rather than repeated reinvention.
 
 
+## Kedron & Holler (2026) — Reproducibility & Replicability in GIScience
+
+Kedron, P., & Holler, J. (2026). *Recent advances in reproducibility and replicability in cartography and geographic information science: introduction to a special issue*. *Cartography and Geographic Information Science*. https://doi.org/10.1080/15230406.2025.2512084
+
+**Overall summary**  
+This editorial positions reproducibility and replicability as core requirements for credible GIScience research and frames them as central to current discussions of open and transparent science.
+
+**Definitions / problem framing**
+- *Reproducibility* refers to obtaining consistent results using the same data and analytical procedures.
+- *Replicability* refers to obtaining consistent results when addressing the same research question with different data.
+- Achieving either is particularly challenging in geography due to spatial heterogeneity, spatial dependence, and the many analytical decisions made throughout the spatial data lifecycle.
+
+**Takeaway for reproducible workflows**  
+Rather than treating reproducibility as a compliance exercise, the paper emphasizes well-documented workflows, shared data and code, and conceptually meaningful metadata as mechanisms that improve the quality and efficiency of scientific research by making results easier to evaluate, extend, and reuse.
+
+
 
