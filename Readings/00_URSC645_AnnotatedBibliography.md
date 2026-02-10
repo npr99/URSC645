@@ -774,6 +774,33 @@ Spatial autocorrelation (Moran’s I, LISA) confirmed statistically significant 
 Version control (Git), Jupyter Notebooks, and Markdown enhance research accessibility.
 Open research leads to faster knowledge dissemination and greater scientific impact.
 
+## Christensen et al. (2019)
+
+_Christensen, G., Freese, J., & Miguel, E. (2019). Reproducible Workflow. In Transparent and Reproducible Social Science Research: How to Do Open Science. University of California Press._
+
+### Definitions of terms and ways to measure reproducible, replicable, workflow, science 
+The authors define workflow as the combination of data, code, organization, and documentation. They advocate for Claerbout’s principle, which asserts that the published article is merely "advertising," while the "actual scholarship" is the complete software development environment and instructions that generated the results. The ultimate measure of a reproducible workflow is the "one-click workflow," where an entire analysis can be rerun from the ground up with a single command.
+
+### Challenges associated with reproducible research 
+A major challenge is institutional memory and the "hit by a bus" test: if a researcher is incapacitated, can anyone else reconstruct the work?. The long refereeing process at journals is another hurdle, as researchers often forget specific details (like which code generated "table 7") by the time they receive a "revise and resubmit". Additionally, they note that for established researchers, learning new programming languages is often viewed as an "undesirable additional burden".
+
+### Computer coding, scripting, and programming concepts
+The "overarching rule" is to script absolutely everything. This includes:
+* Avoiding manual modification: Never edit data by hand in Excel; use scripts to preserve a record of changes.
+* Commenting: Explain why a piece of code exists, rather than just what it does.
+* Self-contained scripts: Programs should not rely on files being run in a precarious, specific order.
+* Randomness: Always set the seed for random number generators to ensure identical results across runs.
+
+### Appropriate software for replicable research 
+The chapter recommends tools that bridge the gap between analysis and reporting:
+* Open-source languages: R and Python are preferred for their nimbleness and equal access.
+* Git: To maintain a detailed record of changes and facilitate collaboration without naming files "final".
+* LaTeX and BibTeX: For automating tables, figures, and citations, ensuring output is updated automatically when data changes.
+* Dynamic documents (knitr/R Markdown/Jupyter): To implement "literate programming," where code and results are seamlessly woven into the manuscript.
+* Stata Tools: For proprietary users, they recommend estout, outreg2, and markdoc to automate LaTeX or Markdown output.
+
+### Discussions of bias (what is better science?) 
+Better science is achieved through transparency of process, not just results. The authors suggest that failing to document "minor" changes in Excel makes research non-reproducible. They argue that true scholarship must include the complete set of instructions used to generate every coefficient and standard error, moving beyond "advertising" to verifiable evidence. Adopting these "expert" practices from software engineering is framed as the only way to manage the massive datasets of modern social science.
 ## Munafò et al. (2017)
 
 **Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Percie du Sert, N., Simonsohn, U., Wagenmakers, E.-J., Ware, J. J., & Ioannidis, J. P. A. (2017).** *A manifesto for reproducible science.* *Nature Human Behaviour*, 1, 0021.https://doi.org/10.1038/s41562-016-0021
