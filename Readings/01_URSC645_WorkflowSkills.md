@@ -16,6 +16,10 @@ The table below consolidates the definitions of **workflow skills** found across
 | Hoelter et al (2008) | Workflow skills include using tools that support quantitative literacy early, such as the ICPSR Online Learning Center for undergraduates and Secondary Datasets for graduate students. |
 | Munafo et al (2017) | Workflow skills are presented as workflow-oriented practices that structure research from design to dissemination, including pre-registration of hypotheses and analysis plans, standardized documentation of methods, open sharing of data and code, and collaborative or multi-site study designs. |
 
+### Skills Described
+*   Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) [http://www.prisma-statement.org/](http://www.prisma-statement.org/) 
+*   Transparency and Openness Promotion Guidelines (TOPS) [https://www.cos.io/initiatives/top-guidelines](https://www.cos.io/initiatives/top-guidelines)
+
 ### Summary: How Has the Definition of Workflow Skills Evolved?
 
 Across the literature, workflow skills are consistently framed as the capabilities required to organize, automate, and document research processes so that work can be reproduced and extended. The idea begins as a set of practical abilities (organizing data and writing code) and expands to include broader research practices that structure the entire lifecycle of a project.
