@@ -111,6 +111,7 @@ Buscha, Franz. (2019). Introduction to Stata 15. https://www.linkedin.com/learni
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/veronicaJS"><img src="https://avatars.githubusercontent.com/u/254773396?v=4?s=100" width="100px;" alt="Jiyeon Veronica Shin"/><br /><sub><b>Jiyeon Veronica Shin</b></sub></a><br /><a href="#content-veronicaJS" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/yiining610"><img src="https://avatars.githubusercontent.com/u/254779579?v=4?s=100" width="100px;" alt="yiining610"/><br /><sub><b>yiining610</b></sub></a><br /><a href="#content-yiining610" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
