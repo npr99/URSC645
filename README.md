@@ -1,6 +1,6 @@
 # URSC645
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## URSC 645 - Urban and Regional Analytics Course
 
@@ -107,6 +107,13 @@ Buscha, Franz. (2019). Introduction to Stata 15. https://www.linkedin.com/learni
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/MUYANGL9612"><img src="https://avatars.githubusercontent.com/u/197135201?v=4?s=100" width="100px;" alt="Muyang Li"/><br /><sub><b>Muyang Li</b></sub></a><br /><a href="#content-MUYANGL9612" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/guo7501"><img src="https://avatars.githubusercontent.com/u/196816479?v=4?s=100" width="100px;" alt="Zipeng (Cooper) Guo"/><br /><sub><b>Zipeng (Cooper) Guo</b></sub></a><br /><a href="#content-guo7501" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Najmeh-Jahani"><img src="https://avatars.githubusercontent.com/u/197015957?v=4?s=100" width="100px;" alt="Najmeh"/><br /><sub><b>Najmeh</b></sub></a><br /><a href="#content-Najmeh-Jahani" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sarahzpr"><img src="https://avatars.githubusercontent.com/u/254773347?v=4?s=100" width="100px;" alt="sarahzpr"/><br /><sub><b>sarahzpr</b></sub></a><br /><a href="#content-sarahzpr" title="Content">🖋</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/WenyuZhang-9"><img src="https://avatars.githubusercontent.com/u/101872454?v=4?s=100" width="100px;" alt="Wenyu Zhang"/><br /><sub><b>Wenyu Zhang</b></sub></a><br /><a href="#content-WenyuZhang-9" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/guolonghao-tamu"><img src="https://avatars.githubusercontent.com/u/180246024?v=4?s=100" width="100px;" alt="Longhao Guo"/><br /><sub><b>Longhao Guo</b></sub></a><br /><a href="#content-guolonghao-tamu" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/veronicaJS"><img src="https://avatars.githubusercontent.com/u/254773396?v=4?s=100" width="100px;" alt="Jiyeon Veronica Shin"/><br /><sub><b>Jiyeon Veronica Shin</b></sub></a><br /><a href="#content-veronicaJS" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/yiining610"><img src="https://avatars.githubusercontent.com/u/254779579?v=4?s=100" width="100px;" alt="yiining610"/><br /><sub><b>yiining610</b></sub></a><br /><a href="#content-yiining610" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
