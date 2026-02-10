@@ -1,9 +1,3 @@
-### Where to start?
-- [Contribute to the course Google Doc](https://docs.google.com/document/d/1elFspZUIEzc66LLatNqcZBW3WM7vJ7qKHhX6Z0YcEVo/edit?usp=sharing)
-- Use Google Doc to Markdown Extension to update this page
-
-### Hello World from Jiang
-
 # Annotated Bibliography
 
 ## Introduction
@@ -876,7 +870,11 @@ For practicing scientists, the article offers several actionable insights:
 2). Transparency in analysis decisions reduces unconscious bias and QRPs.
 3). Sharing data and code enables replication, meta-analysis, and cumulative evidence synthesis.
 4). Training in reproducibility and meta-research should be central to scientific education.
+
 ### Ziemann, M., Poulain, P., & Bora, A. (2023). The five pillars of computational reproducibility: bioinformatics and beyond. Briefings in Bioinformatics, 24(6).
 This review article considers the persistent reproducibility crisis in bioinformatics and computational research and proposes an effective framework, the "Five Pillars of Computational Reproducibility." The authors synthesize evidence from previous reproducibility studies and actual failure cases. And they also highlight that irreproducibility remains widespread and has serious consequences, particularly in data-intensive biomedical research. They define five interconnected pillars: readable programming, code version control and sharing, control of the computational environment, persistent data sharing, and comprehensive documentation.
+
+---
+
 
 
