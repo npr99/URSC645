@@ -75,6 +75,7 @@ Having a lot of data does not make a research project significant.
 Too much data can make a project superficial, because one will need to explain all of the relevant data and try to fit all of it into the analysis.
 Ask the question "Will the data answer the research question?" If the answer is yes - stop collecting more data. There may be more data or "better" data out there, but if the data you have can answer the research question, then you have enough data.
 
+See Lecture Slides: Readings\URSC645_ProblemStatement_to_DataFile_2026-02-03.pdf
 
 # Example Problem Statement and Research Question
 
