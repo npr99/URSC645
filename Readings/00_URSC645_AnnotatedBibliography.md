@@ -56,7 +56,9 @@ Each entry should have:
 - Seminal work that helps establish the theoretical constructs
 - Primary research that provides evidence to test arguments
 - Provides critical perspective that helps ground research question
-4. Each entry should have the persistent ID (DOI) for the article or link to the article
+4. What evidence does the article provide that supports the research question?
+5. Each entry should have the persistent ID (DOI) for the article or link to the article
+6. Look for key definitions and then reference the definition summary pages. If the definition is already in the list check it and then add the in text citation to the list. If the article has a different or expanded definition add a new row to the table.
 
 ---
 # Required Reading
@@ -64,20 +66,25 @@ Each entry should have:
 ## Munafo et al 2017
 Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Percie du Sert, N., Simonsohn, U., Wagenmakers, E.-J., Ware, J. J., & Ioannidis, J. P. A. (2017). A manifesto for reproducible science. Nature Human Behaviour, 1(0021). https://doi.org/10.1038/s41562-016-0021
 
-The article discusses the reproducibility crisis in scientific research, which is caused by issues such as low statistical power, publication bias, P-hacking, and lack of transparency practices. These factors undermine the robustness, credibility, and efficiency of the scientific process.
+**Type**: Peer-reviewed perspective/manifesto.
 
-The manifesto calls for systemic changes across the scientific ecosystem, including:
-1. Researchers adopt rigorous methodological standards.
-2. Institutions, journals, and funders incentivize transparency and reproducibility.
-3. Conduct collaborative and multi-site studies to improve generalizability and effectiveness.
+**Research Question**: What measures can be adopted across the scientific ecosystem to improve the reliability and efficiency of research, and what is the prevalence of threats to knowledge accumulation?
 
-Limitations: Implementation may vary across disciplines, and financial/resource constraints may hinder adoption.
+The article discusses the reproducibility crisis in scientific research, which is caused by issues such as low statistical power, publication bias, P-hacking, and lack of transparency practices. These factors undermine the robustness, credibility, and efficiency of the scientific process. The authors argue that scientific quality and efficiency are currently undermined by systemic threats such as low statistical power, P-hacking, and publication bias. To combat these, they propose a series of measures targeting the scientific process: adopting rigorous methodological standards, incentivizing transparency, and fostering collaborative "team science" to improve the generalizability and effectiveness of research.
+
+**Evidence**: An estimated 85% of biomedical research effort is wasted due to poor practices. Do backward search for Macleod et al 2014 before repeating.
 
 ## Freese 2007
 
-Freese, J. (2007). Replication standards for quantitative social science: Why not sociology?. _Sociological Methods & Research_, _36_(2), 153-172.
+Freese, J. (2007). Replication standards for quantitative social science: Why not sociology?. _Sociological Methods & Research_, _36_(2), 153-172. https://doi.org/10.1177/0049124107306659
+
+**Type**: Peer-reviewed article/methodological argument. 
+
+**Research Question**: Should quantitative sociology shift from an individualistic ethos to a social policy of mandatory data and code archiving at the time of publication to enhance the credibility of research?
 
 Freese argues that the credibility of quantitative social science depends on replication standards and transparency. He points out that sociology relies on an implicit individualistic policy where researchers share files only if asked, whereas other disciplines (like economics) require data availability at publication. The author makes the case for a social contract approach to replication: moving from individual discretion (trust over transparency) to institutional standards (openness and shared responsibility). This framing directly addresses how establishing systematic workflow practices and documentation standards can improve both the quality of science (through verifiability) and efficiency (by avoiding redundant research and building on prior work).
+
+**Evidence**: A study of 141 articles in American Psychological Association journals found only 27% compliance with data requests under an individualistic policy. Additionally, replication attempts in economics showed "alarmingly dismal rates" of author cooperation and success prior to the adoption of mandatory archiving policies. The author also lists several prominent sociology articles where subsequent researchers encountered failures or significant problems when attempting to exactly replicate published results. Do backward search of five+ articles cited before repeating.
 
 ## Lowndes et al 2017
 
