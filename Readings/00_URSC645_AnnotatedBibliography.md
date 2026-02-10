@@ -168,9 +168,20 @@ Purpose of book: To share "insight from experts in code & data into practical te
 
 ### Chapter 1: Introduction
 This chapter introduces the challenges of empirical social science, emphasizing the central role of coding and data management. Many researchers lack formal computer science training, leading to common issues like non-replicable results and difficulty in understanding old code. The authors describe common situations they encountered, such as code that no longer works and inconsistent results. The chapter argues for learning from experts in code and data management and presents the guide as a means of translating these practices into the social sciences to improve research workflows. The main goal of this guide is to help researchers focus on the research questions rather than wrestle with messy code.
+#### Research Question Measures:
+* Reproducible : While not explicitly defined here, it is framed by its absence; it is hindered by code that no longer works or depends on manual steps that cannot be verified.
+* Workflow Skills: Defined as the ability to organize datasets and write code using methodologies borrowed from software engineering.
+* Quality of science : Measured by the avoidance of "inconsistent samples" and the ability to build upon previous work without having to rewrite code from scratch.
+* Efficiency of science : Measured by time spent on actual research questions versus time wasted "wrestling with... messy code" or "reverse-engineering" old project directories.
 
 ### Chapter 2: Automation
 This chapter stresses the importance of automating all research steps. It contrasts an inefficient interactive approach to research with a more structured, script-based approach. The authors argue for the use of scripts to make research more replicable and efficient. The chapter provides an example of converting an interactive workflow into a set of scripts and then demonstrates how to make the output of the project replicable by creating a single script that executes all code. The chapter concludes by emphasizing the benefits of automation in terms of time and effort savings.
+#### Research Question Measures:
+* Reproducible : Defined operationally as the state where all output files (logs, figures, PDFs) can be deleted and then perfectly recreated by running a __single execution script__.
+* Workflow : Characterized as the transition from a manual, step-by-step process to a __scripted pipeline__ where data building and analysis are stored in code.
+* Workflow Skills: Measured by the ability to write scripts that tell the operating system how to run a project directory and the discipline to avoid manual data manipulations.
+* Quality of science : Measured by the existence of an __"authoritative definition"__ of what the numbers in a paper actually are, replacing the fallible memory of the researcher.
+* Efficiency of science : Measured by the ability to rerun a thousand-step process hundreds of times without manual effort; the authors note that while automation requires an upfront investment, it __"pays big dividends"__ as the analysis is refined.
 
 ### Chapter 3: Version Control
 This chapter introduces the concept of version control to manage code and data changes. It argues against using methods like date and initial tags and instead advocates for using version control software to track changes automatically. The chapter highlights the benefits of version control, including the ability to revert to previous versions, record authorship, and see detailed changes. The authors emphasize the importance of running the entire project before checking in changes to ensure the code is working properly and consistently. This practice ensures replicability and makes editing less risky.
@@ -242,8 +253,16 @@ The researchers need to move toward a better understanding of the relationship b
 
 ## Long (2009) - The Workflow of Data Analysis Using Stata
 
-### Chapter 1 & 2
+### Chapter 1&2 Key Points
 This book emphasizes that a **good workflow is essential for the replication of research, which is a cornerstone of good science**. The author argues that researchers often develop workflows ad hoc, learning from mistakes. Chapters 1 and 2 introduce a structured approach to data analysis, highlighting the importance of planning, organization, and documentation (PO&D).  **Replicability is the guiding principle**, and the book stresses that workflow should facilitate this. **Improved workflow leads to greater efficiency, accuracy, and the avoidance of errors**, ultimately improving the quality of scientific work.
+
+### Chapter 1 (Introduction)
+This chapter introduces the core concepts of the "data analysis workflow," pointing out that reproducibility is the highest principle in all research. The author points out that data analysis is not simply modeling or computation, but a continuous process encompassing four stages: data cleaning, analysis, results presentation, and file saving. Each stage requires planning, organization, documentation, and execution. A good workflow guarantees the accuracy and reproducibility of research results and prevents confusion in complex, and long-term projects. The author also proposes seven criteria for evaluating workflows, including accuracy, efficiency, simplicity, standardization, automation, usability, and scalability, noting that there is no single correct best method. The key to this chapter is choosing a workflow that meets the researcher's needs and can be sustained in the long term.
+
+### Chapter 2
+Chapter 2 systematically discusses the fundamental role of planning, organization, and documentation (collectively referred to as PO&D) within data analysis, emphasizing that they aren't simply supportive tasks but core mechanisms for ensuring research quality and reproducibility. The author describes data analysis as a continuous process—planning, organization, computation, and documentation to emphasize that PO&D needs to be continuously revised and improved as the project progresses. This chapter discusses in detail how to develop research and publication plans at the beginning of a project, reasonably schedule timelines, clearly define roles, and use consistent directory structures and clear file naming conventions. Clear filenames, directories, and comprehensive research logs and code comments can prevent file loss and information forgetting. The author emphasizes that spending time on PO&D may seem time-consuming, but in the long run, it can significantly save time, reduce errors, and provide the necessary conditions for others to reproduce the research.
+
+(Chapter 1 and Chapter 2 have been updated)
 
 ### Chapter 3
 
@@ -410,11 +429,11 @@ Donoho, D. (2017). 50 years of data science. [Journal of Computational and Graph
 **Software**: Python & R; some other recommendations
 
 **Key Definitions**\*:  
-Reproducible - no definition  
+* Reproducible : This is measured by the ability for existing scientific analyses to be __reproduced and improved upon__ by others.  
 Replicable - no definition  
-workflow - no definition  
-quality of science - no definition  
-efficiency of science - no definition  
+* Workflow : While not explicitly defined, it is framed as a __planned process__ starting from the data collection stage to ensure reusability.
+* Quality of science : This is measured by __data accuracy__ and the ability to catch typographical or recorder errors before sharing.  
+* Efficiency of science : Efficiency is measured by the ability of scientists to __spend less time__ "deciphering and cleaning up data" and more time doing actual science.  
 \*The authors provide no key definitions of words found in the article, however, the entire article is devoted to the importance of quality dataset for the purpose of reproducing, replicating, and reusing data.
 
 **Summary**:  
@@ -782,3 +801,82 @@ The chapter recommends tools that bridge the gap between analysis and reporting:
 
 ### Discussions of bias (what is better science?) 
 Better science is achieved through transparency of process, not just results. The authors suggest that failing to document "minor" changes in Excel makes research non-reproducible. They argue that true scholarship must include the complete set of instructions used to generate every coefficient and standard error, moving beyond "advertising" to verifiable evidence. Adopting these "expert" practices from software engineering is framed as the only way to manage the massive datasets of modern social science.
+## Munafò et al. (2017)
+
+**Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Percie du Sert, N., Simonsohn, U., Wagenmakers, E.-J., Ware, J. J., & Ioannidis, J. P. A. (2017).** *A manifesto for reproducible science.* *Nature Human Behaviour*, 1, 0021.https://doi.org/10.1038/s41562-016-0021
+
+### Problem and Motivation
+Munafò et al. (2017) address what is widely described as a reproducibility crisis in modern science. The authors argue that a substantial proportion of published findings are difficult to verify or build upon due to low statistical power, publication bias, analytic flexibility (e.g., p-hacking), and limited transparency in research practices. These issues undermine not only the credibility of individual studies but also the efficiency of cumulative scientific knowledge production.
+
+### Definitions and Key Concepts
+
+- **Reproducibility** is framed as a core scientific norm, defined as the ability to verify research findings through access to data, methods, and analytic decisions.
+
+- **Open science** is described as the practice of making both the products and processes of research transparent and accessible, thereby enabling scrutiny, reuse, and extension by other researchers.
+
+Together, these concepts emphasize that reproducibility is not a single technical step or tool, but a property of the entire research workflow.
+
+### Challenges and Trade-offs
+A central challenge identified in the paper is the misalignment between individual incentives and collective scientific goals. While transparency and careful documentation require time and effort, prevailing academic reward systems prioritize novelty, speed, and positive results. As a result, researchers may face trade-offs between short-term career incentives and practices that support long-term scientific reliability.
+
+### Workflow Skills and Research Practices
+Rather than focusing on specific software tools, Munafò et al. emphasize workflow-oriented practices that structure research from design to dissemination. These include **pre-registration of hypotheses and analysis plans, standardized documentation of methods, open sharing of data and code, and collaborative or multi-site study designs**. Such practices are presented as workflow skills that reduce bias, clarify analytic decisions, and make research outputs more reusable.
+
+### Implications for Quality and Efficiency of Science
+
+- **Reproducible workflow skills as scientific infrastructure**: The article illustrates how reproducible workflows function as foundational infrastructure that supports reliable and cumulative scientific research.
+
+- **Implications for scientific quality**: By making analytic processes explicit and verifiable, reproducible workflow skills improve the quality of scientific findings through increased credibility, robustness, and transparency.
+
+- **Implications for scientific efficiency**: Reproducible workflows enhance research efficiency by reducing duplicated effort, enabling faster verification of results, and supporting cumulative knowledge building rather than repeated reinvention.
+
+
+## Kedron & Holler (2026) — Reproducibility & Replicability in GIScience
+
+Kedron, P., & Holler, J. (2026). *Recent advances in reproducibility and replicability in cartography and geographic information science: introduction to a special issue*. *Cartography and Geographic Information Science*. https://doi.org/10.1080/15230406.2025.2512084
+
+**Overall summary**  
+This editorial positions reproducibility and replicability as core requirements for credible GIScience research and frames them as central to current discussions of open and transparent science.
+
+**Definitions / problem framing**
+- *Reproducibility* refers to obtaining consistent results using the same data and analytical procedures.
+- *Replicability* refers to obtaining consistent results when addressing the same research question with different data.
+- Achieving either is particularly challenging in geography due to spatial heterogeneity, spatial dependence, and the many analytical decisions made throughout the spatial data lifecycle.
+
+**Takeaway for reproducible workflows**  
+Rather than treating reproducibility as a compliance exercise, the paper emphasizes well-documented workflows, shared data and code, and conceptually meaningful metadata as mechanisms that improve the quality and efficiency of scientific research by making results easier to evaluate, extend, and reuse.
+
+## Frias-Navarro et al., 2020
+Frias‐Navarro, D., Pascual‐Llobell, J., Pascual‐Soler, M., Perezgonzalez, J., & Berrios‐Riquelme, J. (2020). Replication crisis or an opportunity to improve scientific production?. European Journal of Education, 55(4), 618-631.
+
+## a. Introduction 
+Frias-Navarro et al. review the so-called replication crisis across psychology, education, and the social sciences, situating it within broader debates about scientific credibility, false positives, and research integrity. Rather than framing the crisis as a failure of science, the authors argue it represents a critical opportunity to reform research practices, training, and incentives.
+The article synthesizes evidence from meta-research, large-scale replication projects, and methodological critiques to diagnose why many published findings fail to replicate and what systemic changes are required to address this problem.
+
+## b. Research Questions
+The article addresses several interrelated questions: 1). What factors contribute to the replication crisis in social and educational research? 2). How do statistical practices and research culture interact to produce false positives? 3). What reforms in workflow, training, and publication practices can improve scientific reliability?
+
+## c. Definition of Key Terms (As Used in This Paper)
+The authors provide an expanded conceptual vocabulary relevant to reproducible workflows:
+Replication crisis: A systemic pattern in which a substantial proportion of published findings cannot be reproduced or replicated with comparable results.
+False positives: Findings that achieve statistical significance despite reflecting no true underlying effect.
+Questionable Research Practices (QRPs): Practices such as p-hacking, HARKing, and selective reporting that inflate false discovery rates.
+Researcher degrees of freedom: The flexibility researchers have in data collection, variable selection, model specification, and stopping rules—often exercised post-hoc.
+Open science: A framework emphasizing pre-registration, open data, open code, and transparent reporting.
+Meta-research: Research on research practices, designed to evaluate and improve scientific methods themselves.
+
+## d. Importance of the Article (Why It Matters)
+This article is important because it connects reproducibility failures to workflow decisions across the entire research lifecycle, not just statistical analysis. The authors show that replication problems arise from the interaction of:
+Incentive structures (publish or perish) - Statistical misunderstandings (overreliance on p-values) - Editorial bias against null results - Insufficient methodological training
+Crucially, they argue that replication is essential for scientific self-correction, theory validation, and cumulative knowledge building. Without transparent workflows and replication, science risks becoming a system that rewards novelty over truth.
+
+## e. What We Can Take Away as Scientists
+For practicing scientists, the article offers several actionable insights:
+1). Reproducible workflows must begin before data collection, through pre-registration and power planning.
+2). Transparency in analysis decisions reduces unconscious bias and QRPs.
+3). Sharing data and code enables replication, meta-analysis, and cumulative evidence synthesis.
+4). Training in reproducibility and meta-research should be central to scientific education.
+### Ziemann, M., Poulain, P., & Bora, A. (2023). The five pillars of computational reproducibility: bioinformatics and beyond. Briefings in Bioinformatics, 24(6).
+This review article considers the persistent reproducibility crisis in bioinformatics and computational research and proposes an effective framework, the "Five Pillars of Computational Reproducibility." The authors synthesize evidence from previous reproducibility studies and actual failure cases. And they also highlight that irreproducibility remains widespread and has serious consequences, particularly in data-intensive biomedical research. They define five interconnected pillars: readable programming, code version control and sharing, control of the computational environment, persistent data sharing, and comprehensive documentation.
+
+
