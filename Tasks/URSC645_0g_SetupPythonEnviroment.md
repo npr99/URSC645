@@ -60,19 +60,20 @@ Note: This process can take a long time and depends on a solid internet connecti
 
 5. How to check your environment? Use the command `conda list` in Anaconda Prompt to see what packages and the versions are installed in an environment.
 - The steps above created an environment with 300 python packages (the 9 required and the packages that they require)
-- The primary packages that were installed on 2025-01-08 included the following versions, builds, and channels
+- The primary packages that were installed on 2026-01-29 included the following versions, builds, and channels
 ```
 Name                      Version            Build           Channel
-contextily                1.6.2              pyhd8ed1ab_1    conda-forge
-dask                      2024.12.1          pyhd8ed1ab_0    conda-forge
-descartes                 1.1.0              pyhd8ed1ab_5    conda-forge
-fiona                     1.10.1          py312h6e88f47_3    conda-forge
-geopandas                 1.0.1              pyhd8ed1ab_3    conda-forge
-jupyter                   1.1.1              pyhd8ed1ab_1    conda-forge
-openpyxl                  3.1.5           py312he70551f_1    conda-forge
-pandas                    2.2.3           py312h72972c8_1    conda-forge
-python                    3.12.8          h3f84c4b_1_cpython    conda-forge
-seaborn                   0.13.2               hd8ed1ab_3    conda-forge
+contextily                       1.7.0                  pyhd8ed1ab_0           conda-forge
+dask                             2026.1.1               pyhcf101f3_0           conda-forge
+descartes                        1.1.0                  pyhd8ed1ab_5           conda-forge
+fiona                            1.10.1                 py312h3f2e00f_6        conda-forge
+geopandas                        1.1.2                  pyhd8ed1ab_0           conda-forge
+jupyter                          1.1.1                  pyhd8ed1ab_1           conda-forge
+openpyxl                         3.1.5                  py312h83acffa_3        conda-forge
+pandas                           3.0.0                  py312h95189c4_0        conda-forge
+python                           3.12.12                h0159041_2_cpython     conda-forge
+seaborn                          0.13.2                 hd8ed1ab_3             conda-forge
+
 ```
 - If your environment does not have these versions of the primary packages the code may or may not replicate. 
 - Try to replicate the code provided by this course, if it does not replicate the issue might be with the environment.

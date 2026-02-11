@@ -9,13 +9,15 @@ We'll use GitHub throughout this course for assignments and projects. GitHub is 
 - 🔍 **Track changes** and never lose your work again
 - 🌟 **Build your professional portfolio** that employers love to see
 
+In this course, GitHub is not just a place to turn things in — it is where your work, decisions, and experiments live over time.
+
 ## ✅ Step 1: Create Your Account
 
-🎯 **Your Mission**: Set up a professional GitHub account that represents you well!
+🎯 **Your Mission**: Create a GitHub account you can comfortably use as a working research space this semester. This account does not need to be perfect, impressive, or polished. It needs to be usable.
 
 **Once your account is ready, optimize your profile like a pro:**
 
-### 🌟 Profile Optimization Checklist
+### 🌟 Profile Basics (Good Enough Is Enough)
 - 📸 **Add a professional photo** (or fun avatar that represents you!)
 - ✍️ **Write a compelling bio** - mention your field of study, interests, and goals
 - 📍 **Add your location** (city/region is fine for privacy)
@@ -28,9 +30,8 @@ We'll use GitHub throughout this course for assignments and projects. GitHub is 
 - "Researcher exploring spatial analysis and community development 📊"
 - "Future urban planner combining GIS and social justice 🗺️✊"
 
-💡 **Pro Tip**: A complete profile gets more collaboration opportunities and looks great to future employers!
-
-🎉 **Get excited** - you'll soon become a contributor to our course repository! 
+💡 Your profile does not need to look like a job application.
+A simple bio that identifies you as a student or researcher is sufficient.
 
 
 📋 **Official GitHub Guide**: https://docs.github.com/en/get-started/quickstart/creating-an-account-on-github
@@ -72,11 +73,13 @@ We'll use GitHub throughout this course for assignments and projects. GitHub is 
 
 ## 🎓 Step 4: Build Your GitHub Skills
 
-Complete these hands-on courses to become a GitHub pro! These are interactive and fun:
+These short activities help you recognize common GitHub patterns you’ll see in this course. 
 
 🌱 [Introduction to Github](https://github.com/skills/introduction-to-github) - Learn the basics in a real repository
 
 🤖 [Getting Started With Github Copilot](https://github.com/skills/getting-started-with-github-copilot) - Meet your AI coding assistant!
+
+You are not expected to master Git or memorize commands. Use these resources as references, not requirements.
 
 ## 📚 Essential GitHub Vocabulary
 
@@ -92,16 +95,12 @@ Master these key terms - they're the building blocks of GitHub success! 💪
 | **Pull Request** 🙋‍♀️ | Proposing your changes to be merged into a project | How you contribute to team projects |
 | **Branch** 🌿 | A parallel version of your project for trying new features | Lets you experiment safely |
 
+In this course, GitHub Issues and Discussions often replace email for technical questions or progress notes. This keeps context attached to the work itself.
+
 ## 🎬 Helpful Resources
 
 **📺 Great intro video**: Understanding the GitHub workflow in plain English!
 https://www.youtube.com/watch?v=gVa4d728T0k
-
-**📖 New to Git?** No worries! Check out these beginner-friendly resources:
-- 🌐 **Git Documentation**: https://git-scm.com/documentation
-- 📚 **Free Online Book**: https://git-scm.com/book/en/v2 (Really well-written!)
-- 🎥 **"What is Git?" Videos**: https://git-scm.com/video/what-is-git
-- 📋 **Handy Cheat Sheet**: https://training.github.com/downloads/github-git-cheat-sheet.pdf
 
 💡 **Pro Tip**: Don't feel overwhelmed! You'll learn these concepts by doing. The VS Code documentation assumes you know Git basics, so these resources will help you get there.
 
@@ -121,8 +120,6 @@ https://www.youtube.com/watch?v=gVa4d728T0k
 ![Image](image-url.jpg)
 ```
 
-🎯 **Practice Ground**: Edit your profile README to practice! (Create a repository called `your-username` for a special profile README)
-
 📚 **Complete Guide**: https://guides.github.com/features/mastering-markdown/
 
 ## 🖥️ GitHub Desktop: The Visual Alternative
@@ -136,7 +133,6 @@ https://www.youtube.com/watch?v=gVa4d728T0k
 
 **Download**: https://desktop.github.com/
 
-💡 **Recommendation**: Try both command line (in VS Code) AND GitHub Desktop. Use whatever feels more comfortable!
 
 ## 💻 GitHub + Visual Studio Code = Magic! ✨
 
@@ -172,13 +168,6 @@ VS Code has amazing built-in GitHub integration - you'll love how seamlessly the
 
 **🔧 Troubleshooting Guide for New Users:**
 
-### Problem: "I can't push to the repository"
-**Solutions:**
-- ✅ Check if you're added as a collaborator
-- 🔑 Verify your authentication (username/token)
-- 📡 Make sure you have internet connection
-- 🔄 Try pulling latest changes first
-
 ### Problem: "I accidentally committed the wrong files"
 **Solutions:**
 - ↩️ Use `git reset` for uncommitted changes
@@ -191,20 +180,18 @@ VS Code has amazing built-in GitHub integration - you'll love how seamlessly the
 - 🌿 Create a new branch to experiment safely
 - 💾 GitHub keeps every version of your work
 
-### Problem: "The command line seems intimidating"
-**Solutions:**
-- 🖥️ Start with GitHub Desktop for visual interface
-- 📚 Use VS Code's built-in Git features
-- 👥 Work alongside classmates for support
-
-**🆘 Still stuck?** 
-- 📧 Email the instructor
-- 💬 Ask in GitHub Discussions
-- 👥 Form study groups with classmates
-- 🌐 GitHub's community is incredibly helpful!
-
 ---
+
+You will not be penalized for GitHub mistakes. Version control exists specifically so mistakes are recoverable.
 
 🎯 **You've got this!** Take your time with each step, and don't hesitate to ask for help. GitHub has a learning curve, but once you get it, you'll wonder how you ever worked without it. Welcome to the GitHub community! 🌟
 
 **🚀 Next Steps**: Once you've completed these tasks, you're ready to start collaborating on real projects. The skills you learn here will serve you throughout your academic and professional career!
+
+---
+
+### AI Use Summary 🤖
+
+**Models:** VS Code and Microsoft 365 Copilot (GPT‑5–based chat model).
+
+AI was used to improve instructions and review course transcripts to bring out tacit knowledge.
