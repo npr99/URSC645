@@ -1,20 +1,24 @@
 # Make a Contribution to the URSC645 Project
 ---
 
+## How to Read This Task
+This task is not about learning GitHub for its own sake or producing a polished result. It is about making your first contribution to a shared research artifact and learning how collaborative work happens in practice. 
+
 ## Goals: 
-- Create GitHub Account
+- Practice using GitHub
 - Contribute to the Annotation Bibliography
 - Learn how to use GitHub for collaborative work
 - Practice using Markdown Text
 - Become a contributor to the URSC645 project
+- Keep notes about your work in your Work Log
 
 
 # Editing a Markdown Page in a Forked GitHub Repository
 ## Step 1: Decide what you want to edit in the Course Annotated Bibliography
 - For your assigned articles review the current annotated bibliography entry. 
-- Use an AI tool (such as Notebook LM) to summarize a journal article with respect to the course research question.
+- Use an AI tool (such as Notebook LM) to summarize a journal article with respect to the course research question. Use the AI tool as a starting point and a writing buddy. Provide details about your AI use in your Work Log.
 - Prepare your edits so you can copy and paste into GitHub.
-- Once your content is final, you'll need to format it using Markdown syntax. You can practice this formatting in an online Markdown editor like [OnlineMarkdownEditor.dev](https://onlinemarkdowneditor.dev/).
+- Once your content is ready, you'll need to format it using Markdown syntax. You can practice this formatting in an online Markdown editor like [OnlineMarkdownEditor.dev](https://onlinemarkdowneditor.dev/).
 
 ## Step 2: Log into GitHub
 - Go to [GitHub's website](https://github.com/).
@@ -36,7 +40,7 @@
 
 ## Step 6: Commit Your Changes
 - Scroll down to the “Commit changes” section.
-- Enter a summary of your changes.
+- Enter a summary of your changes. Edit the text in the description.
 - Click “Commit changes”.
 
 ## Step 7: Create a Pull Request
