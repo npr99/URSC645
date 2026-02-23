@@ -47,3 +47,14 @@ The data science steps include:
 5 = Interpret Data
 6 = Publish Data
 ```
+
+# Readings Folder Filename Plan
+The readings folder contains literature relevant to this project.
+Each file is named similar to an APA citation. Goal is to have a readings folder that contains easily referenced files that mirror a reference section in a journal article. Note: Many readings can not be shared publicly, therefore an annotated bibliography is helpful to provide a summary of key readings.
+
+First Author Last Name [et al] YEAR Short Summary
+
+## Examples:
+Long 2009 Workflow Guide
+Munafo et al 2017 Manifesto Reproducible Science
+Freese 2007 Replication Standards for Social Science
