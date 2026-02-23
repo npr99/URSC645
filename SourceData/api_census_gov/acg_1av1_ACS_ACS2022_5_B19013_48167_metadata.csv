@@ -1,5 +1,5 @@
-name,label,concept
-ACSyr,ACS Year,The year of the ACS survey data
-B19013_001E,Estimate!!Median household income in the past 12 months (in 2022 inflation-adjusted dollars),Median Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars)
-B19013_001M,Margin of Error!!Median household income in the past 12 months (in 2022 inflation-adjusted dollars),Median Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars)
-BGGEOID20,Block Group GEOID 2020,The 12-digit GEOID for the block group
+variable,label,concept
+BGGEOID20,BGGEOID20,
+ACSyr,ACSyr,
+B19013_001E,Median household income in the past 12 months (in 2022 inflation-adjusted dollars) 2022 5-year (Estimate),Median Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars)
+B19013_001M,Median household income in the past 12 months (in 2022 inflation-adjusted dollars) 2022 5-year (MOE),Median Household Income in the Past 12 Months (in 2022 Inflation-Adjusted Dollars)
