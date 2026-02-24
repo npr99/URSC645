@@ -13,6 +13,7 @@ When you push the frontiers of innovation to new heights of discovery - You are 
 
 - [National Science Foundation](https://www.youtube.com/watch?v=OYz00fNQu3g&t=24s) (2022) "YOU are a Scientist"
 
+
 # What is Science?
 
 Summary of readings that discuss and define science.
@@ -23,6 +24,11 @@ Research is a fundamental part of science. Research involves a significant inves
 
 "Science demands reproducibility" (Long 2009, p. 2)
 
+“A hallmark of _**scientific**_ creativity is the ability to see novel and unexpected patterns in data.” (Munafò et al., 2017, p. 1)
+
+"Science is a social enterprise: independent and collaborative groups work to accumulate knowledge as a public good." (Munafò et al., 2017, p. 5)
+
+“Open _**science**_ refers to the process of making the content and process of producing evidence and claims transparent and accessible to others.” page 5
 
 ## Motivating quotes:
 

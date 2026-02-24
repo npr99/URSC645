@@ -40,39 +40,47 @@ conda config --add channels conda-forge
 conda create -n URSC645 python=3.12
 ```
 
-> note: the python version should match the miniconda python version. The most recent version is 3.10. Using different versions of python can cause issues.
+> note: the python version should match the miniconda python version. The most recent version is 3.12. Using different versions of python can cause issues.
 
 4. In Anaconda Prompt - Activate the new environment and install required packages. Use the following command line prompts in sequence to activate and install the required packages. Copy and paste each command line and paste it into the Anaconda Prompt. Press enter to execute the command.
 
 ```
 conda activate URSC645
-conda install pandas
-conda install geopandas
-conda install jupyter
-conda install contextily
-conda install descartes
-conda install openpyxl
-conda install dask
-conda install fiona
-conda install seaborn
+conda install aiohttp contextily dask descartes fiona jupyter geopandas openpyxl pandas scooby seaborn
 ```
+
+**Package descriptions:**
+- **aiohttp** - asynchronous HTTP client/server framework for web requests - required for dask to work
+- **contextily** - add basemaps to matplotlib plots
+- **dask** - parallel computing library for reading in large files
+- **descartes** - helps makes nice maps
+- **fiona** - read and write spatial data files
+- **jupyter** - required to create and run jupyter notebooks in VS Code
+- **geopandas** - extends pandas for spatial data analysis
+- **openpyxl** - read and write Excel files (.xlsx)
+- **pandas** - data manipulation and analysis library
+- **scooby** - environment reporting tool for debugging
+- **seaborn** - statistical data visualization library
+
 Note: This process can take a long time and depends on a solid internet connection.
+Note: Older version instructed to install each package one at a time. According to 2026-02-19 internet search it is best to install all packages at the same time. This reduces how much work the Anaconda solver has to do. 
 
 5. How to check your environment? Use the command `conda list` in Anaconda Prompt to see what packages and the versions are installed in an environment.
 - The steps above created an environment with 300 python packages (the 9 required and the packages that they require)
-- The primary packages that were installed on 2025-01-08 included the following versions, builds, and channels
+- The primary packages that were installed on 2026-01-29 included the following versions, builds, and channels
 ```
 Name                      Version            Build           Channel
-contextily                1.6.2              pyhd8ed1ab_1    conda-forge
-dask                      2024.12.1          pyhd8ed1ab_0    conda-forge
-descartes                 1.1.0              pyhd8ed1ab_5    conda-forge
-fiona                     1.10.1          py312h6e88f47_3    conda-forge
-geopandas                 1.0.1              pyhd8ed1ab_3    conda-forge
-jupyter                   1.1.1              pyhd8ed1ab_1    conda-forge
-openpyxl                  3.1.5           py312he70551f_1    conda-forge
-pandas                    2.2.3           py312h72972c8_1    conda-forge
-python                    3.12.8          h3f84c4b_1_cpython    conda-forge
-seaborn                   0.13.2               hd8ed1ab_3    conda-forge
+contextily                       1.7.0                  pyhd8ed1ab_0           conda-forge
+dask                             2026.1.1               pyhcf101f3_0           conda-forge
+descartes                        1.1.0                  pyhd8ed1ab_5           conda-forge
+fiona                            1.10.1                 py312h3f2e00f_6        conda-forge
+geopandas                        1.1.2                  pyhd8ed1ab_0           conda-forge
+jupyter                          1.1.1                  pyhd8ed1ab_1           conda-forge
+openpyxl                         3.1.5                  py312h83acffa_3        conda-forge
+pandas                           3.0.0                  py312h95189c4_0        conda-forge
+python                           3.12.12                h0159041_2_cpython     conda-forge
+seaborn                          0.13.2                 hd8ed1ab_3             conda-forge
+
 ```
 - If your environment does not have these versions of the primary packages the code may or may not replicate. 
 - Try to replicate the code provided by this course, if it does not replicate the issue might be with the environment.
@@ -156,3 +164,6 @@ If you accidentally misspell a channel name, you can remove it using the followi
 conda config --show channels
 conda config --remove channels <channel_name>
 ``` 
+
+## Helpful Links
+Minnesota Supercomputing Institute (Best practices for managing conda environments)[https://msi.umn.edu/our-resources/knowledge-base/best-practices-conda]

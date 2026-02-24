@@ -52,6 +52,8 @@ Will you be able to locate it and distinguish it easily from other constructs th
 5.	The research question has the capacity to surprise.	Do you already know the answer?
 6.	The research question can produce robust results. If you can answer the question with yes or no, results are not robust.
 
+The theoretical constructs of the research questions are the key concepts that can be broken down into domains and subdomains (Dillman et al., 2014; Fowler, 2013) that identify critical areas of data collection. Example see [Figure 4.1](https://ebookcentral.proquest.com/lib/tamucs/reader.action?docID=1762797&ppg=127&c=RVBVQg) in Dillman et al. (2014) p. 96.
+
 ## Argument vs Research Question:
 While a research question can provide clarity and guidance for your research, an argument is what is needed to support a journal article. According to Belcher (2019) an argument is “an answered research question or confirmed hypothesis” (p. 67).
 
@@ -102,5 +104,8 @@ The research question defines the sections to focus on in the literature review.
 
 Belcher, W. L. (2019). _Writing your journal article in twelve weeks: A guide to academic publishing success_. University of Chicago Press. Available on [Google Books](https://www.google.com/books/edition/Writing_Your_Journal_Article_in_Twelve_W/Bis8p2ejEqIC?hl=en&gbpv=0)
 
+Dillman, D. A., Smyth, J. D., & Christian, L. M. (2014). Internet, phone, mail, and mixed-mode surveys : The tailored design method. John Wiley & Sons, Incorporated. [TAMU Library](https://ebookcentral.proquest.com/lib/tamucs/detail.action?docID=1762797)
+
 Foss, S. K. and Waters, W. (2015). _Destination dissertation: A traveler's guide to a done dissertation_. Rowman & Littlefield. Available on [Google](https://www.google.com/books/edition/_/kBmaCgAAQBAJ?hl=en&sa=X&ved=2ahUKEwiWlsC3guWDAxWunWoFHS2ZAb4Qre8FegQIAxAV) Books and [TAMU Library](https://web-p-ebscohost-com.srv-proxy2.library.tamu.edu/ehost/ebookviewer/ebook?sid=d7c0c203-78f1-478f-a36d-7631108dffea%40redis&vid=0&format=EB)
 
+Fowler Jr, F. J. (2013). Survey research methods. Sage publications.

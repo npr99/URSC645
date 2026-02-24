@@ -1,9 +1,3 @@
-### Where to start?
-- [Contribute to the course Google Doc](https://docs.google.com/document/d/1elFspZUIEzc66LLatNqcZBW3WM7vJ7qKHhX6Z0YcEVo/edit?usp=sharing)
-- Use Google Doc to Markdown Extension to update this page
-
-### Hello World from Jiang
-
 # Annotated Bibliography
 
 ## Introduction
@@ -41,93 +35,76 @@ The research question defines the sections to focus on in the literature review.
 
 This annotated bibliography is for academic researchers interested in reproducible research.
 
+## How to Use This Bibliography
+
+**Focus on the Research Question:** Each article entry should explain how that work helps answer the research question: _How do reproducible workflow skills affect the quality and efficiency of science?_
+
+**Avoid Excessive Summarization:** Rather than providing comprehensive summaries of each article, focus entries on:
+- The **core argument** relevant to reproducible workflow skills, quality of science, or efficiency of science
+- **Evidence or examples** cited by the author that illuminate these concepts
+- How this work **fills a gap** or **extends understanding** of the problem
+
+**Use Separate Definition Files:** Specific definitions and how various authors measure "reproducible," "workflow," "workflow skills," "quality of science," and "efficiency of science" have been consolidated into separate files (01_URSC645_*.md files). This bibliography should focus on the larger arguments and contributions of each work, not serve as a definitions repository.
+
+**Keep Entries Concise:** Each entry should be 2-4 paragraphs maximum, organized around how the work helps answer the research question. 
+
+Each entry should have:
+1. What type article it is (peer-reviewed, news report, blog, popular press, opinion, review, primary research, quantitative analysis, qualitative analysis, primary data collection, literature review) 
+2. Research question addressed in the article.
+3. How does the article help answer the research question? 
+- Provides definitions for theoretical constructs (see definitions pages)
+- Seminal work that helps establish the theoretical constructs
+- Primary research that provides evidence to test arguments
+- Provides critical perspective that helps ground research question
+4. What evidence does the article provide that supports the research question?
+5. Each entry should have the persistent ID (DOI) for the article or link to the article
+6. Look for key definitions and then reference the definition summary pages. If the definition is already in the list check it and then add the in text citation to the list. If the article has a different or expanded definition add a new row to the table.
+
 ---
 # Required Reading
 
 ## Munafo et al 2017
 Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Percie du Sert, N., Simonsohn, U., Wagenmakers, E.-J., Ware, J. J., & Ioannidis, J. P. A. (2017). A manifesto for reproducible science. Nature Human Behaviour, 1(0021). https://doi.org/10.1038/s41562-016-0021
 
-Problem addressed:
-The article discusses the reproducibility crisis in scientific research, which is caused by issues such as low statistical power, publication bias, P-hacking, and lack of transparency practices. These factors undermine the robustness, credibility, and efficiency of the scientific process.
+**Type**: Peer-reviewed perspective/manifesto.
 
-The manifesto calls for systemic changes across the scientific ecosystem, including:
-1. Researchers adopt rigorous methodological standards.
-2. Institutions, journals, and funders incentivize transparency and reproducibility.
-3. Conduct collaborative and multi-site studies to improve generalizability and effectiveness.
+**Research Question**: What measures can be adopted across the scientific ecosystem to improve the reliability and efficiency of research, and what is the prevalence of threats to knowledge accumulation?
 
-Limitations: Implementation may vary across disciplines, and financial/resource constraints may hinder adoption.
+The article discusses the reproducibility crisis in scientific research, which is caused by issues such as low statistical power, publication bias, P-hacking, and lack of transparency practices. These factors undermine the robustness, credibility, and efficiency of the scientific process. The authors argue that scientific quality and efficiency are currently undermined by systemic threats such as low statistical power, P-hacking, and publication bias. To combat these, they propose a series of measures targeting the scientific process: adopting rigorous methodological standards, incentivizing transparency, and fostering collaborative "team science" to improve the generalizability and effectiveness of research.
 
-
-*   Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) [http://www.prisma-statement.org/](http://www.prisma-statement.org/) 
-*   Transparency and Openness Promotion Guidelines (TOPS) [https://www.cos.io/initiatives/top-guidelines](https://www.cos.io/initiatives/top-guidelines)
-
-**Definitions:**
-
-“A hallmark of _**scientific**_ creativity is the ability to see novel and unexpected patterns in data.” (Munafò et al., 2017, p. 1)
-
-“Open _**science**_ refers to the process of making the content and process of producing evidence and claims transparent and accessible to others.” page 5
-
-“_**Reproducibility**_… verification of research (including, for example, sharing data and methods).” p. 5
+**Evidence**: An estimated 85% of biomedical research effort is wasted due to poor practices. Do backward search for Macleod et al 2014 before repeating.
 
 ## Freese 2007
 
-Freese, J. (2007). Replication standards for quantitative social science: Why not sociology?. _Sociological Methods &amp; Research_, _36_(2), 153-172.
+Freese, J. (2007). Replication standards for quantitative social science: Why not sociology?. _Sociological Methods & Research_, _36_(2), 153-172. https://doi.org/10.1177/0049124107306659
 
-Freese defines replicate as " the simple verification or duplication of results using the same data and analytic procedures as the original researcher." (p. 154) Freese points out within Sociology there is an implicit individualistic policy that all published research should be replicable. Freese argues that the responsibility to do replicate research should be based on a social contract.
+**Type**: Peer-reviewed article/methodological argument. 
 
-| Individual policy | Social policy |
-| --- | --- |
-| If asked a researcher should be able to provide the files to replicate published results | Files to replicate published results are submitted at time of publication. |
-| emphasis on trust over transparency, faith in the author, reinforcement of status, ethically obscure, expires with the individual | Reduce egalitarianism. Distributes power and access. Openness. Highlights exemplary work. |
+**Research Question**: Should quantitative sociology shift from an individualistic ethos to a social policy of mandatory data and code archiving at the time of publication to enhance the credibility of research?
 
-More recent examples:
+Freese argues that the credibility of quantitative social science depends on replication standards and transparency. He points out that sociology relies on an implicit individualistic policy where researchers share files only if asked, whereas other disciplines (like economics) require data availability at publication. The author makes the case for a social contract approach to replication: moving from individual discretion (trust over transparency) to institutional standards (openness and shared responsibility). This framing directly addresses how establishing systematic workflow practices and documentation standards can improve both the quality of science (through verifiability) and efficiency (by avoiding redundant research and building on prior work).
 
-_American Sociological Review_ ([https://us.sagepub.com/en-us/nam/journal/american-sociological-review#submission-guidelines](https://us.sagepub.com/en-us/nam/journal/american-sociological-review#submission-guidelines))
-
-- ASA's stated policy on data-sharing: "Sociologists make their data available after completion of the project or its major publications, except where proprietary agreements with employers, contractors, or clients preclude such accessibility or when it is impossible to share data and protect the confidentiality of the data or the anonymity of research participants (e.g., raw field notes or detailed information from ethnographic interviews)" (ASA Code of Ethics, 1997)
-
-_Social Psychology Quarterly_ (In Association with American Sociological Association)
-
-([https://us.sagepub.com/en-us/nam/social-psychology-quarterly/journal201972#submission-guidelines](https://us.sagepub.com/en-us/nam/social-psychology-quarterly/journal201972#submission-guidelines))
-
-- SPQ encourages researchers to make their data, code, and other materials available for others to review and use. We are happy to assist authors in locating a suitable depository for these materials and will be pleased to add footnotes pointing to these deposits in the published article. Because we know that not all areas of social psychology are able to provide these materials, practically or ethically, this is not a requirement and willingness to publicly release data and other materials will have no impact on the likelihood of acceptance. (Revised January 2018)
-
-Elsevier Journals: research data sharing webpage (https://www.elsevier.com/authors/author-services/research-data)
-
-"A number of Elsevier journals encourage authors to submit a data statement alongside their manuscript." "Several journals support co-submission of a data article alongside your manuscript. In each case, the data article is transferred to the open access journal _Data in Brief_ for publication."
-
-Taylor &amp; Francis offers the following standardized data sharing policies across our journals ([Journal of the American Planning Association included):](https://www.tandfonline.com/toc/rjpa20/current)
-
-([https://authorservices.taylorandfrancis.com/understanding-our-data-sharing-policies/](https://authorservices.taylorandfrancis.com/understanding-our-data-sharing-policies/))
-
-From 2018, Taylor &amp; Francis will be introducing new policies on data sharing….
-
-- Basic – Journal encourages authors to share and make data open where this does not violate protection of human subjects or other valid subject privacy concerns. Authors are further encouraged to cite data and provide a data availability statement.
-- Share upon reasonable request – Authors agree to make their data available upon reasonable request. It's up to the author to determine whether a request is reasonable.
-- Publicly available – Authors make their data freely available to the public, under a license of their choice.
-- Open data – Authors must make their data freely available to the public, under a license allowing re-use by any third party for any lawful purpose. Data shall be findable and fully accessible.
-- Open and fully FAIR (Findable, accessible, interoperable and re-usable) – Authors must make their data freely available to the public, under a license allowing re-use by any third party for any lawful purpose. Additionally, data shall meet with FAIR standards as established in the relevant subject area.
+**Evidence**: A study of 141 articles in American Psychological Association journals found only 27% compliance with data requests under an individualistic policy. Additionally, replication attempts in economics showed "alarmingly dismal rates" of author cooperation and success prior to the adoption of mandatory archiving policies. The author also lists several prominent sociology articles where subsequent researchers encountered failures or significant problems when attempting to exactly replicate published results. Do backward search of five+ articles cited before repeating.
 
 ## Lowndes et al 2017
 
 Lowndes, J. S. S., Best, B. D., Scarborough, C., Afflerbach, J. C., Frazier, M. R., O’Hara, C. C., Jiang, N., & Halpern, B. S. (2017). Our path to better science in less time using open data science tools. Nature Ecology & Evolution, 1(6), 0160. https://doi.org/10.1038/s41559-017-0160 
 
 ### Overview
-<p align="justify">
 This paper provides three essential concepts and discussions related to our research question. First, it explores how replicability and open data science improve the quality of research. Second, what workflows can contribute to replicability? Third, how to learn open data science and achieve the transformation from traditional research approaches to an open and transparent research environment.
-</p>
+
 1. Benefits of Replicability
-<p align="justify">
+
 Replicability in research enhances confidence in findings, promotes transparency, and improves efficiency by reducing redundant efforts. It fosters collaboration, improves research quality, and bridges science with policy. By supporting open science, replicability ensures accessibility and reliability, ultimately accelerating scientific progress and the practical application of research.
-</p>
+
 2. Workflows and Practices for Reproducibility
-<p align="justify">
+
 Adopting open data science tools, such as R, Git, and GitHub, enhance reproducibility by organizing, documenting, and sharing data. Standardizing formats, coding data preparation, and using version control improve collaboration and efficiency. Openly sharing code, structuring files consistently, and using platforms like GitHub Issues facilitate communication, and finally, follow open science principles—transparency, collaboration, and sharing.
-</p>
+
 3. Learning Open Data Science and Transformation
-<p align="justify">
+
 Learning strategies include self-paced resources, community engagement, workshops, and incremental adoption of tools like R and GitHub. Overcoming challenges requires patience, teamwork, and confidence in coding. Good teamwork values coding skills, fostering leadership, and sharing knowledge. Ultimately, through the open sharing of data, code, and methods, moving from traditional, often inefficient, and less reproducible methods to a more open, collaborative, transparent, and efficient approach using data science tools and principles.
-</p>
+
 
 ### Critical Citation
 "Integrating open data science practices and tools into science can save time, while also improving reproducibility for our most important collaborators: our future selves." - Lowndes et al
@@ -222,19 +199,11 @@ This section outlines principles for writing good code, emphasizing that code ha
 12. Separate slow code from fast code.
 
 ## Goodman et al. (2014) Ten Simple Rules for the Care and Feeding of Scientific Data
-
-<p align="justify">
 Goodman A, Pepe A, Blocker AW, Borgman CL, Cranmer K, Crosas M, et al. (2014) Ten Simple Rules for the Care and Feeding of Scientific Data. PLoS Comput Biol 10(4): e1003542. https://doi.org/10.1371/journal.pcbi.1003542
-</p>
-<p align="justify">
+
 This paper emphasizes the importance of data management and data care in terms of reproducibility and the quality of research. In the meanwhile, it provides some data management practices to facilitate reproducibility.
-</p>
-<p align="justify">
 1. Effective data management ensures research reproducibility, transparency, and long-term value. It promotes data reuse, facilitates collaboration, and enhances credit and recognition for researchers. By preserving data and providing detailed workflows, it addresses the complexities of modern research, ensuring the reliability, validity, and accessibility of scientific findings.
-</p>
-<p align="justify">
 2. Sharing data with persistent identifiers, providing metadata, documenting workflows, publishing code, and linking data to publications are essential for reproducibility and reuse. Using standard formats, version control, workflow management systems, and packaging research materials enhance collaboration and long-term accessibility. Open licenses and data papers ensure proper credit and recognition.
-</p>
 
 
 ## Goodman et al 2016
@@ -876,7 +845,11 @@ For practicing scientists, the article offers several actionable insights:
 2). Transparency in analysis decisions reduces unconscious bias and QRPs.
 3). Sharing data and code enables replication, meta-analysis, and cumulative evidence synthesis.
 4). Training in reproducibility and meta-research should be central to scientific education.
+
 ### Ziemann, M., Poulain, P., & Bora, A. (2023). The five pillars of computational reproducibility: bioinformatics and beyond. Briefings in Bioinformatics, 24(6).
 This review article considers the persistent reproducibility crisis in bioinformatics and computational research and proposes an effective framework, the "Five Pillars of Computational Reproducibility." The authors synthesize evidence from previous reproducibility studies and actual failure cases. And they also highlight that irreproducibility remains widespread and has serious consequences, particularly in data-intensive biomedical research. They define five interconnected pillars: readable programming, code version control and sharing, control of the computational environment, persistent data sharing, and comprehensive documentation.
+
+---
+
 
 
