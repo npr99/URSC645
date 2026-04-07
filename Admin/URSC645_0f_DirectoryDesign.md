@@ -4,7 +4,7 @@
 The _Admin_ or Administration Folder has files and guides to introduce project. Folder may contain proposals, budgets, hiring documents, filename plans, directory design, etc.
 
 ## SourceData
-The _SourceData_ folder contains data that many project members may want to use. The goal is to not have multiple copies of the same files. Also to preserve the original data and metadata. Subfolders within the _SourceData_ folder should be named to reflect the provenance of the data. For example, data from api.census.gov could be in a folder named `api.census.gov`
+The _SourceData_ folder contains data that many project members may want to use. The goal is to not have multiple copies of the same files. Also to preserve the original data and metadata. Subfolders within the _SourceData_ folder should be named to reflect the provenance of the data. For example, data from api.census.gov could be in a folder named `api_census_gov`
 
 ## Work[]
 _Work_ folders will be found inside a project or task folder. _Work_ folder names include the initials of the person. For example, Nathanael’s work folders are named WorkNPR (work folder for Nathanael P. Rosenheim). _Work_ folders contain any files, documents, generated data… related to the specific project or task. _Work_ folders should also include a WorkLog file specific to the project or task.
@@ -20,3 +20,5 @@ _Archive_ folders contains files that are no longer needed or have been supersed
 
 ## Note
 Note on directory names Directory names should not contain spaces. Use Camel Case and/or underscores “_” to separate words.
+
+Folder names should not have '.' in them. Decimals in the folder name can mess up python in some cases. Replace '.' with '_'.

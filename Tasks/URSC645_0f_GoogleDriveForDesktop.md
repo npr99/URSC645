@@ -7,3 +7,5 @@ Instructions for how to install Google Drive for Desktop.
 
 https://support.google.com/a/users/answer/13022292?hl=en&visit_id=638411230807018798-434309841&rd=1
 
+
+NOTE: Be sure to log into google drive with your TAMU account
